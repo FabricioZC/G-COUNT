@@ -320,9 +320,32 @@
 
         const Footer = () => (
             <footer className="footer">
+                <div className="footer-links">
+                    <a href="faq.html" className="footer-link">FAQ's</a>
+                    <a href="terms.html" className="footer-link">Terms Of Use</a>
+                    <a href="privacy.html" className="footer-link">Privacy Policy</a>
+                    <a href="cookies.html" className="footer-link">Cookies</a>
+                    <a href="advertise.html" className="footer-link">Advertise With Us</a>
+                </div>
+                <p className="legal-text">
+                    All countdown background images remain copyright of their respective owners and are used on a 'fair use' basis. 
+                    To enquire further regarding images please email us at fabriciozc25@gmail.com.
+                </p>
                 <p>&copy; 2026 G-COUNT. All rights reserved.</p>
                 <p>Designed by Deepmind Advanced Coding Agent</p>
             </footer>
+        );
+
+        const CookieConsent = ({ onAccept }) => (
+            <div className="cookie-banner">
+                <div className="cookie-content">
+                    <p>
+                        We use cookies to enhance your experience, analyze site traffic, and serve targeted advertisements. 
+                        By continuing to visit this site you agree to our use of cookies.
+                    </p>
+                    <button className="cookie-btn" onClick={onAccept}>Accept</button>
+                </div>
+            </div>
         );
 
         // --- MAIN APP ---
@@ -330,6 +353,19 @@
             const [gamesData, setGamesData] = useState([]);
             const [loading, setLoading] = useState(true);
             const [selectedGame, setSelectedGame] = useState(null);
+            const [showCookies, setShowCookies] = useState(false);
+
+            useEffect(() => {
+                const consent = localStorage.getItem('gcount_cookies_accepted');
+                if (!consent) {
+                    setShowCookies(true);
+                }
+            }, []);
+
+            const acceptCookies = () => {
+                localStorage.setItem('gcount_cookies_accepted', 'true');
+                setShowCookies(false);
+            };
             
             // Search & Filter State
             const [searchTerm, setSearchTerm] = useState("");
@@ -535,6 +571,7 @@
                     <Footer />
 
                     {selectedGame && <GameModal game={selectedGame} onClose={onCloseModal} />}
+                    {showCookies && <CookieConsent onAccept={acceptCookies} />}
                 </>
             );
         };
