@@ -1,0 +1,1862 @@
+﻿[
+  {
+    "id": "dragon-quest-vii",
+    "title": "Dragon Quest VII Reimagined",
+    "releaseDate": "2026-02-05T00:00:00",
+    "genres": ["RPG", "JRPG"],
+    "platforms": ["PS5", "Xbox", "Switch 2", "PC"],
+    "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch2/70010000098990/78759e8c3ad458d67d31fae6519a364ef6eb6eda9d9dcebb19b72e7aa48290e0",
+    "description": "Experience the timeless classic reborn in this stunning reimagining of Dragon Quest VII. Journey to the island of Estard and uncover the secrets of a fragmented world by traveling through time to restore forgotten lands. With completely overhauled graphics that blend modern fidelity with Toriyama's signature art style, a refined vocation system, and a sweeping orchestral score, this is the definitive way to experience one of the deepest adventures in the Dragon Quest saga.",
+    "trailer": "https://www.youtube.com/watch?v=3c8xcYHboPs\u0026pp=ygUjRHJhZ29uIFF1ZXN0IFZJSSBSZWltYWdpbmVkIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "mha-alls-justice",
+    "title": "My Hero Academia: All's Justice",
+    "releaseDate": "2026-02-06T00:00:00",
+    "genres": ["Fighting", "Anime"],
+    "platforms": ["PS5", "Xbox", "PC"],
+    "image": "https://static.bandainamcoent.eu/high/my-hero-academia/my-hero-alls-justice/00-page-product/MHAJ-header-mobile.jpg",
+    "description": "The ultimate battle for justice begins in this high-octane 3D arena fighter set during the climactic Final War arc of My Hero Academia. Featuring the largest roster in the series' history, players can command heroes and villains in their most powerful forms. The game introduces a new 'Rising' mechanic that amplifies Quirks for devastating combos, alongside a dramatic story mode that allows you to relive key moments from the anime's conclusion.",
+    "trailer": "https://www.youtube.com/watch?v=Dcd6g9S8ii0&pp=ygUkbXkgaGVybyBhY2FkZW1pYSBhbGwganVzdGljZSB0cmFpbGVy"
+  },
+  {
+    "id": "nioh-3",
+    "title": "Nioh 3",
+    "releaseDate": "2026-02-06T00:00:00",
+    "genres": ["Action", "RPG", "Soulslike"],
+    "platforms": ["PS5"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3681010/0084f83d831210e7f0095c20806c7c172783f6e6/capsule_616x353.jpg?t=1769823531",
+    "description": "Team Ninja returns with the next evolution of their acclaimed dark fantasy samurai action series. Nioh 3 takes players to a new historical era, blending rigorous, fast-paced combat with deep RPG customization. Face off against terrifying Yokai and human masters alike using an expanded arsenal of weapons and Yokai abilities, all while unraveling a gritty narrative steeped in Japanese mythology and history.",
+    "trailer": "https://www.youtube.com/watch?v=KXGm-JaxY54&pp=ygUGbmlvaCAz"
+  },
+  {
+    "id": "mewgenics",
+    "title": "Mewgenics",
+    "releaseDate": "2026-02-10T00:00:00",
+    "genres": ["Indie", "Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/686060/eedbfb4875ec6e0ffe25c17a02aaa15609e9136c/capsule_616x353.jpg?t=1769602738",
+    "description": "From the creators of The Binding of Isaac comes a bizarre and deeply strategic cat-breeding roguelike simulation. Hoard, breed, and train a clowder of mutated cats as you navigate a chaotic world filled with slapstick violence and scientific monstrosities. Manage unique genetic traits to create the ultimate feline warrior or a complete genetic disaster in this long-awaited indie title.",
+    "trailer": "https://www.youtube.com/watch?v=s8X4X-WeT5w&pp=ygUJbWV3Z2VuaWNz"
+  },
+  {
+    "id": "reanimal",
+    "title": "Reanimal",
+    "releaseDate": "2026-02-13T00:00:00",
+    "genres": ["Horror", "Adventure"],
+    "platforms": ["PS5", "Xbox", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2129530/f69618176f290ff25fc17798fc7d1407c582c839/page_bg_raw.jpg?t=1768839167",
+    "description": "The original creators of Little Nightmares invite you on a terrifying new co-op journey into hell. Play as a brother and sister trapped on a nightmarish island, exploring by boat and on land to rescue their missing friends. Reanimal emphasizes tension, atmosphere, and cooperative puzzle-solving as you evade grotesque monstrosities in a world that feels unsettlingly familiar yet utterly twisted.",
+    "trailer": "https://www.youtube.com/watch?v=uIiipNFDVFI"
+  },
+  {
+    "id": "high-on-life-2",
+    "title": "High on Life 2",
+    "releaseDate": "2026-02-13T00:00:00",
+    "genres": ["FPS", "Comedy"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://pbs.twimg.com/media/G8ZGRbuXQAEr08J.jpg",
+    "description": "The talking guns are back in this hilarious and chaotic sequel to the hit comedy FPS. High on Life 2 expands the universe with new biomes, weirder aliens, and an arsenal of fresh, chatty weaponry. Expect more fourth-wall-breaking humor, improved traversal mechanics including a jetpack-skateboard hybrid, and a story that takes the bounty hunting action to a galactic scale.",
+    "trailer": "https://www.youtube.com/watch?v=UubdWIkj8Wc&pp=ygUOaGlnaCBvbiBsaWZlIDI%3D"
+  },
+  {
+    "id": "ys-x-nordics",
+    "title": "Ys X: Proud Nordics",
+    "releaseDate": "2026-02-20T00:00:00",
+    "genres": ["Action", "JRPG"],
+    "platforms": ["PS5", "Switch 2", "PC"],
+    "image": "https://gaming-cdn.com/images/products/21121/orig/ys-x-proud-nordics-pc-steam-cover.jpg?v=1763648653",
+    "description": "Adol Christin returns in a high-seas adventure set in the northern islands of Obelia Bay. Ys X: Proud Nordics features fast-paced 'Cross Action' combat where players control Adol and the pirate princess Karja simultaneously. Explore the vast ocean aboard a fully customizable ship, engage in naval battles, and uncover the mystery of the undying 'Griegers' in this exhilarating entry to the legendary action RPG series.",
+    "trailer": "https://www.youtube.com/watch?v=wT-wG3gRj1Q"
+  },
+  {
+    "id": "re-requiem",
+    "title": "Resident Evil Requiem",
+    "releaseDate": "2026-02-27T00:00:00",
+    "genres": ["Horror", "Action"],
+    "platforms": ["PS5", "Xbox", "Switch 2", "PC"],
+    "image": "https://xboxwire.thesourcemediaassets.com/sites/4/Resident-Evil-Requiem-Grace-Key-Art-8dbdf81f6b8d5d66b5f0-43272e6783bf38845aa2.jpg",
+    "description": "Capcom returns to survival horror with Resident Evil Requiem, a title that promises to bridge the gap between classic tension and modern action. Embody FBI analyst Grace Ashcroft in a narrative that intertwines with the dark history of Raccoon City. Utilizing the RE Engine, the game delivers photorealistic visuals and visceral combat as you face new bioweapons and uncover a sinister conspiracy that threatens to unleash a global outbreak.",
+    "trailer": "https://www.youtube.com/watch?v=19LGIQNmN4M"
+  },
+  {
+    "id": "scott-pilgrim-ex",
+    "title": "Scott Pilgrim EX",
+    "releaseDate": "2026-03-03T00:00:00",
+    "genres": ["Beat 'em up", "Indie"],
+    "platforms": ["PS5", "Xbox", "Switch", "PC"],
+    "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000093466/c0f038eaffe8a7de8b674013fde787a8f4b030093d8cc152a176cd932466f1fc",
+    "description": "Level up again with Scott Pilgrim EX, a brand-new beat 'em up adventure developed by the team behind the original cult classic game. Featuring stunning new pixel art, a fresh soundtrack by Anamanaguchi, and expanded movesets, players can team up online or locally to battle through a new league of evil exes. The story picks up after the anime series, offering a fresh canonical chapter in the Scott Pilgrim universe.",
+    "trailer": "https://www.youtube.com/watch?v=Jm9I-v1oXq8"
+  },
+  {
+    "id": "marathon",
+    "title": "Marathon",
+    "releaseDate": "2026-03-05T00:00:00",
+    "genres": ["FPS", "Sci-Fi"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://www.cnet.com/a/img/resize/ab4559fe6b5861dce4381f2e5a85e0736117a62a/hub/2025/04/10/4b5f9dbc-9cbe-4ed2-9c26-8036a78dbab5/screenshot-2025-04-10-at-6-52-03pm.png?auto=webp\u0026fit=crop\u0026height=675\u0026precrop=633,356,x149,y0\u0026width=1200",
+    "description": "Bungie resurrects their classic sci-fi franchise as a PvP extraction shooter. In Marathon, players become cybernetic mercenaries known as Runners, exploring a lost colony on the planet Tau Ceti IV. The game focuses on high-stakes survival, where securing loot and extracting alive is the only way to progress. With a striking visual art style and deep lore, Marathon aims to redefine the extraction shooter genre.",
+    "trailer": "https://www.youtube.com/watch?v=ckI_m8bbXfw&pp=ygUQbWFyYXRob24gdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "mh-stories-3",
+    "title": "Monster Hunter Stories 3",
+    "releaseDate": "2026-03-13T00:00:00",
+    "genres": ["RPG", "JRPG"],
+    "platforms": ["PS5", "Xbox", "Switch 2", "PC"],
+    "image": "https://i.ytimg.com/vi/_eP0iJ6rkGI/maxresdefault.jpg",
+    "description": "Ride on! Monster Hunter Stories 3 continues the beloved turn-based RPG spin-off series. Players take on the role of a Rider who forms bonds with monsters ('Monsties') to fight alongside them. This entry introduces a vast new open world, enhanced kinship mechanics, and a story centered around a mysterious phenomenon affecting monster behavior. Prepare to hatch, raise, and battle with fan-favorite monsters in a vibrant, anime-inspired adventure.",
+    "trailer": "https://www.youtube.com/watch?v=XszCdDNI-ls&pp=ygUUbWggc3RvcmllcyAzIHRyYWlsZXLSBwkJkQoBhyohjO8%3D"
+  },
+  {
+    "id": "crimson-desert",
+    "title": "Crimson Desert",
+    "releaseDate": "2026-03-19T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202508/2905/94e396156b7605745d0e9270ba7840539d1f1f84f79a2ab0.png",
+    "description": "Crimson Desert is an open-world action-adventure set in the continent of Pywel, a war-torn land of harsh beauty. You play as Macduff, a mercenary fighting to reclaim his lost land and lead his band of warriors. The game promises a gritty, realistic combat system, deep storytelling, and a living, breathing world filled with political intrigue, mythical beasts, and survival challenges.",
+    "trailer": "https://www.youtube.com/watch?v=GPV-nIduxTY"
+  },
+  {
+    "id": "mouse-pi",
+    "title": "Mouse: P.I. For Hire",
+    "releaseDate": "2026-03-19T00:00:00",
+    "genres": ["FPS", "Indie"],
+    "platforms": ["Multiplatform"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2416450/a495751f3ff5c722860319c89d7962ffee7ab743/capsule_616x353.jpg?t=1768792773",
+    "description": "Dive into a gritty, jazz-fueled noir city in this unique FPS that mimics the rubber hose animation style of the 1930s. As private investigator John Mouston, you'll battle mobsters and unravel conspiracies using a variety of classic firearms and cartoon physics. The monochrome visuals and hand-drawn animations create a distinct atmosphere that blends retro charm with violent, fast-paced shooter gameplay.",
+    "trailer": "https://www.youtube.com/watch?v=PgpPC_sKOYc"
+  },
+  {
+    "id": "life-is-strange-reunion",
+    "title": "Life is Strange: Reunion",
+    "releaseDate": "2026-03-26T00:00:00",
+    "genres": ["Adventure", "Story"],
+    "platforms": ["PS5", "Xbox", "PC"],
+    "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/01/Life-Is-Strange-Reunion-Officially-Revealed-Continues-Max-and-Chloes-Original-Ending.jpg",
+    "description": "Max Caulfield and Chloe Price return in a direct sequel to the original game. Life is Strange: Reunion explores the long-term consequences of the storm in Arcadia Bay (or the choice to sacrifice it), bringing the duo back together for a new emotional mystery. With evolved time-manipulation mechanics and a mature narrative about trauma and friendship, this is the reunion fans have been waiting for.",
+    "trailer": "https://www.youtube.com/watch?v=G29ROYMKbjE"
+  },
+  {
+    "id": "pragmata",
+    "title": "Pragmata",
+    "releaseDate": "2026-04-24T00:00:00",
+    "genres": ["Sci-Fi", "Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://www.capcom-games.com/pragmata/assets/images/share.jpg",
+    "description": "Set in a dystopian near-future on Earth's moon, Pragmata is a mysterious sci-fi action-adventure from Capcom. The game follows a soldier and a young girl with strange powers as they navigate a desolate lunar world. Expect mind-bending physics, cutting-edge visuals powered by the RE Engine, and a story that explores the relationship between humanity and technology in a cold, beautiful setting.",
+    "trailer": "https://www.youtube.com/watch?v=9oSYPjmAWgc"
+  },
+  {
+    "id": "diablo-iv-hatred",
+    "title": "Diablo IV: Lord of Hatred",
+    "releaseDate": "2026-04-28T00:00:00",
+    "genres": ["RPG", "Action"],
+    "platforms": ["All Platforms"],
+    "image": "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt2cd03c2f5de27d3c/693bb932b39c9bb47fdbf50c/DIA_D4_Helix_First_Party_Resizes_mc_super_hero_textless_stat_enus_3840x2160_RD2_1_JW01.png",
+    "description": "The saga of Sanctuary continues in this massive expansion for Diablo IV. Lord of Hatred introduces the jungle region of Nahantu, a new Spiritborn class, and a continuation of the prime evil storyline involving Mephisto. Players can expect new dungeons, raids, and gameplay systems that deepen the endgame experience, along with darker, more visceral storytelling.",
+    "trailer": "https://www.youtube.com/watch?v=Gpaz0etTqJw&pp=ygUgZGlhYmxvIGl2IGxvcmQgb2YgaGF0cmVkIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "007-first-light",
+    "title": "007 First Light",
+    "releaseDate": "2026-05-27T00:00:00",
+    "genres": ["Action", "Stealth"],
+    "platforms": ["PS5", "Xbox", "Switch 2", "PC"],
+    "image": "https://media.gq.com.mx/photos/6845ee92ca886049366a7e3f/master/w_1600%2Cc_limit/007%2520First%2520Light%2520Bond.jpg",
+    "description": "IO Interactive, the studio behind Hitman, delivers the ultimate spy fantasy in 007 First Light. This original James Bond origin story allows players to earn their 00 status in a globe-trotting adventure. Featuring a mix of stealth, tactical combat, and high-speed chases, the game promises to capture the sophistication and danger of the Bond universe without being tied to a specific film actor's likeness.",
+    "trailer": "https://www.youtube.com/watch?v=J4qY9DYE184&pp=ygUXMDA3IGZpcnN0IGxpZ2h0IHRyYWlsZXI%3D"
+  },
+  {
+    "id": "phantom-blade-zero",
+    "title": "Phantom Blade Zero",
+    "releaseDate": "2026-09-09T00:00:00",
+    "genres": ["Action", "RPG"],
+    "platforms": ["PS5", "PC"],
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1205/7a9c1d950a47b5cf5ff5c577afd36c2ddbabf81e9f66e0dd.png",
+    "description": "Phantom Blade Zero is a fast-paced action RPG featuring a unique 'Kungfupunk' art style that blends traditional Chinese martial arts with steampunk elements. You play as Soul, an elite assassin with only 66 days left to live, fighting against powerful foes and unraveling a dark conspiracy. The game features a semi-open world and lightning-fast combat reminiscent of classic martial arts cinema.",
+    "trailer": "https://www.youtube.com/watch?v=f-9ax06lmnc"
+  },
+  {
+    "id": "gta-6",
+    "title": "Grand Theft Auto VI",
+    "releaseDate": "2026-11-19T00:00:00",
+    "genres": ["Action", "Open World"],
+    "platforms": ["PS5", "Xbox Series X|S"],
+    "image": "https://cloudfront-us-east-1.images.arcpublishing.com/gruponacion/UVPIFO6H65CVRGUMGAEMZSRPNA.jpg",
+    "description": "Rockstar Games returns to Vice City and the surrounding state of Leonida in the most immersive open-world experience ever created. Grand Theft Auto VI follows the story of Lucia and her partner in a Bonnie and Clyde-inspired crime drama. Expect unparalleled attention to detail, a satirical take on modern culture, and a massive evolution in gameplay mechanics, setting a new standard for the industry.",
+    "trailer": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+  },
+  {
+    "id": "the-18th-attic",
+    "title": "The 18th Attic",
+    "releaseDate": "2026-02-02T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://i0.wp.com/www.useapotion.com/wp-content/uploads/2026/01/18thattic-review.jpg?fit=1077%2C640\u0026ssl=1",
+    "description": "A psychological horror indie game that traps players in a shifting, endless attic. Solve cryptic puzzles and evade a stalking presence as you uncover the history of the house's previous inhabitants. With a lo-fi visual style and oppressive atmosphere, The 18th Attic challenges your perception of reality.",
+    "trailer": "https://www.youtube.com/watch?v=Q-QPPvk4lrw&pp=ygUWVGhlIDE4dGggQXR0aWMgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "crimson-capes",
+    "title": "Crimson Capes",
+    "releaseDate": "2026-02-03T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3724260/c473f10f403a18deff7abe244528c451f5db0a4b/capsule_616x353.jpg?t=1748617059",
+    "description": "A narrative-driven indie RPG about a group of retired superheroes forced back into action. Crimson Capes combines turn-based tactical combat with visual novel storytelling, exploring themes of aging, legacy, and the cost of heroism in a world that has moved on.",
+    "trailer": "https://www.youtube.com/watch?v=88Ev3atpSrs&pp=ygUVQ3JpbXNvbiBDYXBlcyB0cmFpbGVy"
+  },
+  {
+    "id": "unemployment-simulator-2018",
+    "title": "Unemployment Simulator 2018",
+    "releaseDate": "2026-02-05T00:00:00",
+    "genres": ["Simulation", "Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3252360/ea1aea21356fa41d6ea902e645cccc5f33e88d58/capsule_616x353.jpg?t=1769639683",
+    "description": "A dark comedy simulation game that tasks players with navigating the absurdities of job hunting in a digital age. Manage your stress levels, craft the perfect resume, and endure bizarre interviews in this satirical take on modern life struggles.",
+    "trailer": "https://www.youtube.com/watch?v=amG5quvXF1o&pp=ygUbdW5lbXBsb3ltZW50IHNpbXVsYXRvciAyMDE4"
+  },
+  {
+    "id": "dead-pets-punk-rock",
+    "title": "Dead Pets: A Punk Rock Slice Of Life Sim",
+    "releaseDate": "2026-02-06T00:00:00",
+    "genres": ["Simulation", "Indie"],
+    "platforms": ["PC"],
+    "image": "https://monstervine.com/wp-content/uploads/2026/01/Dead-Pets-new-key-art.jpg",
+    "description": "Live the gritty life of a struggling punk rocker in a city full of anthropomorphic animals. Manage your band, write songs, work terrible day jobs, and make hard choices that affect your relationships and career. Dead Pets offers a heartfelt and stylish look at the underground music scene.",
+    "trailer": "https://www.youtube.com/watch?v=GrebA4ZTd1M&pp=ygUvZGVhZCBwZXRzIGEgcHVuayByb2NrIHNsaWNlIG9mIGxpZmUgc2ltIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "ghost-gunners",
+    "title": "Ghost Gunners",
+    "releaseDate": "2026-02-06T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2883690/6b637efa99881e732051cdf6b70b32879c26979e/capsule_616x353.jpg?t=1768152633",
+    "description": "A fast-paced twin-stick shooter where you control a squad of spectral operatives. Fight through procedurally generated neon-lit levels, upgrade your ghostly weapons, and take down mega-corporations in the afterlife.",
+    "trailer": "https://www.youtube.com/watch?v=STkrphUqcME&pp=ygUVR2hvc3QgR3VubmVycyB0cmFpbGVy"
+  },
+  {
+    "id": "humanityz",
+    "title": "HumanityZ",
+    "releaseDate": "2026-02-06T00:00:00",
+    "genres": ["Survival"],
+    "platforms": ["PC"],
+    "image": "https://cdn1.epicgames.com/spt-assets/12e086656a814373b9e257aa1bd80977/humanitz-offer-1tvj3.png",
+    "description": "An open-world zombie survival game played from a top-down perspective. Scavenge for resources, build a base, and drive vehicles across a massive map teeming with the undead. HumanityZ focuses on realistic survival mechanics and cooperative play.",
+    "trailer": "https://www.youtube.com/watch?v=YT1aGKBX68g&pp=ygURSHVtYW5pdHlaIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "relooted",
+    "title": "Relooted",
+    "releaseDate": "2026-02-10T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/01/relooted-trailer-thumb-cropped.jpg",
+    "description": "A dungeon crawler focused entirely on loot management and inventory tetris. Relooted challenges players to not just find treasure, but figure out how to carry it all out of the dungeon while fighting off monsters with whatever gear isn't packed away.",
+    "trailer": "https://www.youtube.com/watch?v=OmPIK9z9lDI&pp=ygUQUmVsb290ZWQgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "the-prisoning",
+    "title": "The Prisoning: Fletcher's Quest",
+    "releaseDate": "2026-02-10T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["Switch", "PC"],
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000104763/a8c2244a30738df1c462efe56bae4582cafba6f8d29c73a06ce842e6885ec125",
+    "description": "A charming pixel-art adventure about a wrongly accused knight named Fletcher. Escape from the king's dungeon, gather evidence to prove your innocence, and interact with a cast of quirky characters in this humorous fantasy tale.",
+    "trailer": "https://www.youtube.com/watch?v=yH07w3-bMv4&pp=ygUnVGhlIFByaXNvbmluZzogRmxldGNoZXIncyBRdWVzdCB0cmFpbGVy"
+  },
+  {
+    "id": "romeo-is-dead-man",
+    "title": "Romeo is a Dead Man",
+    "releaseDate": "2026-02-11T00:00:00",
+    "genres": ["Action", "Story"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3050900/45f1ece1ef29c12186f3c931ba44f00721d1fd66/capsule_616x353.jpg?t=1769812866",
+    "description": "A stylish action game that reimagines Shakespeare's tragedy as a noir revenge thriller. Play as a resurrected Romeo seeking vengeance on the houses of Montague and Capulet in a futuristic Verona. The game features rhythmic combat and a unique visual style inspired by graphic novels.",
+    "trailer": "https://www.youtube.com/watch?v=nW1cE6sj6h8&pp=ygUTUm9tZW8gaXMgYSBEZWFkIE1hbg%3D%3D"
+  },
+  {
+    "id": "blazblue-entropy-effect-x",
+    "title": "BlazBlue Entropy Effect X",
+    "releaseDate": "2026-02-12T00:00:00",
+    "genres": ["Action", "Fighting"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch"],
+    "image": "https://www.nintendo.com/eu/media/images/assets/nintendo_switch_games/blazblueentropyeffectx/16x9_BlazblueEntropyEffectX.jpg",
+    "description": "An expanded version of the hit action roguelite spinoff. Dive into the Phenomenon Intervention with new characters from the BlazBlue universe, enhanced elemental systems, and a deeper story mode. Master the unique combat styles of different fighters as you challenge procedurally generated levels.",
+    "trailer": "https://www.youtube.com/watch?v=F0-IoidwojI&pp=ygUZYmxhemJsdWUgZW50cm9weSBlZmZlY3QgeA%3D%3D"
+  },
+  {
+    "id": "disciples-domination",
+    "title": "Disciples: Domination",
+    "releaseDate": "2026-02-12T00:00:00",
+    "genres": ["Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2808560/8af0605d6a2e764329cfad9083e04023e825f49c/capsule_616x353.jpg?t=1769617168",
+    "description": "A dark fantasy turn-based strategy game where you lead a cult to world domination. Manage resources, summon eldritch horrors, and engage in tactical grid-based combat against rival factions and holy orders trying to stop your ascension.",
+    "trailer": "https://i.ytimg.com/vi/HwTQiv7ccSY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAemOQbwvI_JayFTHQTBu7ZZ5-HXw"
+  },
+  {
+    "id": "mario-tennis-fever",
+    "title": "Mario Tennis Fever",
+    "releaseDate": "2026-02-12T00:00:00",
+    "genres": ["Sports"],
+    "platforms": ["Switch 2"],
+    "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch2/70010000105869/86a26a6d9a870eee16d0ff1b5591f055d63dee475fe688c42c46fcd96a199805",
+    "description": "Mario and friends return to the court in this high-energy sports title for the next-generation Nintendo console. Mario Tennis Fever introduces 'Fever Mode', a mechanic that speeds up gameplay and unleashes spectacular special shots. With a robust story mode and online tournaments, it's the most competitive Mario Tennis yet.",
+    "trailer": "https://www.youtube.com/watch?v=RSyoMsWRL9I"
+  },
+  {
+    "id": "ride-6",
+    "title": "Ride 6",
+    "releaseDate": "2026-02-12T00:00:00",
+    "genres": ["Racing", "Simulation"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2815070/45bffce5f2d7e582c4043416e5c41077dc9b77b7/capsule_616x353.jpg?t=1768317549",
+    "description": "The definitive motorcycle racing simulation returns with unparalleled realism. Ride 6 features hundreds of licensed bikes, laser-scanned tracks from around the world, and a new dynamic weather system that affects handling in real-time. The career mode has been revamped to offer a deep progression system for aspiring pro riders.",
+    "trailer": "https://www.youtube.com/watch?v=jq15PBniHL8&pp=ygUOcmlkZSA2IHRyYWlsZXI%3D"
+  },
+  {
+    "id": "clue-murder-by-death",
+    "title": "Clue: Murder by Death",
+    "releaseDate": "2026-02-13T00:00:00",
+    "genres": ["Strategy", "Puzzle"],
+    "platforms": ["PS5", "PS4", "Xbox Series X|S", "Xbox One"],
+    "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000115263/3ce90cf20861e4d4efc3b152316f21119151cc6a7a9f30113bc3384cb1be8b0b",
+    "description": "A fresh digital adaptation of the classic board game, featuring a darker, more mature tone. Players must solve a murder mystery in a sprawling mansion, interrogating suspects and finding clues. The game offers both a faithful recreation of the board game and a new narrative-driven mode.",
+    "trailer": "https://www.youtube.com/watch?v=KAokitns3Oc&pp=ygUdQ2x1ZTogTXVyZGVyIGJ5IERlYXRoIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "dobbel-dungeon",
+    "title": "Dobbel Dungeon",
+    "releaseDate": "2026-02-16T00:00:00",
+    "genres": ["Indie", "Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2622820/82bf3720520d7132ea2baa9ae5ba16d82b731e7c/capsule_616x353.jpg?t=1769723814",
+    "description": "A dice-based roguelike where your fate is determined by the roll of the die. Battle through dungeons using a unique combat system where dice rolls determine your attack power and defense. Collect special dice and relics to manipulate luck in your favor.",
+    "trailer": "https://www.youtube.com/watch?v=qHs0FOLtv6E&pp=ygUWRG9iYmVsIER1bmdlb24gdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "menherarium",
+    "title": "Menherarium",
+    "releaseDate": "2026-02-18T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3394770/header.jpg?t=1769780352",
+    "description": "A visual novel that explores themes of mental health and connection in a digital world. Navigate complex relationships and branching dialogue paths in an emotional story about finding hope in dark places. The game features a distinct pastel art style and a haunting original soundtrack.",
+    "trailer": "https://www.youtube.com/watch?v=Mf5xWnIiO6o&pp=ygUTbWVuaGVyYXJpdW0gdHJhaWxlctIHCQmRCgGHKiGM7w%3D%3D"
+  },
+  {
+    "id": "strange-brew",
+    "title": "Strange Brew",
+    "releaseDate": "2026-02-18T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3499670/d252a2c6a311dea2a0ec311efc8ddf83571e9f38/capsule_616x353.jpg?t=1768405372",
+    "description": "Manage a magical coffee shop in a fantasy world. Brew potions disguised as lattes for orcs, elves, and adventurers. Upgrade your shop, learn new recipes, and listen to the stories of your patrons in this cozy and relaxing management sim.",
+    "trailer": "https://www.youtube.com/watch?v=EeBRdLgJ8q8&pp=ygUaU3RyYW5nZSBCcmV3ICB0cmFpbGVyIGdhbWU%3D"
+  },
+  {
+    "id": "the-killing-stone",
+    "title": "The Killing Stone",
+    "releaseDate": "2026-02-18T00:00:00",
+    "genres": ["Indie", "Adventure"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2781470/90d06e7e6e614e15e09435fe9d288c1fefc4eb71/capsule_616x353.jpg?t=1769199340",
+    "description": "A folk horror adventure set in a remote village in feudal Japan. Investigate the legend of the Sessho-seki (Killing Stone) and the spirits trapped within. Solve environmental puzzles and uncover a tragic history in this atmospheric narrative game.",
+    "trailer": "https://www.youtube.com/watch?v=-DyiW7B7jZc&pp=ygUWVGhlIEtpbGxpbmcgU3RvbmUgZ2FtZQ%3D%3D"
+  },
+  {
+    "id": "demon-tides",
+    "title": "Demon Tides",
+    "releaseDate": "2026-02-19T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2585890/5291d6d452bd75f49cd8386ea48adf2fc013fc44/capsule_616x353.jpg?t=1769785886",
+    "description": "A hack-and-slash action game where you battle waves of aquatic demons invading a coastal kingdom. Use fluid combat mechanics and elemental magic to push back the tide. The game features fast-paced gameplay inspired by classic arcade brawlers.",
+    "trailer": "https://www.youtube.com/watch?v=0TDoEGKctKI&pp=ygUTZGVtb24gdGlkZXMgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "love-eternal",
+    "title": "Love Eternal",
+    "releaseDate": "2026-02-19T00:00:00",
+    "genres": ["Indie", "Adventure"],
+    "platforms": ["PS5", "PS4", "Xbox Series X|S", "Switch", "PC"],
+    "image": "https://monstervine.com/wp-content/uploads/2026/01/love-eternal.jpg",
+    "description": "A challenging platformer about escaping a dark, labyrinthine castle. Manipulate gravity and reality to solve puzzles and avoid deadly traps. The game explores themes of obsession and loss through its abstract storytelling and difficult gameplay.",
+    "trailer": "https://www.youtube.com/watch?v=JwiMzDhWvvI&pp=ygUUTG92ZSBFdGVybmFsIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "styx-blades-of-greed",
+    "title": "Styx: Blades of Greed",
+    "releaseDate": "2026-02-19T00:00:00",
+    "genres": ["Stealth", "Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://media.nacongaming.com/media/wysiwyg/home/2025/Styx/Styx_block_hp.webp",
+    "description": "The master goblin assassin returns in a new stealth adventure. Styx: Blades of Greed offers larger, more vertical levels and new magical abilities. Infiltrate a dwarven fortress to steal a legendary artifact, using shadows, traps, and deception to remain unseen.",
+    "trailer": "https://www.youtube.com/watch?v=IK_C2xu9nqo&pp=ygUcU3R5eDogQmxhZGVzIG9mIEdyZWUgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "rainbow-six-mobile",
+    "title": "Rainbow Six Mobile",
+    "releaseDate": "2026-02-23T00:00:00",
+    "genres": ["FPS", "Tactical"],
+    "platforms": ["iOS", "Android"],
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3peOngPBCDkiHclNosl6FS/7edee86a9dddc06b6e38ca7c7d82aacc/R6_Keyart960x540.jpg",
+    "description": "The acclaimed tactical shooter Rainbow Six Siege comes to mobile devices. Experience intense 5v5 close-quarters combat with destructible environments and a roster of iconic operators. The game has been optimized for touch controls while maintaining the strategic depth of the console version.",
+    "trailer": "https://www.youtube.com/watch?v=sTIlYH7IFfQ&pp=ygUaUmFpbmJvdyBTaXggTW9iaWxlIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "tides-of-tomorrow",
+    "title": "Tides of Tomorrow",
+    "releaseDate": "2026-02-24T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678080/2b2fbfef72534883fbd9b77cfca0dcafd0ccecb1/capsule_616x353.jpg?t=1768831344",
+    "description": "A narrative adventure set on an ocean planet facing an ecological crisis. Explore alien waters, document marine life, and make choices that determine the fate of the ecosystem. The game emphasizes exploration and environmental storytelling.",
+    "trailer": "https://www.youtube.com/watch?v=wy7TP81eBc8&pp=ygUZVGlkZXMgb2YgVG9tb3Jyb3cgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "reigns-the-witcher",
+    "title": "Reigns: The Witcher",
+    "releaseDate": "2026-02-25T00:00:00",
+    "genres": ["Strategy", "Card Game"],
+    "platforms": ["PC", "iOS", "Android"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1651600/a24fe38141cb955e214c8a82aa73ae8c2d3ca873/capsule_616x353.jpg?t=1769768549",
+    "description": "Swipe left or right to rule the Continent in this Witcher-themed spinoff of the popular Reigns series. Make difficult decisions as Geralt, Yennefer, or Ciri to balance the needs of the people, the monsters, and the magic. A simple yet deep strategy game full of lore and humor.",
+    "trailer": "https://www.youtube.com/watch?v=YNDpB9V_t_4&pp=ygUbUmVpZ25zOiBUaGUgV2l0Y2hlciB0cmFpbGVy"
+  },
+  {
+    "id": "tales-of-berseria-remastered",
+    "title": "Tales of Berseria Remastered",
+    "releaseDate": "2026-02-26T00:00:00",
+    "genres": ["JRPG", "RPG"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch", "PC"],
+    "image": "https://p325k7wa.twic.pics/high/tales-of/tales-of-berseria-remastered/00-page-setup/TOBR-header-mobile.jpg?twic=v1/resize=760/step=10/quality=80",
+    "description": "Velvet Crowe's tale of revenge returns with enhanced graphics and performance. This remaster of the fan-favorite JRPG improves the combat framerate and visual fidelity, bringing the emotional story and beloved cast to modern consoles.",
+    "trailer": ""
+  },
+  {
+    "id": "gnaughty-gnomes",
+    "title": "Gnaughty Gnomes",
+    "releaseDate": "2026-03-03T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://i.ytimg.com/vi/NTCxDbHsPuE/maxresdefault.jpg",
+    "description": "A chaotic multiplayer party game where you play as mischievous gnomes sabotaging a suburban garden. Set traps, hide from humans, and steal socks in this hilarious physics-based sandbox game.",
+    "trailer": "https://www.youtube.com/watch?v=LrgChQAkLCA&pp=ygUkVGFsZXMgb2YgQmVyc2VyaWEgUmVtYXN0ZXJlZCB0cmFpbGVy"
+  },
+  {
+    "id": "homura-hime",
+    "title": "Homura Hime",
+    "releaseDate": "2026-03-04T00:00:00",
+    "genres": ["Action", "Anime"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1820000/capsule_616x353.jpg?t=1769648433",
+    "description": "A 3D action game featuring intense magical girl combat. Play as Homura Hime, an exorcist who battles demons born from human emotions. The game features stylized anime visuals and fast-paced boss battles.",
+    "trailer": "https://www.youtube.com/watch?v=oXZ8YTrezlo&pp=ygUTSG9tdXJhIEhpbWUgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "never-grace",
+    "title": "Never Grace: The Witch and the Curse",
+    "releaseDate": "2026-03-05T00:00:00",
+    "genres": ["Adventure", "Action"],
+    "platforms": ["PS5", "PS4", "Xbox Series X|S", "Xbox One", "Switch", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395770/capsule_616x353.jpg?t=1765169397",
+    "description": "An action-adventure game about a young witch breaking a generational curse. Explore a beautiful hand-painted world, craft spells, and fight corrupted spirits. The game combines platforming with light RPG elements.",
+    "trailer": "https://www.youtube.com/watch?v=61ZdeqZAy2M&pp=ygUtTmV2ZXIgR3JhY2U6IFRoZSBXaXRjaCBhbmQgdGhlIEN1cnNlICB0cmFpbGVy"
+  },
+  {
+    "id": "lost-and-found-co",
+    "title": "Lost and Found Co.",
+    "releaseDate": "2026-03-06T00:00:00",
+    "genres": ["Indie", "Puzzle"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2101390/ac20e1398a224dc12efc485343a5383bbc100090/capsule_616x353.jpg?t=1769515926",
+    "description": "A colorful hidden object game where you help a magical agency retrieve lost items. Search through vibrant, interactive scenes filled with animated characters and secrets. A relaxing and charming puzzle experience.",
+    "trailer": "https://www.youtube.com/watch?v=QG8rYWH1dP8&pp=ygUbTG9zdCBhbmQgRm91bmQgQ28uICB0cmFpbGVy"
+  },
+  {
+    "id": "1348-ex-voto",
+    "title": "1348 Ex Voto",
+    "releaseDate": "2026-03-12T00:00:00",
+    "genres": ["Indie", "Horror"],
+    "platforms": ["PS5", "PC"],
+    "image": "https://imgeucdn.gamespress.com/cdn/files/Games%20Press/2025/08/201935-57f15e6a/1348_KeyArt_Horizontal1920.png?w=533\u0026mode=max\u0026otf=y\u0026quality=90\u0026format=png\u0026bgcolor=transparent\u0026sky=5bee247b93b1250834ea4653064979a90e49ed16740754e2bc2cd6895401f9e9",
+    "description": "A historical survival horror game set during the Black Death in medieval Europe. Armed only with a torch and your faith, navigate a plague-ridden monastery filled with nightmarish visions. The game focuses on atmosphere and resource management.",
+    "trailer": "https://www.youtube.com/watch?v=cgpw0lZnTR0&pp=ygUXMTM0OCBFeCBWb3RvICAgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "fatal-frame-2-remake",
+    "title": "Fatal Frame II: Crimson Butterfly Remake",
+    "releaseDate": "2026-03-12T00:00:00",
+    "genres": ["Horror"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3920610/2c3573e473d6737425f16d0e6ba68788591f9b1a/capsule_616x353.jpg?t=1769563084",
+    "description": "The masterpiece of Japanese horror returns, fully remade for modern hardware. Sisters Mio and Mayu are trapped in the Lost Village, haunted by tormented spirits. Use the Camera Obscura to fend off ghosts in this terrifying and emotional story, now featuring an over-the-shoulder camera and photorealistic graphics.",
+    "trailer": "https://www.youtube.com/watch?v=FzKpOJBwzzI&pp=ygUxRmF0YWwgRnJhbWUgSUk6IENyaW1zb24gQnV0dGVyZmx5IFJlbWFrZSAgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "mlb-the-show-26",
+    "title": "MLB The Show 26",
+    "releaseDate": "2026-03-17T00:00:00",
+    "genres": ["Sports"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch"],
+    "image": "https://www.gematsu.com/wp-content/uploads/2026/01/MLB-The-Show-26-Cover_01-27-26.jpg",
+    "description": "The premier baseball simulation returns with new features and updated rosters. MLB The Show 26 introduces an expanded Storylines mode celebrating baseball legends and improved fielding mechanics. Experience the thrill of the diamond with the most realistic graphics and animations to date.",
+    "trailer": "https://www.youtube.com/watch?v=iBuQmxW6R6g&pp=ygUXTUxCIFRoZSBTaG93IDI2IHRyYWlsZXI%3D"
+  },
+  {
+    "id": "dw3-remastered",
+    "title": "Dynasty Warriors 3: Complete Edition Remastered",
+    "releaseDate": "2026-03-19T00:00:00",
+    "genres": ["Action", "Hack and Slash"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "Switch", "PC"],
+    "image": "https://www.koeitecmoamerica.com/dw3-re/assets/img/action_ss-02-modal.jpg",
+    "description": "Relive the classic Musou action that defined a genre. Dynasty Warriors 3 returns with HD visuals and modern quality-of-life improvements. Fight through massive armies in the Three Kingdoms era, now with smoother framerates and all content from the Xtreme Legends expansion included.",
+    "trailer": "https://www.youtube.com/watch?v=CPBxiZlyk0o&pp=ygUvRHluYXN0eSBXYXJyaW9ycyAzOiBDb21wbGV0ZSBFZGl0aW9uIFJlbWFzdGVyZWQ%3D"
+  },
+  {
+    "id": "ghost-master-resurrection",
+    "title": "Ghost Master: Resurrection",
+    "releaseDate": "2026-03-20T00:00:00",
+    "genres": ["Strategy", "Comedy"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3289090/59ff9182dfe013aa064b826aa33ceeb65acc49ed/capsule_616x353.jpg?t=1761859479",
+    "description": "The cult classic haunting simulator is back. Command a team of ghosts, banshees, and poltergeists to scare mortals out of their homes. Use creative combinations of powers to solve puzzles and cause maximum chaos in this strategic and humorous game.",
+    "trailer": "https://www.youtube.com/watch?v=1bAvgVSALXQ&pp=ygUaR2hvc3QgTWFzdGVyOiBSZXN1cnJlY3Rpb24%3D"
+  },
+  {
+    "id": "rubato",
+    "title": "Rubato",
+    "releaseDate": "2026-03-20T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PS5", "Switch", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2244030/0ad8b423e3c66542cd603a17124d1d1a104eb277/capsule_616x353.jpg?t=1768863310",
+    "description": "A rhythmic platformer where you control a mischievous frog collecting musical notes. Jump, dash, and tongue-grapple to the beat of a catchy soundtrack. Rubato combines precision platforming with music theory puzzles.",
+    "trailer": "https://www.youtube.com/watch?v=fY4pZovL1Uo&pp=ygUOUnViYXRvIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "ariana-elder-codex",
+    "title": "Ariana and the Elder Codex",
+    "releaseDate": "2026-03-24T00:00:00",
+    "genres": ["Adventure", "RPG"],
+    "platforms": ["PS5", "PS4", "Switch"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3986690/3bdfe31def2e27f9333fd7833e615d31d22a349a/capsule_616x353.jpg?t=1769201407",
+    "description": "A classic-style RPG inspired by 90s adventures. Join Ariana, a young scholar, as she uncovers the secrets of an ancient civilization. The game features turn-based combat, a rich world map, and a heartfelt story about discovery.",
+    "trailer": "https://www.youtube.com/watch?v=AllbhGbWjCI&pp=ygUjQXJpYW5hIGFuZCB0aGUgRWxkZXIgQ29kZXggIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "copa-city",
+    "title": "Copa City",
+    "releaseDate": "2026-03-26T00:00:00",
+    "genres": ["Sports", "Strategy"],
+    "platforms": ["PS5", "Xbox Series X|S", "Xbox One", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2210520/a191d0c68c5a00af41d59c6f98e19dbbb94876d0/capsule_616x353.jpg?t=1769509243",
+    "description": "The first football tycoon game where you manage the event, not the team. Copa City puts you in charge of organizing high-stakes matches in major cities. Manage logistics, security, and fan entertainment to create the perfect football festival.",
+    "trailer": "https://www.youtube.com/watch?v=ILQ2F5Nnx1w&pp=ygUSQ29wYSBDaXR5ICB0cmFpbGVy"
+  },
+  {
+    "id": "screamer",
+    "title": "Screamer",
+    "releaseDate": "2026-03-26T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2814990/84886d75ecbd36e4cc5be2140dce0182f5b274b4/capsule_616x353.jpg?t=1768900390",
+    "description": "A high-octane arcade racer with a horror twist. Race through nightmare landscapes while being chased by monstrous entities. Screamer combines drift-heavy driving mechanics with survival horror elements.",
+    "trailer": "https://www.youtube.com/watch?v=8Nv6JiLqTKY&pp=ygURU2NyZWFtZXIgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "before-i-go",
+    "title": "Before I Go",
+    "releaseDate": "2026-04-13T00:00:00",
+    "genres": ["Adventure", "Indie"],
+    "platforms": ["PS5", "Xbox Series X|S", "Xbox One", "Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2715870/44b0f475d2a45e6cfaadc26984da01c8f7dfbe44/capsule_616x353.jpg?t=1768320559",
+    "description": "An emotional narrative game about a ghost trying to resolve their unfinished business. Explore the memories of your past life and influence the world of the living to say your final goodbyes. A touching story about love, regret, and acceptance.",
+    "trailer": "https://www.youtube.com/watch?v=Zy_Cqh6qzhw&pp=ygUYYmVmb3JlIGkgZ28gdHJhaWxlciBnYW1l"
+  },
+  {
+    "id": "shantytown",
+    "title": "ShantyTown",
+    "releaseDate": "2026-04-16T00:00:00",
+    "genres": ["Simulation", "Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2434600/90982ec930106e03690456c561b96fa38a646209/capsule_616x353.jpg?t=1766509810",
+    "description": "A survival city-builder where you manage a growing settlement in a post-apocalyptic wasteland. Scavenge materials, build makeshift structures, and defend your community from raiders and the elements. The game focuses on resourcefulness and community management.",
+    "trailer": "https://www.youtube.com/watch?v=Y9HAG2DWYdQ&pp=ygUXU2hhbnR5VG93biB0cmFpbGVyIGdhbWU%3D"
+  },
+  {
+    "id": "tomodachi-life-dream",
+    "title": "Tomodachi Life: Living the Dream",
+    "releaseDate": "2026-04-16T00:00:00",
+    "genres": ["Simulation"],
+    "platforms": ["Switch"],
+    "image": "https://laffaz.com/wp-content/uploads/2026/01/nintendo-announces-tomodachi-life-living-the-dream-switch-april-16.webp",
+    "description": "The quirky Mii life simulator makes its long-awaited return. Create Mii characters of your friends and watch them live out hilarious and unpredictable lives on an island. Now with deeper customization, online sharing features, and even weirder dreams.",
+    "trailer": "https://www.youtube.com/watch?v=Dvo1V7DWYsA&pp=ygUuVG9tb2RhY2hpIExpZmU6IExpdmluZyB0aGUgRHJlYW0gIHRyYWlsZXIgZ2FtZQ%3D%3D"
+  },
+  {
+    "id": "invincible-vs",
+    "title": "Invincible Vs.",
+    "releaseDate": "2026-04-30T00:00:00",
+    "genres": ["Fighting", "Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2353060/61fb8243de81a1041b19e11fae599f2b22327443/capsule_616x353.jpg?t=1767817992",
+    "description": "A brutal fighting game set in the Invincible universe. Play as Mark Grayson, Omni-Man, Atom Eve, and other powerful characters. Featuring destructive environments and gory finishing moves that capture the visceral style of the comic and animated series.",
+    "trailer": "https://www.youtube.com/watch?v=6MstABFeCME&pp=ygUcSW52aW5jaWJsZSBWcy4gIHRyYWlsZXIgZ2FtZQ%3D%3D"
+  },
+  {
+    "id": "saros",
+    "title": "Saros",
+    "releaseDate": "2026-04-30T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PS5"],
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202509/2318/ca19e7b6909c03a0d64a84981109c0cdaa98e7fdb8820e36.png",
+    "description": "A stunning new sci-fi RPG exploring a galaxy on the brink of collapse. Pilot your starship, explore alien planets, and engage in real-time combat. Saros promises a deep narrative about ancient civilizations and the price of progress.",
+    "trailer": "https://www.youtube.com/watch?v=XtCS5tuvCKs&pp=ygUTU2Fyb3MgIHRyYWlsZXIgZ2FtZQ%3D%3D"
+  },
+  {
+    "id": "corsairs-caribbean",
+    "title": "Corsairs - Battle of the Caribbean",
+    "releaseDate": "2026-05-18T00:00:00",
+    "genres": ["Strategy", "Adventure"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2397510/capsule_616x353.jpg?t=1768399361",
+    "description": "A revival of the classic pirate strategy game. Command a fleet of ships, trade goods, and fight for dominance in the Caribbean. The game blends tactical naval combat with economic management and RPG elements.",
+    "trailer": ""
+  },
+  {
+    "id": "bubsy-4d",
+    "title": "Bubsy 4D",
+    "releaseDate": "2026-05-22T00:00:00",
+    "genres": ["Platformer"],
+    "platforms": ["PS5", "PS4", "Xbox Series X|S", "Xbox One", "Switch 2", "Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3237970/1b94eefe773cb954fc652aea7be0071323dbf38a/capsule_616x353.jpg?t=1769103814",
+    "description": "The bobcat is back in a dimension-shattering platformer. Bubsy 4D features time-travel mechanics and levels that fold in on themselves. Love him or hate him, Bubsy returns with more puns and challenging platforming action.",
+    "trailer": "https://www.youtube.com/watch?v=jHhfKEqwzLo&pp=ygUnQ29yc2FpcnMgLSBCYXR0bGUgb2YgdGhlIENhcmliYmVhbiBnYW1l"
+  },
+  {
+    "id": "stonemachia",
+    "title": "Stonemachia",
+    "releaseDate": "2026-05-26T00:00:00",
+    "genres": ["Action", "Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2982610/capsule_616x353.jpg?t=1768330941",
+    "description": "A fast-paced shooter set in a world made entirely of stone. Use seismic weaponry to shatter enemies and manipulate the environment. The unique destructible terrain mechanics make every battle a chaotic spectacle.",
+    "trailer": "https://www.youtube.com/watch?v=mhAOUns4Drk&pp=ygUTc3RvbmVtYWNoaWEgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "lego-batman-legacy",
+    "title": "Lego Batman: Legacy of the Dark Knight",
+    "releaseDate": "2026-05-29T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2215200/ad4957081ca66a260d74aaab197b0ee75d44ee68/capsule_616x353.jpg?t=1767984414",
+    "description": "A massive new Lego adventure covering the entire history of Batman. From the campy 60s era to the gritty modern films, play through iconic storylines with a comedic Lego twist. Features an open-world Gotham City and hundreds of playable characters.",
+    "trailer": "https://www.youtube.com/watch?v=j5ha2VwHJCw&pp=ygUvTGVnbyBCYXRtYW46IExlZ2FjeSBvZiB0aGUgRGFyayBLbmlnaHQgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "1999tokoyo-building",
+    "title": "1999Tokoyo Building",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4099810/516cac1c541272715f23c9db6c5f8f09316457eb/capsule_616x353.jpg?t=1764650577",
+    "description": "A surreal indie game set in a mysterious Tokyo skyscraper at the turn of the millennium. Explore the building's strange floors, meet eccentric tenants, and uncover a digital conspiracy. The game features a retro aesthetic inspired by PS1-era graphics.",
+    "trailer": ""
+  },
+  {
+    "id": "ace-combat-8",
+    "title": "Ace Combat 8: Wings of Thieve",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Flight Simulator"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2288340/3bd993fa9f94ebd60c1b05dd61a4315cde829830/capsule_616x353.jpg?t=1766046612",
+    "description": "Project Aces returns with the next mainline entry in the premier flight action series. Ace Combat 8 promises photorealistic graphics, intense dogfights, and a gripping war drama narrative. New weather effects and cloud technology will make aerial combat more immersive than ever.",
+    "trailer": "https://www.youtube.com/watch?v=JQYx_867ua0&pp=ygUmQWNlIENvbWJhdCA4OiBXaW5ncyBvZiBUaGlldmUgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "acts-of-blood",
+    "title": "Acts of Blood",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3031890/81cc3d3ffb0bb919bdc6252ed818414f66274d69/capsule_616x353.jpg?t=1765672685",
+    "description": "A brutal beat 'em up set in a dystopian city overrun by gangs. Use improvised weapons and visceral martial arts to clean up the streets. The game emphasizes fluid animation and satisfying impact in its combat system.",
+    "trailer": "https://www.youtube.com/watch?v=JN9U8XOjjSE&pp=ygUVQWN0cyBvZiBCbG9vZCB0cmFpbGVy"
+  },
+  {
+    "id": "aeterna-lucis",
+    "title": "Aeterna Lucis",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Metroidvania"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2710920/capsule_616x353.jpg?t=1756331394",
+    "description": "The sequel to Aeterna Noctis, this Metroidvania continues the saga of the King of Darkness. Explore a vast, interconnected world filled with challenging platforming and epic boss fights. The game features stunning hand-drawn art and a high skill ceiling.",
+    "trailer": "https://www.youtube.com/watch?v=Pinhqvy0-Pk&pp=ygUaQWV0ZXJuYSBMdWNpcyB0cmFpbGVyIGdhbWXSBwkJkQoBhyohjO8%3D"
+  },
+  {
+    "id": "agefield-high",
+    "title": "Agefield High: Rock The School",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie", "Music"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562580/4ca9eba8173f5b580baf777c2bc1046f682fa0f7/capsule_616x353.jpg?t=1765113971",
+    "description": "A rhythm game mixed with high school drama. Form a band, write songs, and battle rival music clubs to save the school's arts program. The game combines visual novel storytelling with guitar-hero style rhythm gameplay.",
+    "trailer": "https://www.youtube.com/watch?v=YaE3Etbh0d0&list=RDYaE3Etbh0d0&start_radio=1&pp=ygUrQWdlZmllbGQgSGlnaDogUm9jayBUaGUgU2Nob29sIHRyYWlsZXIgZ2FtZaAHAQ%3D%3D"
+  },
+  {
+    "id": "aniimo",
+    "title": "Aniimo",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["Xbox Series X|S", "PC", "Mobile"],
+    "image": "https://i.ytimg.com/vi/RNK3hu8ttHg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD\u0026rs=AOn4CLA0rQRObYruOirLP1yzj9of4AxNHQ",
+    "description": "A whimsical adventure game set in a world of living origami. Explore a paper-crafted universe, fold and unfold the environment to solve puzzles, and uncover the mystery of the 'Great Crease'. A visually unique game with a relaxing atmosphere.",
+    "trailer": "https://www.youtube.com/watch?v=uakjgIJ1DPM&pp=ygUjICAgICJ0aXRsZSI6ICJBbmlpbW8iLCB0cmFpbGVyIGdhbWXSBwkJkQoBhyohjO8%3D"
+  },
+  {
+    "id": "aphelion",
+    "title": "Aphelion",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Sci-Fi"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1966410/088113ea3ebd6e09d057841f8cb6bab207d887b2/capsule_616x353.jpg?t=1767975803",
+    "description": "A hard sci-fi space simulation game. Captain a starship in a realistic galaxy, managing crew, systems, and resources. Aphelion offers a deep simulation experience with Newtonian physics and complex political factions.",
+    "trailer": ""
+  },
+  {
+    "id": "a-planet-full-of-cats",
+    "title": "A Planet Full of Cats",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Puzzle", "Indie"],
+    "platforms": ["Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3355100/171849b20aea3ee4173191bd20cd9b8b841153f1/capsule_616x353.jpg?t=1761565917",
+    "description": "A relaxing puzzle game where you arrange cats on a spherical planet. Fit all the adorable felines into the available space without them falling off. A charming and low-stress game for cat lovers.",
+    "trailer": "https://www.youtube.com/watch?v=BIAX23aGAn4&pp=ygUWQXBoZWxpb24sIHRyYWlsZXIgZ2FtZQ%3D%3D"
+  },
+  {
+    "id": "armatus",
+    "title": "Armatus",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3660710/bb7d7fa19aece6d2c5839bd131a4b4a2466cbc30/capsule_616x353.jpg?t=1769187825",
+    "description": "A mech combat game focused on heavy customization. Build your own armored core from scratch and battle in destructible arenas. Armatus offers deep mechanical tuning and intense, metallic combat.",
+    "trailer": "https://www.youtube.com/watch?v=6nEsAa6W-9A&pp=ygUYYXJtYXR1cyB0cmFpbGVyIGdhbWVwbGF5"
+  },
+  {
+    "id": "at-fates-end",
+    "title": "At Fate's End",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2210150/53e0b5dc07c87ab41ac44c6c900196e674fd66bf/capsule_616x353.jpg?t=1754476199",
+    "description": "A narrative-heavy RPG inspired by Norse mythology. Play as a warrior destined to die in Ragnarok, trying to change your fate. The game features a choice-driven story and tactical combat where every decision matters.",
+    "trailer": "https://www.youtube.com/watch?v=XuXlG-xjENc&pp=ygUVYXQgZmF0ZSdzIGVuZCB0cmFpbGVy"
+  },
+  {
+    "id": "athelan-battlegrounds",
+    "title": "Athelan Battlegrounds",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Battle Royale", "Action"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3572070/a18386f22fd485ee5e6e4ed1e22eef2987d070da/header.jpg?t=1765232824",
+    "description": "A fantasy battle royale where magic and steel collide. 100 players drop into the mystical land of Athelan to fight for supremacy. Use spells, enchanted weapons, and mounts to outlast your opponents in a shrinking magical circle.",
+    "trailer": "https://www.youtube.com/watch?v=daJJtyARQdY&pp=ygUeQXRoZWxhbiBCYXR0bGVncm91bmRzIiB0cmFpbGVy"
+  },
+  {
+    "id": "battlestar-galactica-hopes",
+    "title": "Battlestar Galactica: Scattered Hopes",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Sci-Fi", "Strategy"],
+    "platforms": ["PC"],
+    "image": "https://www.cosmocover.com/wp-content/uploads/2025/08/BSGSH_Keyart.png",
+    "description": "Command the remnants of the Colonial Fleet in this survival strategy game. Manage resources, morale, and political tensions while evading the relentless Cylon pursuit. Every jump could be your last in this tense adaptation of the beloved series.",
+    "trailer": "https://www.youtube.com/watch?v=WPwaRAEQ6HI&pp=ygUvQmF0dGxlc3RhciBHYWxhY3RpY2E6IFNjYXR0ZXJlZCBIb3BlcyAiIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "beast-of-reincarnation",
+    "title": "Beast of Reincarnation",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "RPG"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/a88ea9f786ee3a76795c0b275b5377dbc4d10e1a/capsule_616x353.jpg?t=1769187822",
+    "description": "A dark fantasy action RPG where you play as a cursed beast seeking humanity. Absorb the souls of your enemies to regain human form or embrace your monstrous nature for power. The game features a gothic world and challenging, deliberate combat.",
+    "trailer": "https://www.youtube.com/watch?v=H0r-Kap8kWI&pp=ygUgQmVhc3Qgb2YgUmVpbmNhcm5hdGlvbiIgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "bestiario",
+    "title": "Bestiario",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2760720/page_bg_raw.jpg?t=1768387020",
+    "description": "A turn-based RPG steeped in Spanish mythology. Investigate supernatural mysteries in a modern setting, battling creatures from folklore. The game combines social simulation elements with dungeon crawling.",
+    "trailer": "https://www.youtube.com/watch?v=r_UJgrmDg6Y&pp=ygUTIEJlc3RpYXJpbyIgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "bloodstained-scarlet-engagement",
+    "title": "Bloodstained: The Scarlet Engagement",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Metroidvania", "Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://cdn2.unrealengine.com/bloodstained-the-scarlet-engagement-1-1920x1080-f17f97de0761.jpg",
+    "description": "Koji Igarashi returns with a new entry in the Bloodstained saga. The Scarlet Engagement features a new protagonist and a massive demon castle to explore. Expect refined 2.5D gameplay, a vast array of weapons and shards, and the series' signature gothic aesthetic.",
+    "trailer": "https://www.youtube.com/watch?v=-de45inSnWg"
+  },
+  {
+    "id": "carmageddon-rogue-shift",
+    "title": "Carmageddon: Rogue Shift",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Racing", "Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1712100/0d73281d634b5bca68c16ba22d2e065398911a74/capsule_616x353.jpg?t=1769515972",
+    "description": "The controversial vehicular combat game returns as a roguelite. Smash, crash, and run over pedestrians in procedurally generated cityscapes. Upgrade your death machine with insane weapons and try to survive as long as possible in this chaotic arcade racer.",
+    "trailer": "https://www.youtube.com/watch?v=qlEBO7HB6Bc&pp=ygUgQ2FybWFnZWRkb246IFJvZ3VlIFNoaWZ0IHRyYWlsZXI%3D"
+  },
+  {
+    "id": "celestial-return",
+    "title": "Celestial Return",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2704090/4b1e893eb751f85be05b940a60713b0327a07db9/capsule_616x353.jpg?t=1768326265",
+    "description": "A sci-fi RPG about the return of humanity to a ruined Earth. Explore the overgrown ruins of civilization, negotiate with mutant factions, and uncover the truth behind the exodus. The game features deep tactical combat and branching dialogue.",
+    "trailer": "https://www.youtube.com/watch?v=97KUqyEAENk&pp=ygUYQ2VsZXN0aWFsIFJldHVybiB0cmFpbGVy"
+  },
+  {
+    "id": "clean-up-earth",
+    "title": "Clean Up Earth",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Simulation"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3402720/892a5418e6e4bbbf0e9c2ca28b46e1c5cbcbb2ce/capsule_616x353.jpg?t=1765458448",
+    "description": "A satisfying simulation game where you play as an alien janitor tasked with cleaning up a polluted Earth. Use high-tech vacuums and lasers to remove trash, restore nature, and maybe abduct a few cows along the way.",
+    "trailer": "https://www.youtube.com/watch?v=QujrIGPfGg0&pp=ygUYQ2xlYW4gVXAgRWFydGgiICB0cmFpbGVy"
+  },
+  {
+    "id": "control-resonant",
+    "title": "Control Resonant",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Sci-Fi"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://cdn1.epicgames.com/spt-assets/c24dd5ab6e484bf08eb44c7a98f81fd1/control-resonant-1t462.jpg",
+    "description": "Remedy Entertainment expands the Control universe with this multiplayer spinoff. Agents of the FBC must team up to contain paranatural threats in the Oldest House. Use telekinetic powers and the Service Weapon in cooperative missions against the Hiss.",
+    "trailer": "https://www.youtube.com/watch?v=e1_eZyFM5-4&pp=ygUZb250cm9sIFJlc29uYW50IiAgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "crisisx",
+    "title": "CrisisX",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Survival"],
+    "platforms": ["PC", "iOS", "Android"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2512880/854b9153508058c7dfe4c8c8a690f5e835dec47c/capsule_616x353.jpg?t=1767858802",
+    "description": "A massive open-world survival game set after a global biological disaster. Scavenge, craft, and build in a persistent online world. CrisisX emphasizes realism and player interaction as you rebuild civilization from the ashes.",
+    "trailer": "https://www.youtube.com/watch?v=mcAGdnjm64U&pp=ygUPQ3Jpc2lzWCB0cmFpbGVy"
+  },
+  {
+    "id": "crown-of-greed",
+    "title": "Crown of Greed",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1697870/83e08231d8b611acacaa350079c162b426db55fb/capsule_616x353.jpg?t=1769251419",
+    "description": "A real-time strategy game with a twist: you cannot directly control your units. Instead, you must issue orders and offer gold rewards to influence independent heroes and mercenaries. Build your kingdom and manipulate the greed of your subjects to win wars.",
+    "trailer": ""
+  },
+  {
+    "id": "cthulhu",
+    "title": "Cthulhu",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://www.gameit.es/wp-content/uploads/2025/03/Cthulhu-The-Cosmic-Abyss_2025_03-06-25_006.jpg.webp",
+    "description": "An investigative RPG that delves into the Lovecraftian mythos. As a detective in the 1920s, uncover a cult summoning the Great Old One. Manage your sanity and make desperate choices in a story where knowledge is dangerous.",
+    "trailer": "https://www.youtube.com/watch?v=BGPTrGsii-I&pp=ygUXQ3Jvd24gb2YgR3JlZWQiIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "danganronpa-2x2",
+    "title": "Danganronpa 2x2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Visual Novel"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "Switch", "PC"],
+    "image": "https://www.danganronpa.com/2x2/assets/img/en/ogp.png",
+    "description": "The killing game returns with a new twist. Danganronpa 2x2 features two separate groups of students trapped in connected locations. Solve dual mysteries and engage in high-speed class trials where truth and lies blur across two perspectives.",
+    "trailer": "https://www.youtube.com/watch?v=M8LGot_GCEE&pp=ygUYIkRhbmdhbnJvbnBhIDJ4MiB0cmFpbGVy"
+  },
+  {
+    "id": "decapolice",
+    "title": "Decapolice",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PS5", "PS4", "Switch", "PC"],
+    "image": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/2x1_NSwitch_Decapolice.jpg",
+    "description": "A crime-suspense RPG from Level-5. Play as a detective who can dive into a virtual world to solve crimes. Gather evidence in the real world and battle criminals in the virtual space using a unique turn-based combat system.",
+    "trailer": "https://www.youtube.com/watch?v=h8dhxd4iEJA&pp=ygUSRGVjYXBvbGljZSB0cmFpbGVy"
+  },
+  {
+    "id": "denshattack",
+    "title": "Denshattack!",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["Xbox Series X|S", "Xbox One", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524850/9e82089d034705eaa84ecb130d04ed1084ce574c/header.jpg?t=1761130456",
+    "description": "A frantic arcade game where you defend a Japanese commuter train from alien invaders. Use everyday items as weapons and keep the train running on time while fighting off waves of enemies. A quirky blend of action and time management.",
+    "trailer": "https://www.youtube.com/watch?v=gL6dF_JU8Rs&pp=ygUURGVuc2hhdHRhY2sgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "directive-8020",
+    "title": "Directive 8020",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror", "Sci-Fi"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://static.bandainamcoent.eu/high/the-dark-pictures/directive-8020/00-page-setup/D8020-mobile-header.jpg",
+    "description": "The next installment in The Dark Pictures Anthology takes horror to space. A colony ship crashes on a hostile planet, and the crew is stalked by a shapeshifting alien organism. Make life-or-death choices that determine who survives in this cinematic thriller.",
+    "trailer": "https://www.youtube.com/watch?v=4a_VXgNSfME&pp=ygUXRGlyZWN0aXZlIDgwMjAgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "dosa-divas",
+    "title": "Dosa Divas: One Last Meal",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Simulation"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://www.gematsu.com/wp-content/uploads/2024/06/Game-Page-Featured_Project-Dosa-Inits.jpg?w=640",
+    "description": "A narrative cooking game about running a South Indian street food stall. Serve customers, learn their stories, and perfect your dosa recipes. The game explores themes of community, heritage, and the comfort of food.",
+    "trailer": "https://www.youtube.com/watch?v=FA6XSNYE1Fg&pp=ygUiRG9zYSBEaXZhczogT25lIExhc3QgTWVhbCAgdHJhaWxlctIHCQmRCgGHKiGM7w%3D%3D"
+  },
+  {
+    "id": "dracamar",
+    "title": "Dracamar",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3306480/058f01c8b933020b35ab8a16a249bb308ad79a28/capsule_616x353.jpg?t=1744822574",
+    "description": "An aerial combat game where you ride dragons. Explore a floating archipelago, engage in dogfights with rival dragon riders, and customize your mount with armor and abilities. Experience the freedom of flight in a vibrant fantasy world.",
+    "trailer": "https://www.youtube.com/watch?v=jbcWhIf0nsM&pp=ygUQRHJhY2FtYXIgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "edge-of-memories",
+    "title": "Edge of Memories",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2738170/0282b90dab25408b4bc762148658a8244e275cf0/header.jpg?t=1761814729",
+    "description": "A surreal puzzle adventure about exploring the subconscious mind. Navigate dreamlike landscapes representing different memories and emotions. Solve puzzles to unlock suppressed secrets and piece together the protagonist's past.",
+    "trailer": "https://www.youtube.com/watch?v=Vk8JHTjxoHw&pp=ygUYdHJhaWxlciBFZGdlIG9mIE1lbW9yaWVz"
+  },
+  {
+    "id": "emberville",
+    "title": "Emberville",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2295170/498734b30af45b641d75217775b1fb4c51be36b9/header.jpg?t=1769807578",
+    "description": "A cozy village sim where you play as a living flame. Help the villagers by lighting their hearths, cooking food, and warding off the cold. Be careful not to burn everything down in this heartwarming indie game.",
+    "trailer": "https://www.youtube.com/watch?v=TwZd98P5SbY&pp=ygUSdHJhaWxlciBFbWJlcnZpbGxl"
+  },
+  {
+    "id": "end-of-abyss",
+    "title": "End of Abyss",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRilsYLC1x9qQer5RDpkwU1HRL9Lt_FBcyang\u0026s",
+    "description": "A hardcore sci-fi slasher set on a derelict space station. Fight through hordes of cybernetic monstrosities using a high-tech energy blade. The game features fast, punishing combat and a dark industrial atmosphere.",
+    "trailer": "https://www.youtube.com/watch?v=mTue29WoYHc&pp=ygUUdHJhaWxlciBFbmQgb2YgQWJ5c3M%3D"
+  },
+  {
+    "id": "evil-inside-vr",
+    "title": "Evil Inside VR",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror", "VR"],
+    "platforms": ["PSVR 2", "Quest 3"],
+    "image": "https://i.ytimg.com/vi/xYSeAP-O610/maxresdefault.jpg",
+    "description": "A terrifying VR psychological horror experience. Explore a constantly changing house as you try to contact spirits via a Ouija board. Designed to exploit the immersion of VR, this game will test your nerves with jump scares and psychological tension.",
+    "trailer": "https://www.youtube.com/watch?v=xYSeAP-O610&pp=ygUWdHJhaWxlciBFdmlsIEluc2lkZSBWUtIHCQmRCgGHKiGM7w%3D%3D"
+  },
+  {
+    "id": "fable",
+    "title": "Fable",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["Xbox Series X|S", "PC", "PS5"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2769570/2e243f1b987cb2841d0faa1082f9c63d7a86a700/capsule_616x353.jpg?t=1769707177",
+    "description": "Playground Games reboots the legendary RPG series. Return to the land of Albion in a new open-world adventure filled with British humor, magical creatures, and moral choices. Forge your own path as a hero or villain in this visually stunning fantasy epic.",
+    "trailer": "https://www.youtube.com/watch?v=AOK8sF9qF-U"
+  },
+  {
+    "id": "fate-extra-record",
+    "title": "Fate/Extra Record",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PS5", "PS4", "Switch", "PC"],
+    "image": "https://i.ytimg.com/vi/yDg4wZsaC-E/maxresdefault.jpg",
+    "description": "A full remake of the PSP classic Fate/Extra. Enter the Moon Cell Automaton and participate in the Holy Grail War. The game features completely redone graphics, a revamped combat system that blends turn-based strategy with real-time elements, and an expanded story.",
+    "trailer": "https://www.youtube.com/watch?v=yDg4wZsaC-E&pp=ygUZdHJhaWxlciBGYXRlL0V4dHJhIFJlY29yZA%3D%3D"
+  },
+  {
+    "id": "fire-emblem-fortunes-weave",
+    "title": "Fire Emblem: Fortune's Weave",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Strategy"],
+    "platforms": ["Switch 2"],
+    "image": "https://gaming-cdn.com/images/products/20414/orig/fire-emblem-fortune-s-weave-switch-2-nintendo-eshop-cover.jpg?v=1757948583",
+    "description": "The Fire Emblem series arrives on the new Nintendo console with stunning visual upgrades. Fortune's Weave introduces a new continent divided by fate, where player choices dramatically alter the storyline and available units. Expect classic tactical gameplay with new 'Threads of Fate' mechanics.",
+    "trailer": "https://www.youtube.com/watch?v=j6eNaiftiWE&pp=ygUkdHJhaWxlciBGaXJlIEVtYmxlbTogRm9ydHVuZSdzIFdlYXZl"
+  },
+  {
+    "id": "forbidden-solitaire",
+    "title": "Forbidden Solitaire",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Puzzle"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3414580/02930b329f87a11363d1d01698275c0a205276ab/capsule_616x353.jpg?t=1767612426",
+    "description": "A solitaire game with a Lovecraftian twist. Unlock forbidden knowledge by clearing cards, but beware of madness effects that change the rules of the game. A unique blend of casual card gameplay and cosmic horror atmosphere.",
+    "trailer": "https://www.youtube.com/watch?v=YcvUuICu8hU&pp=ygUbdHJhaWxlciBGb3JiaWRkZW4gU29saXRhaXJl"
+  },
+  {
+    "id": "forza-horizon-6",
+    "title": "Forza Horizon 6",
+    "releaseDate": "2026-05-19T00:00:00",
+    "genres": ["Racing"],
+    "platforms": ["Xbox Series X|S", "PC"],
+    "image": "https://thegamehaus.com/wp-content/uploads/2026/01/Forza-Horizon-6-Release-Date.png.webp",
+    "description": "The Horizon festival travels to a breathtaking new location in Japan. Forza Horizon 6 offers the largest and most diverse open world yet, featuring neon-lit city streets, winding mountain touge, and scenic countryside. The game pushes graphical boundaries with next-gen lighting and physics.",
+    "trailer": "https://www.youtube.com/watch?v=pWw-UENvdTw&pp=ygUXdHJhaWxlciBGb3J6YSBIb3Jpem9uIDY%3D"
+  },
+  {
+    "id": "gallipoli",
+    "title": "Gallipoli",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3065940/62324c73da3a5656fed9cb96af6d2347ce123b8f/capsule_616x353.jpg?t=1769093990",
+    "description": "A harrowing first-person shooter focused on the Gallipoli campaign of World War I. Experience the brutal trench warfare and amphibious assaults from both Allied and Ottoman perspectives. The game emphasizes historical accuracy and the human cost of war.",
+    "trailer": "https://www.youtube.com/watch?v=Yp0WfD85DzU&pp=ygURdHJhaWxlciBHYWxsaXBvbGk%3D"
+  },
+  {
+    "id": "got-war-for-westeros",
+    "title": "Game of Thrones: War for Westeros",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2838950/414b6a677a72840ec934af5ced0f11ff234c0642/capsule_616x353.jpg?t=1765950589",
+    "description": "A grand strategy game set in the world of A Song of Ice and Fire. Choose a noble house and vie for the Iron Throne through diplomacy, warfare, and intrigue. Manage your lands, raise armies, and navigate the treacherous politics of Westeros.",
+    "trailer": "https://www.youtube.com/watch?v=ILU7b29FXFc&pp=ygUodHJhaWxlciBHYW1lIG9mIFRocm9uZXM6IFdhciBmb3IgV2VzdGVybw%3D%3D"
+  },
+  {
+    "id": "gothic-1-remake",
+    "title": "Gothic 1 Remake",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://gothic.thqnordic.com/game-sites/gothic/editions/standard-edition.png",
+    "description": "Return to the colony in this faithful remake of the cult classic RPG. Survive in a brutal open world where every decision has consequences and the wildlife is deadly. The game features modernized combat and controls while preserving the atmospheric grit of the original.",
+    "trailer": "https://www.youtube.com/watch?v=6Qh24rZDaU4&pp=ygUYdHJhaWxlciBHb3RoaWMgMSBSZW1ha2Ui"
+  },
+  {
+    "id": "hack-n-stack",
+    "title": "Hack 'n' Stack",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Puzzle", "Co-op"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3161310/118665157d5d5a8e0469b9a248e5d23791830e82/capsule_616x353.jpg?t=1769795928",
+    "description": "A cooperative puzzle game about hackers in a cyberpunk future. Work together to bypass security systems, one player typing code while the other manipulates hardware blocks in 3D space. Fast communication is key to avoiding detection.",
+    "trailer": "https://www.youtube.com/watch?v=17leA6UjJf8&pp=ygUXdHJhaWxlciBIYWNrICduJyBTdGFjayA%3D"
+  },
+  {
+    "id": "hela",
+    "title": "Hela",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3161310/118665157d5d5a8e0469b9a248e5d23791830e82/capsule_616x353.jpg?t=1769795928",
+    "description": "A charming open-world game where you play as a mouse exploring the Scandinavian countryside. Help the local spirits, gather resources, and solve environmental puzzles. Hela offers a beautiful, relaxing experience with a focus on exploration and kindness.",
+    "trailer": "https://www.youtube.com/watch?v=-ZFgEVbuTrU&pp=ygUNdHJhaWxlciBISGVsYQ%3D%3D"
+  },
+  {
+    "id": "hordes-of-fate",
+    "title": "Hordes of Fate",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Shooter"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3075410/27450f117018f4431135dc2bfa2796f19bda7b6b/capsule_616x353.jpg?t=1768534004",
+    "description": "A horde-survival shooter set in a grimdark fantasy world. Use guns, magic, and traps to hold off endless waves of demons. The game features deep character customization and up to 4-player co-op action.",
+    "trailer": "https://www.youtube.com/watch?v=4EAdEy4-Ito&pp=ygUWdHJhaWxlciBIb3JkZXMgb2YgRmF0ZQ%3D%3D"
+  },
+  {
+    "id": "toxic-commando",
+    "title": "John Carpenter's Toxic Commando",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "FPS"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2157830/faacb57bff8ef8589623324843a85919b87f7a8d/capsule_616x353.jpg?t=1769449453",
+    "description": "A co-op FPS inspired by 80s action and horror movies. Team up with friends to blast through hordes of mutated creatures using over-the-top weapons and vehicles. The game captures the campy, gory fun of John Carpenter's classic films.",
+    "trailer": "https://www.youtube.com/watch?v=goVfYvVx5F8&pp=ygUodHJhaWxlciBKb2huIENhcnBlbnRlcidzIFRveGljIENvbW1hbmRvIA%3D%3D"
+  },
+  {
+    "id": "kingdom-loop",
+    "title": "Kingdom Loop",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie", "Roguelike"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3541000/fe635faa97ec1fbb04f163f69d1bbd982270e250/capsule_616x353.jpg?t=1769057486",
+    "description": "A strategic roguelike that combines deckbuilding with city-building. Place tiles to expand your kingdom and defend it from daily attacks. Each loop brings new challenges and opportunities to optimize your perfect fortress.",
+    "trailer": "https://www.youtube.com/watch?v=wiwnhBAy8Kg&pp=ygUUdHJhaWxlciBLaW5nZG9tIExvb3A%3D"
+  },
+  {
+    "id": "kiln",
+    "title": "Kiln",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Multiplayer"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1165990/66d1232d483b485b63545b3ade26a64ed8d0c74d/header.jpg?t=1769107867",
+    "description": "A physics-based multiplayer brawler where you play as animated clay figures. Mold your character into different shapes to gain advantages in combat. The game features hilarious ragdoll physics and creative arena hazards.",
+    "trailer": "https://www.youtube.com/watch?v=6C11Zmc93-I&pp=ygUNdHJhaWxlciBLaWxuIA%3D%3D"
+  },
+  {
+    "id": "kusan-city-of-wolves",
+    "title": "Kusan: City of Wolves",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "PS4", "Xbox Series X|S", "Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1714510/ab2ffc1597ea73c2e1389322356fa06a86cfd7fa/capsule_616x353.jpg?t=1767716484",
+    "description": "A top-down shooter set in a futuristic version of Korea. Play as a veteran fixer with a cybernetic arm. The game features fast, Hotline Miami-style combat where one hit can be fatal, set against a stylish neo-noir backdrop.",
+    "trailer": "https://www.youtube.com/watch?v=uZ1hyKQOyJs&pp=ygUddHJhaWxlciBLdXNhbjogQ2l0eSBvZiBXb2x2ZXM%3D"
+  },
+  {
+    "id": "limit-zero-breakers",
+    "title": "Limit Zero Breakers",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PC", "iOS", "Android"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3764400/13a1a3d352aad624f0aeaca9f9afb04b2e84b8c5/capsule_616x353.jpg?t=1760925336",
+    "description": "A high-speed action game focusing on aerial combat and combos. Dash through futuristic cityscapes, defying gravity and taking down robotic enemies. The game features an adrenaline-pumping electronic soundtrack.",
+    "trailer": "https://www.youtube.com/watch?v=PenD1isyjPk&pp=ygUbdHJhaWxlciBMaW1pdCBaZXJvIEJyZWFrZXJz"
+  },
+  {
+    "id": "little-nemo",
+    "title": "Little Nemo and the Guardians of Slumberland",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Platformer"],
+    "platforms": ["PC", "Switch"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2074630/capsule_616x353.jpg?t=1768958851",
+    "description": "A beautiful hand-drawn platformer based on the classic comic strip. Explore the dream world of Slumberland, unlock new abilities by feeding candy to animals, and stop the Nightmare King. A nostalgic adventure for all ages.",
+    "trailer": "https://www.youtube.com/watch?v=VPLg0cc-b6g&pp=ygU0dHJhaWxlciBMaXR0bGUgTmVtbyBhbmQgdGhlIEd1YXJkaWFucyBvZiBTbHVtYmVybGFuZA%3D%3D"
+  },
+  {
+    "id": "lords-of-the-fallen-2",
+    "title": "Lords of the Fallen 2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG", "Soulslike"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://games-b26f.kxcdn.com/wp-content/uploads/2025/12/lords-of-the-fallen-2-770x470.jpg",
+    "description": "The sequel to the 2023 dark fantasy RPG. Journey once again between the realms of the living (Axiom) and the dead (Umbral). Expect polished combat, even more grotesque enemy designs, and a darker, more expansive world to conquer.",
+    "trailer": "https://www.youtube.com/watch?v=0mQSqfMlw2k&pp=ygUddHJhaWxlciBMb3JkcyBvZiB0aGUgRmFsbGVuIDI%3D"
+  },
+  {
+    "id": "mad-king-redemption",
+    "title": "Mad King Redemption",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2369580/72bc6059ff1d4fcb48f16373c2e8571c57bf2526/capsule_616x353.jpg?t=1768495267",
+    "description": "A narrative RPG where you play as a deposed tyrant trying to reclaim his throne. Will you learn from your past mistakes and become a benevolent ruler, or embrace your madness to crush the rebellion? Your choices shape the fate of the kingdom.",
+    "trailer": "https://www.youtube.com/watch?v=TPSEG27EYik&pp=ygUbdHJhaWxlciBNYWQgS2luZyBSZWRlbXB0aW9u"
+  },
+  {
+    "id": "marvel-1943",
+    "title": "Marvel 1943: Rise of Hydra",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["TBA"],
+    "image": "https://i.ytimg.com/vi/Lb2wwEx6DVw/maxresdefault.jpg",
+    "description": "A cinematic action-adventure from Skydance New Media. Play as Captain America and Black Panther (Azzuri) in occupied Paris during WWII. The game focuses on narrative storytelling and intense combat as these two heroes form an uneasy alliance against Hydra.",
+    "trailer": "https://www.youtube.com/watch?v=Lb2wwEx6DVw&pp=ugMGCgJlcxABugUEEgJlc8oFInRyYWlsZXIgTWFydmVsIDE5NDM6IFJpc2Ugb2YgSHlkcmHYBwE%3D"
+  },
+  {
+    "id": "marvel-tokon-fighting-souls",
+    "title": "Marvel Tokon: Fighting Souls",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Fighting"],
+    "platforms": ["PS5", "PC"],
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202506/0507/18b5830b8d028aef8b351a8c266535883e7d6445747ec655.jpg",
+    "description": "A new 2.5D fighting game featuring Marvel's street-level heroes and supernatural warriors. Battle with characters like Daredevil, Iron Fist, and Ghost Rider in stylized arenas. The game emphasizes grounded martial arts combat and flashy super moves.",
+    "trailer": "https://www.youtube.com/watch?v=6fbfrV5qqnU&pp=ygUjdHJhaWxlciBNYXJ2ZWwgVG9rb246IEZpZ2h0aW5nIFNvdWw%3D"
+  },
+  {
+    "id": "marvels-wolverine",
+    "title": "Marvel's Wolverine",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5"],
+    "image": "https://cdn.marvel.com/content/2x/marvelswolverine_lob_mas_mob_02-1.jpg",
+    "description": "Insomniac Games brings the legendary X-Man to life in a mature, standalone action game. Experience a gritty story that delves into Logan's past, featuring visceral combat that lets you unleash the berserker rage of Wolverine and his adamantium claws.",
+    "trailer": "https://www.youtube.com/watch?v=s3pDMUWlA6I&pp=ygUadHJhaWxlciBNYXJ2ZWwncyBXb2x2ZXJpbmU%3D"
+  },
+  {
+    "id": "maseylia-echoes",
+    "title": "Maseylia: Echoes of the Past",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2938870/81ff87520be2c583c0184ae20d240795f155bf89/capsule_616x353.jpg?t=1763139723",
+    "description": "A puzzle-adventure game set in a mysterious, overgrown ruin. Use sound-based mechanics to activate ancient machinery and communicate with spirits. The game features a serene atmosphere and a story about memory and nature.",
+    "trailer": "https://i.ytimg.com/an_webp/TJ9yWd5kZmU/mqdefault_6s.webp?du=3000&sqp=CJLr-ssG&rs=AOn4CLAL1tQ5KzcWJ7VUIyKRiiOPFwu54A"
+  },
+  {
+    "id": "metro-rivals-ny",
+    "title": "Metro Rivals: New York",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3024160/046508e884a9a4bd16f2407d3fa7b06e92119b42/capsule_616x353.jpg?t=1760946180",
+    "description": "An arcade-style racing and combat game set in the subway tunnels of a futuristic New York City. Pilot hover-trains at breakneck speeds, fighting rival gangs for control of the underground. Fast, furious, and neon-soaked action.",
+    "trailer": "https://www.youtube.com/watch?v=DYKTGpJUwE4&pp=ygUedHJhaWxlciBNZXRybyBSaXZhbHM6IE5ldyBZb3Jr"
+  },
+  {
+    "id": "mortal-shell-2",
+    "title": "Mortal Shell 2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Soulslike"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2584270/c6fb972d01eaf92d6cf29e4cf97ee3d7120a98b3/capsule_616x353.jpg?t=1757600566",
+    "description": "The sequel to the hit indie Soulslike. Mortal Shell 2 expands the shell-swapping mechanic with more diverse bodies to inhabit, each with unique skill trees. Explore a hauntingly beautiful world filled with grotesque enemies and deep lore.",
+    "trailer": "https://www.youtube.com/watch?v=KJWAUJhInH0&pp=ygUWdHJhaWxlciBNb3J0YWwgU2hlbGwgMg%3D%3D"
+  },
+  {
+    "id": "mudang-two-hearts",
+    "title": "Mudang: Two Hearts",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2889030/405764c39460ffc1931041d6dc3b5cafa2ab69b1/header.jpg?t=1756724307",
+    "description": "An action-adventure game inspired by Korean shamanism. Play as a Mudang (shaman) bridging the world of the living and the dead. Use spiritual tools and martial arts to exorcise vengeful spirits in a modern Seoul overrun by the supernatural.",
+    "trailer": "https://www.youtube.com/watch?v=NFeSWXwK2tc&pp=ygUbdHJhaWxlciAiTXVkYW5nOiBUd28gSGVhcnRz"
+  },
+  {
+    "id": "nocturnal-2",
+    "title": "Nocturnal 2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Metroidvania"],
+    "platforms": ["Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2847780/7c43cfe68acc2bfa0a891dd8217577e8f290094f/capsule_616x353.jpg?t=1769499166",
+    "description": "The sequel to the atmospheric action-platformer. Nocturnal 2 brings back the unique fire mechanic, where you must keep your flame lit to see and fight in the darkness. Explore a larger, more interconnected world shrouded in eternal night.",
+    "trailer": "https://www.youtube.com/watch?v=ZnZZx8g5o64&pp=ygUSdHJhaWxlciBvY3R1cm5hbCAy"
+  },
+  {
+    "id": "no-stone-unturned",
+    "title": "No Stone Unturned",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://i.kickstarter.com/assets/046/645/550/0dbf906ec8f5cd7f7f5bc2f2ebce4332_original.png?anim=false\u0026fit=cover\u0026gravity=auto\u0026height=873\u0026origin=ugc\u0026q=92\u0026v=1727433652\u0026width=1552\u0026sig=Rz9jo9xu4mdaByQNIvDNZ8C3kxXfO9RqL5tgaXCxwlk%3D",
+    "description": "A comedic detective RPG where the culprit is always a rock. Literally. Interrogate inanimate objects, solve absurd mysteries, and uncover the stony truth in a world that takes 'dumb as a rock' to a new level.",
+    "trailer": "https://www.youtube.com/watch?v=i_hK1xwdXig&pp=ygUaTm8gU3RvbmUgVW50dXJuZWQiIHRyYWlsZXLSBwkJkQoBhyohjO8%3D"
+  },
+  {
+    "id": "no-vacation-executioner",
+    "title": "No Vacation For An Executioner",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2949120/header.jpg",
+    "description": "A frantic management game where you play as the grim reaper's busiest employee. Process souls, maintain the afterlife bureaucracy, and deal with escape attempts. A darkly funny game about workplace stress in hell.",
+    "trailer": "https://www.youtube.com/watch?v=Qcdtbj4t-mQ&pp=ygUqIk5vIFZhY2F0aW9uIEZvciBBbiBFeGVjdXRpb25lciIsICB0cmFpbGVy"
+  },
+  {
+    "id": "oblitacrater",
+    "title": "Oblitacrater",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Shooter"],
+    "platforms": ["PC", "Consoles"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/457250/458516ac5c6fc7e1f24e20c0c7395f351f7f8fbf/header.jpg?t=1756810466",
+    "description": "A vehicle combat game set in a giant crater on Mars. Customize your hover-tank with massive guns and physics-based weaponry. Battle other players for control of the remaining resources in a destructible arena.",
+    "trailer": "https://www.youtube.com/watch?v=4fBTpMoZTqM&pp=ygUUT2JsaXRhY3JhdGVyIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "onimusha-way-of-the-sword",
+    "title": "Onimusha: Way of the Sword",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2638890/a56ad0eb070b3e79f29f1736d6b69d27319783bd/capsule_616x353.jpg?t=1762905941",
+    "description": "Capcom revives the classic samurai survival horror series. Onimusha: Way of the Sword returns to Sengoku-era Japan with a new protagonist. Fight demonic Genma with precise swordplay and magical gauntlets in a game that blends history with dark fantasy.",
+    "trailer": "https://www.youtube.com/watch?v=Zf-71c0BNhg&pp=ygUjT25pbXVzaGE6IFdheSBvZiB0aGUgU3dvcmQgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "ontos",
+    "title": "Ontos",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror", "Sci-Fi"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2924520/dd1c796f79fb070d3d6552003e008cfc1e5736ae/capsule_616x353.jpg?t=1765503452",
+    "description": "A philosophical first-person horror game exploring the nature of consciousness. Explore a surreal, shifting landscape that reacts to your thoughts and fears. The game features non-euclidean geometry and a mind-bending narrative.",
+    "trailer": "https://www.youtube.com/watch?v=aKSR5RIGmqQ&pp=ygUOT250b3MgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "orbitals",
+    "title": "Orbitals",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie", "Adventure"],
+    "platforms": ["Switch 2"],
+    "image": "https://gameinformer.com/sites/default/files/styles/content_header_l/public/2025/12/12/4a12ba10/orbitals_key_art_horizontal.jpg.webp",
+    "description": "A gravity-defying platformer where you jump between small planetoids. Use momentum and orbital mechanics to navigate treacherous space hazards. A colorful and challenging game with a unique traversal system.",
+    "trailer": "https://www.youtube.com/watch?v=QE1H2t3kQYA&pp=ygURT3JiaXRhbHMgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "order-of-the-sinking-star",
+    "title": "Order of the Sinking Star",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Puzzle"],
+    "platforms": ["PC"],
+    "image": "https://variety.com/wp-content/uploads/2025/12/OSS-KEY-ART-4K-e1765342209537.png",
+    "description": "A mystical puzzle game where you align stars to cast spells. Play as an astronomer trying to prevent a celestial catastrophe. The game features beautiful constellations and relaxing, atmospheric gameplay.",
+    "trailer": "https://www.youtube.com/watch?v=WypRrVplpao&pp=ygUiT3JkZXIgb2YgdGhlIFNpbmtpbmcgU3RhciAgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "outbound",
+    "title": "Outbound",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Simulation"],
+    "platforms": ["PlayStation", "Xbox", "Switch", "PC"],
+    "image": "https://img.youtube.com/vi/DeF8GzRdm24/maxresdefault.jpg",
+    "description": "A cozy camper-van exploration game. Build your own mobile home on wheels and travel across a futuristic utopian world. Generate your own energy, grow crops on the roof, and craft automation to make your journey comfortable.",
+    "trailer": "https://www.youtube.com/watch?v=buEiu331omI&pp=ygURT3V0Ym91bmQgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "out-of-words",
+    "title": "Out of Words",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202506/0619/c8ebe34de630eb722297d52c3ee0c8cf1225b8e33d67dfc0.png",
+    "description": "A narrative adventure where words are physical objects. Collect words from the environment and use them to complete sentences, solve puzzles, and influence the story. A unique game about the power of language and communication.",
+    "trailer": "https://www.youtube.com/watch?v=FTalnLsQUec&pp=ygUVIk91dCBvZiBXb3JkcyB0cmFpbGVy"
+  },
+  {
+    "id": "outward-2",
+    "title": "Outward 2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2849490/825ad8e7ab185b0e4476258051e46c1e3b51c69f/capsule_616x353.jpg?t=1769612171",
+    "description": "The sequel to the hardcore open-world RPG simulator. Outward 2 offers a more polished and expansive experience, challenging players to survive not just monsters, but the elements, hunger, and disease. No chosen one here, just an adventurer trying to survive.",
+    "trailer": "https://www.youtube.com/watch?v=5N927ghjhF8&pp=ygUUIk91dHdhcmQgMiIgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "path-of-mystery",
+    "title": "Path of Mystery: A Bruch With Death",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["Switch"],
+    "image": "https://www.aksysgames.com/pathofmystery/wp-content/uploads/sites/106/2025/10/PM_MAIN.png",
+    "description": "A hand-painted adventure game following a young artist who can bring her drawings to life. Solve creative puzzles and explore a whimsical world threatened by a creeping darkness known as 'The Blank'.",
+    "trailer": "https://www.youtube.com/watch?v=jw35zLCE0Io&pp=ygUsUGF0aCBvZiBNeXN0ZXJ5OiBBIEJydWNoIFdpdGggRGVhdGgiIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "planet-of-lana-2",
+    "title": "Planet of Lana 2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "PS4", "Xbox Series X|S", "Xbox One", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2997230/1d4097479477a29de0b6672df90fbbe86aeeaefc/capsule_616x353.jpg?t=1769612600",
+    "description": "Return to the stunning hand-painted world of Lana. This sequel expands the puzzle-platforming adventure with new companions and mechanics. Explore lush forests and alien machinery in a cinematic journey about harmony between nature and technology.",
+    "trailer": "https://www.youtube.com/watch?v=zoXqkNlf7f0&pp=ygUaICJQbGFuZXQgb2YgTGFuYSAyInRyYWlsZXI%3D"
+  },
+  {
+    "id": "port-of-jumanah",
+    "title": "Port of Jumanah",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2998920/87c3ae325f691735138c8eff4c2afa2702c05d8d/capsule_616x353.jpg?t=1769570172",
+    "description": "A trading simulation set in a mythical Arabian Nights-inspired setting. Captain a merchant ship, trade exotic spices and silks, and navigate the politics of the bustling Port of Jumanah. A game about commerce, diplomacy, and adventure.",
+    "trailer": "https://www.youtube.com/watch?v=EcDH8eoPN5k&pp=ygUaIFBvcnQgb2YgSnVtYW5haCIsIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "pvkk",
+    "title": "PVKK",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2956040/capsule_616x353.jpg?t=1757586776",
+    "description": "Planetenverteidigungskanonenkommandant (Planet Defense Cannon Commander). Manage a massive planetary defense cannon from inside its claustrophobic cockpit. Sip tea, push buttons, and wipe out alien fleets in this immersive and atmospheric simulation.",
+    "trailer": "https://www.youtube.com/watch?v=3jHKXl02LQ4&pp=ygUMIFBWS0t0cmFpbGVy"
+  },
+  {
+    "id": "quartermaster",
+    "title": "Quartermaster",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3657070/e536177e35a05c1c29458a15eb242919353d1563/capsule_616x353.jpg?t=1764340919",
+    "description": "A war game where you don't fight, you supply. Manage the logistics of a massive army campaign. Produce weapons, route supply lines, and ensure the soldiers on the front have food and ammo. A unique take on the strategy genre.",
+    "trailer": "https://www.youtube.com/watch?v=nzpTt-pw9uU&pp=ygUVUXVhcnRlcm1hc3RlciB0cmFpbGVy"
+  },
+  {
+    "id": "resonance-plague-tale",
+    "title": "Resonance: A Plague Tale Legacy",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2713000/56f8a90aaf16302209dd98ff4b67f11c839582ad/capsule_616x353.jpg?t=1764164868",
+    "description": "A spinoff of the acclaimed Plague Tale series. Set in a new era, explore the lingering effects of the Macula. Featuring new protagonists and stealth-focused gameplay, Resonance delves deeper into the supernatural history of the rat plague.",
+    "trailer": "https://www.youtube.com/watch?v=6lCzpRkoFjw&pp=ygUoIGVzb25hbmNlOiBBIFBsYWd1ZSBUYWxlIExlZ2FjeSIgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "road-truckers-new-beginning",
+    "title": "Road Truckers: New Beginning",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Simulation"],
+    "platforms": ["PC"],
+    "image": "https://cdn1.epicgames.com/spt-assets/9e6b87ab4ec7418c8076b89ef9d0556f/road-truckers-new-beginning-k7opf.jpg",
+    "description": "The ultimate trucking simulation reboot. Drive massive rigs across a seamless, 1:1 scale map of a fictional country. Manage your cargo, maintain your vehicle, and enjoy the zen of the open road with improved physics and graphics.",
+    "trailer": "https://www.youtube.com/watch?v=hb9biVh1nu8&pp=ygUjcm9hZCB0cnVja2VycyBuZXcgYmVnaW5uaW5nIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "sacrifire",
+    "title": "SacriFire",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG"],
+    "platforms": ["PC"],
+    "image": "https://games.london/wp-content/uploads/2024/03/Sacrifire-KeyArt_1980.jpg",
+    "description": "A modern RPG with a retro heart. SacriFire features a stunning 2.5D pixel art style and a combat system that blends real-time and turn-based action. Follow the story of Ezekiel, a young soldier trapped in a war between gods and demons.",
+    "trailer": "https://www.youtube.com/watch?v=zALolivnDG4&pp=ygUTICB0cmFpbGVyIFNhY3JpRmlyZQ%3D%3D"
+  },
+  {
+    "id": "sea-of-remnants",
+    "title": "Sea of Remnants",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "PC", "iOS", "Android"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3633680/3008e92cca50a2c59238843d356ef3f10bea03ee/capsule_616x353.jpg?t=1767879904",
+    "description": "An atmospheric exploration game set in a drowned world. Sail a solitary boat across a vast, quiet ocean, diving into ruins of skyscrapers to uncover the history of the fall. A contemplative game about isolation and discovery.",
+    "trailer": "https://www.youtube.com/watch?v=YiAOezHY_EE&pp=ygUbICB0cmFpbGVyIFNlYSBvZiBSZW1uYW50cyIs"
+  },
+  {
+    "id": "seina-tale-of-spirits",
+    "title": "Seina: A Tale of Spirits",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4119150/67e74a58ace06f424cec54f754211ca96191b7bb/capsule_616x353.jpg?t=1766839266",
+    "description": "A Ghibli-esque adventure game about a girl who can see spirits. Help lost souls find peace in a lush, magical forest. The game features non-violent gameplay focused on empathy, exploration, and helping others.",
+    "trailer": "https://www.youtube.com/watch?v=pEyZ4cT58Ik&pp=ygUkICB0cmFpbGVyIFNlaW5hOiBBIFRhbGUgb2YgU3Bpcml0cyIs"
+  },
+  {
+    "id": "shadowman-darque-legacy",
+    "title": "Shadowman: Darque Legacy",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Horror"],
+    "platforms": ["PS5", "Xbox Series X|S", "Xbox One", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1578870/header.jpg?t=1731023210",
+    "description": "The Shadowman returns to walk the line between Life and Deadside. This new action-horror game features brutal combat and dark voodoo magic. Protect humanity from the horrors of the underworld in a gritty, atmospheric adventure.",
+    "trailer": "https://www.youtube.com/watch?v=xHx0r7gb4_w&pp=ygUjICB0cmFpbGVyIFNoYWRvd21hbjogRGFycXVlIExlZ2FjeSI%3D"
+  },
+  {
+    "id": "shadow-of-the-road",
+    "title": "Shadow of the Road",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG", "Strategy"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1173980/142f8b900434cc620ecad6bcb4992c35393a150b/capsule_616x353.jpg?t=1764148343",
+    "description": "A tactical turn-based RPG set in a steampunk feudal Japan. Assemble a team of samurai, spies, and mechanized warriors. The game offers a rich story of honor and betrayal with deep strategic combat.",
+    "trailer": "https://www.youtube.com/watch?v=-LNlz9JQoL0&pp=ygUdICB0cmFpbGVyIFNoYWRvdyBvZiB0aGUgUm9hZCI%3D"
+  },
+  {
+    "id": "shipping-store-sim-2037",
+    "title": "Shipping Store Simulator 2037",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Simulation"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4098030/69232a2f668a1dd94a582fc00dd60064fbfc1792/capsule_616x353.jpg?t=1769695311",
+    "description": "Manage a futuristic logistics hub in this detailed simulation game. Sort packages, manage drone delivery fleets, and deal with demanding customers in a high-tech warehouse environment. Efficiency is key to success.",
+    "trailer": "https://www.youtube.com/watch?v=T1cjFUXUMj8&pp=ygUpICB0cmFpbGVyIFNoaXBwaW5nIFN0b3JlIFNpbXVsYXRvciAyMDM3IizSBwkJkQoBhyohjO8%3D"
+  },
+  {
+    "id": "silent-planet",
+    "title": "Silent Planet - Elegy of a Dying World",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2742920/320848df3250e33764bfb977ce0b791569aba698/capsule_616x353.jpg?t=1766415517",
+    "description": "A melancholic sci-fi exploration game. Wander the silent ruins of an alien civilization, piecing together their history through environmental storytelling. A game about loneliness, beauty, and the passage of time.",
+    "trailer": "https://www.youtube.com/watch?v=R7iLIx-cRrg&list=RDR7iLIx-cRrg&start_radio=1&pp=ygUyICB0cmFpbGVyIFNpbGVudCBQbGFuZXQgLSBFbGVneSBvZiBhIER5aW5nIFdvcmxkIiygBwE%3D"
+  },
+  {
+    "id": "silver-pines",
+    "title": "Silver Pines",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch", "PC"],
+    "image": "https://clan.akamai.steamstatic.com/images/45060161/cccb020104cbf93528815f7a4433585e799e3557_400x225.png",
+    "description": "A 2D survival horror game set in a mysterious 1980s summer camp. Scavenge for resources, hide from a masked killer, and uncover the dark secrets of the woods. The game features a retro pixel art style and intense stealth gameplay.",
+    "trailer": "https://www.youtube.com/watch?v=y_PVwrQivKE&pp=ygUYICB0cmFpbGVyICIiU2lsdmVyIFBpbmVz"
+  },
+  {
+    "id": "slay-the-spire-2-ea",
+    "title": "Slay the Spire 2 early access",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Roguelike", "Card Game"],
+    "platforms": ["PC"],
+    "image": "https://www.megacrit.com/images/sts2_key_art_16x9_no_logo.png",
+    "description": "The king of deckbuilding roguelikes returns. Slay the Spire 2 introduces new characters, mechanics, and enemies. Build powerful decks, discover game-breaking synergies, and climb the Spire once again in this highly anticipated sequel.",
+    "trailer": "https://www.youtube.com/watch?v=ttVtllHkb4E&pp=ygUQc2xheSB0aGUgc3BpcmUgMg%3D%3D"
+  },
+  {
+    "id": "squadron-42",
+    "title": "Squadron 42",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Sci-Fi", "Action"],
+    "platforms": ["PC"],
+    "image": "https://assetsio.gnwcdn.com/ar3me1.jpg?width=1200\u0026height=600\u0026fit=crop\u0026enable=upscale\u0026auto=webp",
+    "description": "The massive single-player campaign set in the Star Citizen universe. Featuring a star-studded cast including Mark Hamill and Gary Oldman, Squadron 42 offers a cinematic space combat experience with cutting-edge visuals and seamless transitions between space and ground.",
+    "trailer": "https://www.youtube.com/watch?v=ki0aKYyFUBc&pp=ygUWICB0cmFpbGVyICJTcXVhZHJvbiA0Mg%3D%3D"
+  },
+  {
+    "id": "springs-eternal",
+    "title": "Springs, Eternal",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3677850/961791a2694f0d4160a03425722fbe4c27709e8c/capsule_616x353.jpg?t=1765218926",
+    "description": "A management sim about running a mystical hot spring for spirits. Build baths, brew teas, and ensure your ghostly guests are relaxed. A soothing game with a charming art style and low-stakes gameplay.",
+    "trailer": "https://www.youtube.com/watch?v=CRVYKCx2KBA&pp=ygUaICB0cmFpbGVyIFNwcmluZ3MsIEV0ZXJuYWw%3D"
+  },
+  {
+    "id": "starship-troopers-ultimate-war",
+    "title": "Starship Troopers: Ultimate Bug War",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2321780/0b325213367f79f20c0bd45a75663454cbaa976a/capsule_616x353.jpg?t=1769614683",
+    "description": "The only good bug is a dead bug! Join the Mobile Infantry in this large-scale shooter. Fight against thousands of Arachnids on screen simultaneously using advanced weaponry and base-building mechanics.",
+    "trailer": "https://www.youtube.com/watch?v=MZyCsgLG_NE&pp=ygUuICB0cmFpbGVyIFN0YXJzaGlwIFRyb29wZXJzOiBVbHRpbWF0ZSBCdWcgV2FyIg%3D%3D"
+  },
+  {
+    "id": "star-wars-galactic-racer",
+    "title": "Star Wars: Galactic Racer",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Racing"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://wearesecretmode.com/media/Games/SWGR/Star%20Wars%20Galactic%20Racer%20Key%20Art.png",
+    "description": "Podracing returns in a high-speed arcade racer. Build your own pod, race across iconic Star Wars planets, and dodge obstacles at breakneck speeds. The game features a career mode and competitive online multiplayer.",
+    "trailer": "https://www.youtube.com/watch?v=RiavNl4qxWY&pp=ygUjICB0cmFpbGVyIFN0YXIgV2FyczogR2FsYWN0aWMgUmFjZXI%3D"
+  },
+  {
+    "id": "star-wars-zero-company",
+    "title": "Star Wars: Zero Company",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2075800/f1ac3c2a95d368247cd753b2a03aaa4986434423/capsule_616x353.jpg?t=1745411380",
+    "description": "A gritty tactical shooter focusing on a squad of non-clone troopers during the Clone Wars. Complete dangerous missions behind enemy lines without the support of the Jedi. A darker, more grounded take on the Star Wars galaxy.",
+    "trailer": "https://www.youtube.com/watch?v=rcxnRaZ6slU&pp=ygUhICB0cmFpbGVyIFN0YXIgV2FyczogWmVybyBDb21wYW55"
+  },
+  {
+    "id": "stupid-never-dies",
+    "title": "Stupid Never Dies",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PS5", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3486530/1f7cf71ba7e1f48fd189f8b157a3c95c60625af5/capsule_616x353.jpg?t=1765500955",
+    "description": "A slapstick physics platformer where death is part of the puzzle. Hurl your ragdoll character into traps, spikes, and explosions to create platforms for your next life. A hilarious game about failing forward.",
+    "trailer": "https://www.youtube.com/watch?v=4udcR2LBKlk&pp=ygUZU3R1cGlkIE5ldmVyIERpZXMgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "subnautica-2-ea",
+    "title": "Subnautica 2 early access",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Survival"],
+    "platforms": ["Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1962700/ceed43f5d774d84a5578eccaaec6842cb9591667/capsule_616x353.jpg?t=1767836238",
+    "description": "Dive into a new alien ocean in the sequel to the hit survival game. Subnautica 2 introduces co-op gameplay, deeper depths, and terrifying new leviathans. Explore vivid biomes, build underwater bases, and uncover the secrets of the planet.",
+    "trailer": "https://www.youtube.com/watch?v=oK5Nr1VtJ9Q&pp=ygUjU3VibmF1dGljYSAyIGVhcmx5IGFjY2VzcyIsIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "sudden-strike-5",
+    "title": "Sudden Strike 5",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Strategy"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://www.dsogaming.com/wp-content/uploads/2025/07/Sudden-Strike-5-feature.jpg",
+    "description": "The classic RTS series returns with huge WWII battles. Command massive armies with realistic vehicle damage and tactical depth. Sudden Strike 5 focuses on strategic positioning and resource management in dynamic battlefields.",
+    "trailer": "https://www.youtube.com/watch?v=lbi2hOAE-9I&pp=ygUZU3VkZGVuIFN0cmlrZSA1IiwgdHJhaWxlcg%3D%3D"
+  },
+  {
+    "id": "smb-wonder-s2",
+    "title": "Super Mario Bros. Wonder - Nintendo Switch 2 Edition + Meetup in Ballabel Park",
+    "releaseDate": "2026-03-26T00:00:00",
+    "genres": ["Platformer"],
+    "platforms": ["Switch 2"],
+    "image": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch2/70010000115567/901218f8b149d63c90c125a3969db5f6d06f3a7cc649300b3e788116a21a84cd",
+    "description": "The definitive version of the hit platformer, enhanced for Nintendo Switch 2. Enjoy 4K visuals, new Wonder Effects, and an exclusive new world, 'Ballabel Park'. This edition brings even more creativity and chaos to the Mushroom Kingdom.",
+    "trailer": "https://www.youtube.com/watch?v=hQNAdzmlauc&pp=ygVZU3VwZXIgTWFyaW8gQnJvcy4gV29uZGVyIC0gTmludGVuZG8gU3dpdGNoIDIgRWRpdGlvbiArIE1lZXR1cCBpbiBCYWxsYWJlbCBQYXJrIiwgIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "super-meat-boy-3d",
+    "title": "Super Meat Boy 3D",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Platformer"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3288210/76fa93f30f7ed4b8a3dee972a7fea7de5a9e53eb/page_bg_raw.jpg?t=1769186349",
+    "description": "Team Meat brings their punishing platformer into the third dimension. Run, jump, and die in deviously designed 3D levels. The game retains the tight controls and instant respawns of the original while adding new spatial challenges.",
+    "trailer": "https://www.youtube.com/watch?v=MtXRCarKd9A&pp=ygUbU3VwZXIgTWVhdCBCb3kgM0QiICB0cmFpbGVy"
+  },
+  {
+    "id": "elliot-millennium-tales",
+    "title": "The Adventures of Elliot: The Millennium Tales",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "Switch 2", "PC"],
+    "image": "https://fyre.cdn.sewest.net/taoetmt/609a521e5bac890012088fd3/taoetmt-1920x1080-70171619384347093.jpg",
+    "description": "A grand fantasy adventure following Elliot, a young hero destined to save the millennium. Explore a vibrant world, solve dungeon puzzles, and battle monsters in real-time combat. A heartfelt tribute to classic 3D adventure games.",
+    "trailer": "https://www.youtube.com/watch?v=u-zycj_tJgo&pp=ygU1dGhlIGFkdmVudHVyZXMgb2YgZWxsaW90IHRoZSBtaWxsZW5uaXVtIHRhbGVzIHRyYWlsZXI%3D"
+  },
+  {
+    "id": "alighieri-circle",
+    "title": "The Alighieri Circle: Dante's Bloodline",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "RPG"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4262620/4a796c14a5039849088986e01d7b87d4cf01e1c6/capsule_616x353.jpg?t=1769638768",
+    "description": "A dark action RPG loosely based on Dante's Inferno. Play as a descendant of Dante traveling through a modern interpretation of the nine circles of hell. Fight demons with holy magic and uncover a conspiracy spanning centuries.",
+    "trailer": "https://www.youtube.com/watch?v=cS6PTKRdkuk&pp=ygUwdHJhaWxlciBUaGUgQWxpZ2hpZXJpIENpcmNsZTogRGFudGUncyBCbG9vZGxpbmUi"
+  },
+  {
+    "id": "the-backworld",
+    "title": "The Backworld",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1871640/e0125540c16ef7d40180dbfc296ea831e8d6d05e/capsule_616x353.jpg?t=1765950477",
+    "description": "A liminal space exploration game. Wander through endless, empty hallways, abandoned malls, and surreal office spaces. The game focuses on atmosphere and the unsettling feeling of nostalgia and isolation.",
+    "trailer": "https://www.youtube.com/watch?v=dVTDbph_MfE&pp=ygUWdHJhaWxlciBUaGUgQmFja3dvcmxkIg%3D%3D"
+  },
+  {
+    "id": "blood-of-dawnwalker",
+    "title": "The Blood of Dawnwalker",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3751260/b5a85a6bb1c4a60a28535d421bdd368f86c58437/capsule_616x353.jpg?t=1769700540",
+    "description": "A vampire hunting action game set in a steampunk Victorian London. Use a variety of gadgets and supernatural abilities to hunt down elder vampires. The game features fast, stylish combat and a dark, immersive world.",
+    "trailer": "https://www.youtube.com/watch?v=te73UInH8H8&pp=ygUfdHJhaWxlciBUaGUgQmxvb2Qgb2YgRGF3bndhbGtlcg%3D%3D"
+  },
+  {
+    "id": "dungeon-experience",
+    "title": "The Dungeon Experience",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG", "Comedy"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/994680/a5eada6f0a1c3dd71bfc36e3244be2119109ceea/capsule_616x353.jpg?t=1769521563",
+    "description": "A first-person comedy adventure where you visit a dungeon theme park run by a level 1 goblin. Participate in 'quests', meet the 'monsters', and uncover the absurdity of RPG tropes in this hilarious narrative game.",
+    "trailer": "https://www.youtube.com/watch?v=jiO5wOaxZDQ&pp=ygUedHJhaWxlciBUaGUgRHVuZ2VvbiBFeHBlcmllbmNl"
+  },
+  {
+    "id": "the-duskbloods",
+    "title": "The Duskbloods",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action RPG"],
+    "platforms": ["Switch 2"],
+    "image": "https://preview.redd.it/the-duskbloods-is-making-me-feel-like-who-didnt-have-a-v0-3lzv69pbx9df1.jpeg?width=640\u0026crop=smart\u0026auto=webp\u0026s=8a940eb44d33e7177c8d67711ac0a95518e5aad7",
+    "description": "An open-world RPG set in a world of eternal twilight. Join a clan of monster hunters protecting humanity from the creatures of the dark. Features dynamic combat, deep crafting, and a reactive world that changes based on your actions.",
+    "trailer": "https://www.youtube.com/watch?v=4sVaMEakKoM&pp=ygUWdHJhaWxlciBUaGUgRHVza2Jsb29kcw%3D%3D"
+  },
+  {
+    "id": "mound-omen-cthulu",
+    "title": "The Mound: Omen of Cthulu",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2569760/2df13435535b798ed68276cf20e0a92ac3397762/capsule_616x353.jpg?t=1764234512",
+    "description": "A survival horror game based on the works of H.P. Lovecraft. Explore an archaeological dig site in the desert where an ancient evil is stirring. Manage your resources and sanity as you descend deeper into the earth.",
+    "trailer": "https://www.youtube.com/watch?v=lEXON1oJmWA&pp=ygUhdHJhaWxlciBUaGUgTW91bmQ6IE9tZW4gb2YgQ3RodWx1"
+  },
+  {
+    "id": "the-occultist",
+    "title": "The Occultist",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2092840/4d554a09b2a055c36c6fac33c319191fb52c4cb2/header.jpg?t=1768309927",
+    "description": "Play as Alan Rebels, an occult investigator searching for his missing father on a cursed island. Use your spectral pendulum to communicate with the dead and manipulate the environment. A first-person horror game focused on investigation and atmosphere.",
+    "trailer": "https://www.youtube.com/watch?v=cvD76zgljNY&pp=ygUVdHJhaWxlciBUaGUgT2NjdWx0aXN00gcJCZEKAYcqIYzv"
+  },
+  {
+    "id": "sinking-city-2",
+    "title": "The Sinking City 2",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Horror", "Adventure"],
+    "platforms": ["PC"],
+    "image": "https://cdn1.epicgames.com/spt-assets/bc8e19c5111e4088aa6752fc651945f9/the-sinking-city-2-1dpiy.jpg",
+    "description": "Frogwares returns to their Lovecraftian world in this survival horror sequel. Explore the flooded city of Arkham in the 1920s, battling eldritch monsters and solving mysteries. This entry shifts focus towards intense combat and survival mechanics.",
+    "trailer": "https://www.youtube.com/watch?v=8Hi78PvY2M8&pp=ygUbdHJhaWxlciBUaGUgU2lua2luZyBDaXR5IDIi0gcJCZEKAYcqIYzv"
+  },
+  {
+    "id": "thick-as-thieves",
+    "title": "Thick as Thieves",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Indie"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3341000/15e1acec5e863e8f237838a6f88ce24bc44cc9e3/capsule_616x353.jpg?t=1755594373",
+    "description": "A co-op heist game about a pair of clumsy burglars. Plan intricate robberies, avoid security systems, and improvise when everything inevitably goes wrong. A game that balances tension with slapstick comedy.",
+    "trailer": "https://www.youtube.com/watch?v=GZqAHmChxIE&pp=ygUZdHJhaWxlciBUaGljayBhcyBUaGlldmVzIg%3D%3D"
+  },
+  {
+    "id": "titan-quest-2-v1",
+    "title": "Titan Quest 2 1.0 version",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["ARPG"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1154030/capsule_616x353.jpg?t=1764837838",
+    "description": "The legendary ARPG returns. Battle mythological beasts in ancient Greece as you face the Goddess of Retribution, Nemesis. Create your own hero with a flexible class system and collect epic loot in a handcrafted open world.",
+    "trailer": "https://www.youtube.com/watch?v=-Vt81WJkGLs&pp=ygUhdHJhaWxlciBUaXRhbiBRdWVzdCAyIDEuMCB2ZXJzaW9u"
+  },
+  {
+    "id": "tomb-raider-legacy-atlantis",
+    "title": "Tomb Raider: Legacy of Atlantis",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3558670/18e4755e24df05a0de0672d32b9e859fb87af3b1/capsule_616x353.jpg?t=1765564329",
+    "description": "Lara Croft embarks on a new expedition to find the lost city of Atlantis. This unified timeline adventure combines the grittiness of the survivor trilogy with the acrobatic flair of the classics. Solve complex tombs and fight enemies in exotic locations.",
+    "trailer": "https://www.youtube.com/watch?v=n6JxVxSHjqE&pp=ygUodHJhaWxlciBUb21iIFJhaWRlcjogTGVnYWN5IG9mIEF0bGFudGlzIg%3D%3D"
+  },
+  {
+    "id": "ungodly",
+    "title": "UnGodly",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["iOS", "Android", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3595350/565895e916363d0c2f48673a4a66835a4e0de9d5/capsule_616x353.jpg?t=1768439714",
+    "description": "A boss-rush action game where you fight literal gods. Use skill, timing, and pattern recognition to defeat colossal deities from various mythologies. A challenging experience designed for quick, intense sessions.",
+    "trailer": "https://www.youtube.com/watch?v=BdmpbND9yHo&pp=ygUPdHJhaWxlciBVbkdvZGx5"
+  },
+  {
+    "id": "valor-mortis",
+    "title": "Valor Mortis",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5", "Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2828710/5f97602e3b39b9ec219f94469529404cdb19d66d/capsule_616x353.jpg?t=1763848508",
+    "description": "A tactical medieval extraction game. Enter a plague-ridden city to loot treasure and escape before the bells toll. Fight other players and AI guards in brutal melee combat where armor and stamina management are crucial.",
+    "trailer": "https://www.youtube.com/watch?v=_kxjGXZ7Bv8&pp=ygUUdHJhaWxlciBWYWxvciBNb3J0aXM%3D"
+  },
+  {
+    "id": "wabisabi-sushiderby",
+    "title": "Wabisabi SushiDerby",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Simulation", "Indie"],
+    "platforms": ["Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4113050/a9395e017e4ccad2bbc20bf9958f3f45161bf229/capsule_616x353.jpg?t=1764384688",
+    "description": "A cute simulation game where you raise sushi ingredients like racehorses. Train your tuna, salmon, and shrimp to win the Sushi Derby. A bizarre yet charming mix of pet raising and racing simulation.",
+    "trailer": "https://www.youtube.com/watch?v=KOsjLrTehew&pp=ygUddHJhaWxlciBXYWJpc2FiaSBTdXNoaURlcmJ5Iiw%3D"
+  },
+  {
+    "id": "warhammer-survivors",
+    "title": "Warhammer Survivors",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3669620/551bc7d10ffe0dab2dceeb6add75cf47a2e4d8ac/capsule_616x353.jpg?t=1768567397",
+    "description": "A 'bullet heaven' survivor game set in the Warhammer 40k universe. Play as a Space Marine mowing down endless hordes of Tyranids and Orks. Unlock iconic weapons and upgrades to become an unstoppable force of the Emperor.",
+    "trailer": "https://www.youtube.com/watch?v=WODiRnsHQYk&pp=ygUedHJhaWxlciAiV2FyaGFtbWVyIFN1cnZpdm9ycyIs"
+  },
+  {
+    "id": "wax-heads",
+    "title": "Wax Heads",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["Xbox Series X|S", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2769240/capsule_616x353.jpg?t=1768484114",
+    "description": "A narrative puzzle game where you run a struggling record store. Organize vinyl, recommend music to quirky customers, and solve mysteries hidden in the album art. A love letter to physical media and music culture.",
+    "trailer": "https://www.youtube.com/watch?v=FOacQhVbZKo&pp=ygURdHJhaWxlciBXYXggSGVhZHPSBwkJkQoBhyohjO8%3D"
+  },
+  {
+    "id": "well-keeper",
+    "title": "Well Keeper",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3365940/33d89ab3a5a3c3d3b4bfd880c03473fb689b0924/capsule_616x353.jpg?t=1769167692",
+    "description": "A roguelike defense game where you protect a village's only water source. Build defenses during the day and fight off monsters at night. Venture into the well to find resources and uncover the source of the corruption.",
+    "trailer": "https://www.youtube.com/watch?v=1Ah3QzIiX0I&pp=ygUZdHJhaWxlciBXZWxsIEtlZXBlciAgZ2FtZdIHCQmRCgGHKiGM7w%3D%3D"
+  },
+  {
+    "id": "witchbrook",
+    "title": "Witchbrook",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Simulation", "RPG"],
+    "platforms": ["Xbox", "Switch", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1846700/126c93184c96f906343670a1dc3442278eb9f007/capsule_616x353.jpg?t=1768480536",
+    "description": "A magical school life simulator from Chucklefish. Attend classes, learn spells, grow magical crops, and build relationships with fellow students and townsfolk. A charming pixel-art game often described as Stardew Valley meets Harry Potter.",
+    "trailer": "https://www.youtube.com/watch?v=ZWDGCwFZMbk&pp=ygUSdHJhaWxlciBXaXRjaGJyb29r0gcJCZEKAYcqIYzv"
+  },
+  {
+    "id": "worlds-explorers",
+    "title": "Worlds Explorers",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Adventure"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3133600/7ffefc21f89f0da4d337b24d97b063bdba18fc46/capsule_616x353.jpg?t=1768990062",
+    "description": "A procedural exploration game focused on discovery. Pilot a spaceship to uncharted planets, catalogue alien flora and fauna, and build outposts. The game emphasizes peaceful exploration and scientific discovery over combat.",
+    "trailer": "https://www.youtube.com/watch?v=UpqWIfBfHmM&pp=ygUZdHJhaWxlciBXb3JsZHMgRXhwbG9yZXJzIg%3D%3D"
+  },
+  {
+    "id": "wwe-2k26",
+    "title": "WWE 2K26",
+    "releaseDate": "2026-03-12T00:00:00",
+    "genres": ["Sports"],
+    "platforms": ["TBA"],
+    "image": "https://411mania.com/wp-content/uploads/2026/01/CM-Punk-WWE-2K26-645x370.jpg",
+    "description": "Step inside the ring with the most realistic wrestling game ever made. WWE 2K26 features an updated roster of Superstars, improved physics, and new match types. MyGM and Universe modes receive significant overhauls for more control over your wrestling empire.",
+    "trailer": "https://www.youtube.com/watch?v=oYd6rXOrz7E&pp=ygURdHJhaWxlciBXV0UgMksyNiI%3D"
+  },
+  {
+    "id": "yoshi-mysterious-book",
+    "title": "Yoshi and the Mysterious Book",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Platformer"],
+    "platforms": ["Switch 2"],
+    "image": "https://www.sidequesting.com/wp-content/uploads/yoshi-mysterious-book-logo-scaled.jpg",
+    "description": "Yoshi stars in a new pop-up book adventure. The world is made of papercraft and cardboard, allowing Yoshi to fold and tear the environment to solve puzzles. A delightful platformer with a unique aesthetic perfect for the new Nintendo console.",
+    "trailer": "https://www.youtube.com/watch?v=UgUpAipoOzs&pp=ygUmdHJhaWxlcllvc2hpIGFuZCB0aGUgTXlzdGVyaW91cyBCb29rIiA%3D"
+  },
+  {
+    "id": "ys-memoire-celceta",
+    "title": "Ys Memoire: Revelations in Celceta",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["JRPG"],
+    "platforms": ["Switch"],
+    "image": "https://a.storyblok.com/f/178900/960x540/033abd3b7c/ysmc_keyvisual_horizontal.jpg/m/filters:quality(95)format(webp)",
+    "description": "A remastered version of the beloved action RPG Ys: Memories of Celceta. Explore the Great Forest of Celceta with Adol Christin, mapping the uncharted wilderness and recovering his lost memories. Features high-definition visuals and optimized controls.",
+    "trailer": "https://www.youtube.com/watch?v=vWqxCnLRPvo&pp=ygUrdHJhaWxlciBZcyBNZW1vaXJlOiBSZXZlbGF0aW9ucyBpbiBDZWxjZXRhIg%3D%3D"
+  },
+  {
+    "id": "yunyun-syndrome",
+    "title": "Yunyun Syndrome!? Rhythm Psychosis",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Music", "Indie"],
+    "platforms": ["PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2914150/b1c32284124f2c3b968ade703704d18ce1476100/capsule_616x353.jpg?t=1764653002",
+    "description": "A frantic rhythm game about a fan obsessed with an idol group. Tap to the beat of high-energy denpa songs while navigating a bizarre and humorous storyline. The game features challenging charts and a colorful, chaotic anime aesthetic.",
+    "trailer": "https://www.youtube.com/watch?v=Aa7whdmPEkI&pp=ygUqdHJhaWxlciBZdW55dW4gU3luZHJvbWUhPyBSaHl0aG0gUHN5Y2hvc2lz"
+  },
+  {
+    "id": "zero-parades",
+    "title": "Zero Parades",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Indie"],
+    "platforms": ["PS5", "PC"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2863680/e57a9270fe45dd95208a5766c8e607bf4dd94050/capsule_616x353.jpg?t=1765027934",
+    "description": "A surreal exploration game set in a never-ending parade. Walk through strange, dreamlike environments filled with bizarre floats and characters. A unique audio-visual experience that explores themes of celebration and emptiness.",
+    "trailer": "https://www.youtube.com/watch?v=p-toDEv6n_Q&pp=ygUUdHJhaWxlclplcm8gUGFyYWRlcyA%3D"
+  }
+]

@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-COUNT | Gaming Countdown</title>
+    <meta name="description" content="G-COUNT is the ultimate destination for tracking upcoming video game releases. Get countdowns, trailers, and details for the most anticipated games of 2026 and beyond.">
+    <meta name="keywords" content="video games, game release dates, countdown, new games 2026, ps5 games, xbox games, pc games, switch 2, g-count">
+    <meta name="author" content="G-COUNT">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://g-count.com/">
+    <meta property="og:title" content="G-COUNT | Next Gen Gaming Countdown">
+    <meta property="og:description" content="Track the biggest upcoming video game releases. Countdowns, trailers, and more.">
+    <meta property="og:image" content="logo-g.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://g-count.com/">
+    <meta property="twitter:title" content="G-COUNT | Next Gen Gaming Countdown">
+    <meta property="twitter:description" content="Track the biggest upcoming video game releases. Countdowns, trailers, and more.">
+    <meta property="twitter:image" content="logo-g.png">
+
+    <link rel="icon" type="image/png" href="logo-g.png">
+    <!-- React & Babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useMemo } = React;
+
+        // --- UTILS ---
+        const isTBA = (dateStr) => {
+            return !dateStr || dateStr.includes("-00-") || new Date(dateStr).toString() === 'Invalid Date';
+        };
+
+        const formatDate = (dateStr) => {
+            if (isTBA(dateStr)) return "TBA 2026";
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const d = new Date(dateStr);
+            return d.toLocaleDateString('en-US', options);
+        };
+
+        const calculateTimeLeft = (targetDate) => {
+            if (isTBA(targetDate)) return { isTBA: true };
+
+            const difference = +new Date(targetDate) - +new Date();
+            if (difference > 0) {
+                return {
+                    days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+                    hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+                    mins: Math.floor((difference / 1000 / 60) % 60),
+                    secs: Math.floor((difference / 1000) % 60),
+                    hasPassed: false
+                };
+            }
+            return { days: 0, hours: 0, mins: 0, secs: 0, hasPassed: true };
+        };
+
+        // --- COMPONENTS ---
+
+        const Navbar = () => (
+            <nav className="navbar">
+                <a href="#" className="logo">
+                    G-COUNT
+                </a>
+            </nav>
+        );
+
+        const CountdownDisplay = ({ targetDate, type = 'hero' }) => {
+            const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(targetDate));
+
+            useEffect(() => {
+                const timer = setInterval(() => {
+                    setTimeLeft(calculateTimeLeft(targetDate));
+                }, 1000);
+                return () => clearInterval(timer);
+            }, [targetDate]);
+
+            // TBA State
+            if (timeLeft.isTBA) return <span style={{color: 'var(--text-secondary)', fontWeight: 'bold', fontSize: type === 'hero' ? '2rem' : (type === 'modal' ? '1.5rem' : '1.2rem'), letterSpacing: '2px', display: 'block'}}>DATE TBA</span>;
+
+            // Passed State (Days Ago)
+            if (timeLeft.hasPassed) {
+                const diff = +new Date() - +new Date(targetDate);
+                const daysAgo = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const text = daysAgo === 0 ? "RELEASED TODAY" : `${daysAgo} DAYS AGO`;
+                return <span style={{color: 'var(--primary)', fontWeight: 'bold', fontSize: type === 'modal' ? '1.2rem' : '1rem'}}>{text}</span>;
+            }
+
+            if (type === 'hero' || type === 'modal') {
+                return (
+                    <div className={`hero-countdown ${type === 'modal' ? 'modal-countdown' : ''}`}>
+                        <div className="countdown-unit">
+                            <span className="countdown-val">{timeLeft.days}</span>
+                            <span className="countdown-label">DAYS</span>
+                        </div>
+                        <div className="countdown-unit">
+                            <span className="countdown-val">{timeLeft.hours}</span>
+                            <span className="countdown-label">HRS</span>
+                        </div>
+                        <div className="countdown-unit">
+                            <span className="countdown-val">{timeLeft.mins}</span>
+                            <span className="countdown-label">MIN</span>
+                        </div>
+                        <div className="countdown-unit">
+                            <span className="countdown-val">{timeLeft.secs}</span>
+                            <span className="countdown-label">SEC</span>
+                        </div>
+                    </div>
+                );
+            }
+
+            // Mini card version
+            return (
+                <div className="card-countdown">
+                    <div className="mini-unit">
+                        <span className="mini-val">{timeLeft.days}</span>
+                        <span className="mini-label">D</span>
+                    </div>
+                    <div className="mini-unit">
+                        <span className="mini-val">{timeLeft.hours}</span>
+                        <span className="mini-label">H</span>
+                    </div>
+                    <div className="mini-unit">
+                        <span className="mini-val">{timeLeft.mins}</span>
+                        <span className="mini-label">M</span>
+                    </div>
+                    <div className="mini-unit">
+                        <span className="mini-val">{timeLeft.secs}</span>
+                        <span className="mini-label">S</span>
+                    </div>
+                </div>
+            );
+        };
+
+        const GameModal = ({ game, onClose }) => {
+            if (!game) return null;
+
+            const [isPlaying, setIsPlaying] = useState(false);
+
+            useEffect(() => {
+                setIsPlaying(false);
+            }, [game]);
+
+            useEffect(() => {
+                const handleEsc = (e) => {
+                    if (e.key === 'Escape') onClose();
+                };
+                window.addEventListener('keydown', handleEsc);
+                document.body.style.overflow = 'hidden'; // Lock scroll
+                // Refresh icons
+                lucide.createIcons();
+                
+                return () => {
+                    window.removeEventListener('keydown', handleEsc);
+                    document.body.style.overflow = 'unset'; // Unlock scroll
+                };
+            }, [onClose]);
+
+            // Parse Trailer
+            const getYoutubeId = (url) => {
+                if (!url) return null;
+                const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+                const match = url.match(regExp);
+                return (match && match[2].length === 11) ? match[2] : null;
+            };
+            const videoId = getYoutubeId(game.trailer);
+
+            return (
+                <div className="modal-overlay" onClick={onClose}>
+                    <div className="modal-content" onClick={e => e.stopPropagation()}>
+                        <button className="modal-close" onClick={onClose}>
+                            <i data-lucide="x"></i>
+                        </button>
+                        
+                        <div className="modal-media">
+                            {videoId && isPlaying ? (
+                                <iframe 
+                                    width="100%" 
+                                    height="100%" 
+                                    src={`https://www.youtube.com/embed/${videoId}?autoplay=1`} 
+                                    title={game.title} 
+                                    frameBorder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowFullScreen
+                                ></iframe>
+                            ) : (
+                                <div style={{position: 'relative', width: '100%', height: '100%'}} onClick={() => videoId && setIsPlaying(true)}>
+                                    <img src={game.image} alt={game.title} className="modal-img" />
+                                    {videoId && (
+                                        <div className="play-overlay">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="white" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="play-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                        </div>
+                                    )}
+                                </div>
+                            )}
+                        </div>
+
+                        <div className="modal-body">
+                            <div className="modal-header">
+                                <div>
+                                    <h2 className="modal-title">{game.title}</h2>
+                                    <div style={{color: 'var(--primary)', marginTop: '0.5rem', fontWeight: 'bold', fontSize: '1.2rem', textTransform: 'uppercase'}}>
+                                        {game.releaseDate && new Date(game.releaseDate).getFullYear() === 2026 && (!game.releaseDate.includes('T') || game.releaseDate.includes('00-00')) 
+                                            ? 'TBA 2026' 
+                                            : new Date(game.releaseDate).toLocaleDateString('en-US', {weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'})}
+                                    </div>
+                                </div>
+                                <div className="modal-countdown-wrapper">
+                                     <CountdownDisplay targetDate={game.releaseDate} type="modal" />
+                                </div>
+                            </div>
+
+                            <div className="modal-meta-grid">
+                                <div className="meta-item">
+                                    <h4>Platforms</h4>
+                                    <div className="meta-tags">
+                                        {game.platforms && game.platforms.map(p => <span key={p} className="meta-tag">{p}</span>)}
+                                    </div>
+                                </div>
+                                <div className="meta-item">
+                                    <h4>Genres</h4>
+                                    <div className="meta-tags">
+                                        {game.genres && game.genres.map(g => <span key={g} className="meta-tag">{g}</span>)}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="modal-description">
+                                <h3>About</h3>
+                                <p>{game.description || "No description available yet."}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        const HeroGrid = ({ topGames, onGameClick }) => {
+            if (!topGames || topGames.length < 5) return null;
+
+            const mainGame = topGames[0];
+            const secondaryGames = topGames.slice(1, 5); 
+
+            return (
+                <div className="hero-section" id="featured">
+                    <div className="hero-item main" onClick={() => onGameClick(mainGame)}>
+                        <img src={mainGame.image} alt={mainGame.title} className="hero-bg" />
+                        <div className="hero-overlay">
+                            <div className="hero-badge">MOST ANTICIPATED</div>
+                            <h1 className="hero-title">{mainGame.title}</h1>
+                            <p style={{color: '#ddd', fontSize: '1.2rem'}}>{formatDate(mainGame.releaseDate)}</p>
+                            <CountdownDisplay targetDate={mainGame.releaseDate} type="hero" />
+                        </div>
+                    </div>
+
+                    {secondaryGames.map((game, index) => (
+                        <div key={game.id} className="hero-item secondary" onClick={() => onGameClick(game)}>
+                            <img src={game.image} alt={game.title} className="hero-bg" />
+                            <div className="hero-overlay">
+                                <h2 className="hero-title">{game.title}</h2>
+                                <p style={{color: '#ddd', fontSize: '0.9rem'}}>{formatDate(game.releaseDate)}</p>
+                                <CountdownDisplay targetDate={game.releaseDate} type="hero" /> 
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            );
+        };
+
+        const GameCard = ({ game, onClick }) => (
+            <div className="game-card" onClick={() => onClick(game)}>
+                <div className="card-image-wrapper">
+                    <img src={game.image} alt={game.title} className="card-image" />
+                </div>
+                <div className="card-content">
+                    <div>
+                        <div className="card-meta">
+                            <span className="card-date-text">{formatDate(game.releaseDate)}</span>
+                            {/* Display first genre only for space */}
+                            <span className="card-genre">{game.genres ? game.genres[0] : 'Game'}</span>
+                        </div>
+                        <h3 className="card-title">{game.title}</h3>
+                    </div>
+                    <CountdownDisplay targetDate={game.releaseDate} type="card" />
+                </div>
+            </div>
+        );
+
+        const Carousel = ({ title, games, id, onGameClick }) => {
+            if (!games || games.length === 0) return null;
+            return (
+                <div className="section" id={id}>
+                    <h2>{title}</h2>
+                    <div className="carousel-container">
+                        {games.map(game => (
+                            <GameCard key={game.id} game={game} onClick={onGameClick} />
+                        ))}
+                    </div>
+                </div>
+            );
+        };
+
+        const Footer = () => (
+            <footer className="footer">
+                <p>&copy; 2026 G-COUNT. All rights reserved.</p>
+                <p>Designed by Deepmind Advanced Coding Agent</p>
+            </footer>
+        );
+
+        // --- MAIN APP ---
+        const App = () => {
+            const [gamesData, setGamesData] = useState([]);
+            const [loading, setLoading] = useState(true);
+            const [selectedGame, setSelectedGame] = useState(null);
+            
+            // Search & Filter State
+            const [searchTerm, setSearchTerm] = useState("");
+            const [selectedGenre, setSelectedGenre] = useState("All");
+            const [selectedPlatform, setSelectedPlatform] = useState("All");
+
+            // Fetch data from games.json
+            useEffect(() => {
+                fetch('games.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        setGamesData(data);
+                        setLoading(false);
+                    })
+                    .catch(err => console.error("Error loading games:", err));
+            }, []);
+
+            // Refresh icons when data loads
+            useEffect(() => {
+                if(gamesData.length) {
+                    setTimeout(() => lucide.createIcons(), 100);
+                }
+            }, [gamesData]);
+
+            // --- FILTERING LOGIC ---
+            const { releasedGames, upcomingWindow, futureGamesPool, heroGames, allGenres, allPlatforms } = useMemo(() => {
+                if(!gamesData.length) return { releasedGames: [], upcomingWindow: [], futureGamesPool: [], heroGames: [], allGenres: [], allPlatforms: [] };
+
+                const now = new Date(); // Use real system time
+                
+                // 1. Released: (Strictly valid past dates, NOT TBA)
+                const released = gamesData.filter(g => !isTBA(g.releaseDate) && new Date(g.releaseDate) < now)
+                                          .sort((a,b) => new Date(b.releaseDate) - new Date(a.releaseDate));
+
+                // 2. Future: (Valid future dates OR TBA)
+                const future = gamesData.filter(g => isTBA(g.releaseDate) || new Date(g.releaseDate) >= now)
+                                        .sort((a,b) => {
+                                            const aTBA = isTBA(a.releaseDate);
+                                            const bTBA = isTBA(b.releaseDate);
+                                            
+                                            // Put TBA at bottom
+                                            if (aTBA && bTBA) return a.title.localeCompare(b.title);
+                                            if (aTBA) return 1;
+                                            if (bTBA) return -1;
+                                            
+                                            return new Date(a.releaseDate) - new Date(b.releaseDate);
+                                        });
+
+                // 3. Upcoming Window: Next 30 Days (Rolling) - EXCLUDES TBA
+                const windowEnd = new Date(now);
+                windowEnd.setDate(windowEnd.getDate() + 30);
+                
+                const upcoming30 = future.filter(g => {
+                    if (isTBA(g.releaseDate)) return false; // TBA is not imminent
+                    const d = new Date(g.releaseDate);
+                    return d <= windowEnd;
+                });
+
+                // 4. Hero Logic
+                const majorIps = ["Grand Theft Auto VI", "Phantom Blade Zero", "Monster Hunter Stories 3", "Resident Evil Requiem", "Crimson Desert"];
+                let heroes = future.filter(g => majorIps.some(ip => g.title.includes(ip) || ip === g.title));
+                
+                if (heroes.length < 5) {
+                    const others = future.filter(g => !heroes.includes(g)).slice(0, 5 - heroes.length);
+                    heroes = [...heroes, ...others];
+                }
+                heroes = heroes.slice(0, 5);
+
+                // 5. Extract Genres & Platforms
+                const _genres = [...new Set(gamesData.flatMap(g => g.genres || []))].sort();
+                const _platforms = [...new Set(gamesData.flatMap(g => g.platforms || []))].sort();
+
+                return {
+                    releasedGames: released, 
+                    upcomingWindow: upcoming30, 
+                    futureGamesPool: future, 
+                    heroGames: heroes,
+                    allGenres: _genres,
+                    allPlatforms: _platforms
+                };
+            }, [gamesData]);
+
+            // --- SEARCH LOGIC ---
+            const filteredResults = useMemo(() => {
+                if (searchTerm === "" && selectedGenre === "All" && selectedPlatform === "All") return null;
+
+                return gamesData.filter(game => {
+                    const matchesSearch = game.title.toLowerCase().includes(searchTerm.toLowerCase());
+                    const matchesGenre = selectedGenre === "All" || (game.genres && game.genres.includes(selectedGenre));
+                    const matchesPlatform = selectedPlatform === "All" || (game.platforms && game.platforms.includes(selectedPlatform));
+                    return matchesSearch && matchesGenre && matchesPlatform;
+                });
+            }, [gamesData, searchTerm, selectedGenre, selectedPlatform]);
+
+            // Filter Categories (Only needed for default view)
+            const categories = useMemo(() => {
+                if(!futureGamesPool.length) return [];
+                const cats = futureGamesPool.flatMap(g => g.genres || []);
+                return [...new Set(cats)].sort(); 
+            }, [futureGamesPool]);
+            
+            const getGamesByCategory = (cat) => futureGamesPool.filter(g => g.genres && g.genres.includes(cat));
+
+            const onGameClick = (game) => {
+                setSelectedGame(game);
+            };
+
+            const onCloseModal = () => {
+                setSelectedGame(null);
+            };
+
+            const isSearching = filteredResults !== null;
+
+            if (loading) return <div style={{color: 'white', padding: '2rem', textAlign: 'center'}}>Loading Games DB...</div>;
+
+            return (
+                <>
+                    <Navbar />
+                    <HeroGrid topGames={heroGames} onGameClick={onGameClick} />
+                    
+                    {/* SEARCH & FILTERS SECTION */}
+                    <div className="section search-section" id="browse">
+                        <div className="search-container">
+                            <div className="search-input-wrapper">
+                                <i data-lucide="search" className="search-icon"></i>
+                                <input 
+                                    type="text" 
+                                    placeholder="Search games..." 
+                                    className="search-input"
+                                    value={searchTerm}
+                                    onChange={(e) => setSearchTerm(e.target.value)}
+                                />
+                            </div>
+                            <div className="filters-wrapper">
+                                <select 
+                                    className="filter-select" 
+                                    value={selectedGenre} 
+                                    onChange={(e) => setSelectedGenre(e.target.value)}
+                                >
+                                    <option value="All">All Genres</option>
+                                    {allGenres.map(g => <option key={g} value={g}>{g}</option>)}
+                                </select>
+                                <select 
+                                    className="filter-select" 
+                                    value={selectedPlatform} 
+                                    onChange={(e) => setSelectedPlatform(e.target.value)}
+                                >
+                                    <option value="All">All Platforms</option>
+                                    {allPlatforms.map(p => <option key={p} value={p}>{p}</option>)}
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* CONDITIONAL RENDERING: Search Results OR Default View */}
+                    {isSearching ? (
+                        <div className="section">
+                            <h2>Found {filteredResults.length} Games</h2>
+                            {filteredResults.length > 0 ? (
+                                <div className="games-grid">
+                                    {filteredResults.map(game => (
+                                        <GameCard key={game.id} game={game} onClick={onGameClick} />
+                                    ))}
+                                </div>
+                            ) : (
+                                <p style={{color: '#888', fontStyle: 'italic'}}>No games match your criteria.</p>
+                            )}
+                        </div>
+                    ) : (
+                        <>
+                            {/* UPCOMING RELEASES (Rolling 30 Days) */}
+                            <Carousel 
+                                id="upcoming"
+                                title="UPCOMING RELEASES" 
+                                games={upcomingWindow} 
+                                onGameClick={onGameClick}
+                            />
+                            
+                            <Carousel 
+                                id="released"
+                                title="JUST RELEASED" 
+                                games={releasedGames} 
+                                onGameClick={onGameClick}
+                            />
+
+                            <div id="categories">
+                                {categories.map(cat => {
+                                    const catGames = getGamesByCategory(cat);
+                                    if (catGames.length < 1) return null;
+                                    return (
+                                        <Carousel 
+                                            key={cat} 
+                                            title={`${cat.toUpperCase()} GAMES`} 
+                                            games={catGames} 
+                                            onGameClick={onGameClick}
+                                        />
+                                    );
+                                })}
+                            </div>
+                        </>
+                    )}
+                    
+                    <Footer />
+
+                    {selectedGame && <GameModal game={selectedGame} onClose={onCloseModal} />}
+                </>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
