@@ -407,7 +407,7 @@
     "platforms": ["PS5", "Xbox", "Switch", "PC"],
     "image": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/store/software/switch/70010000093466/c0f038eaffe8a7de8b674013fde787a8f4b030093d8cc152a176cd932466f1fc",
     "description": "Level up again with Scott Pilgrim EX, a brand-new beat 'em up adventure developed by the team behind the original cult classic game. Featuring stunning new pixel art, a fresh soundtrack by Anamanaguchi, and expanded movesets, players can team up online or locally to battle through a new league of evil exes. The story picks up after the anime series, offering a fresh canonical chapter in the Scott Pilgrim universe.",
-    "trailer": "https://www.youtube.com/watch?v=Jm9I-v1oXq8"
+    "trailer": "https://www.youtube.com/watch?v=K8LyXAsqgXo&pp=ygUQc2NvdHQgcGlsZ3JpbSBleA%3D%3D"
   },
   {
     "id": "marathon",
@@ -512,7 +512,7 @@
   {
     "id": "the-18th-attic",
     "title": "The 18th Attic",
-    "releaseDate": "2026-02-02T00:00:00",
+    "releaseDate": "2026-01-23T00:00:00",
     "genres": ["Indie"],
     "platforms": ["PC"],
     "image": "https://i0.wp.com/www.useapotion.com/wp-content/uploads/2026/01/18thattic-review.jpg?fit=1077%2C640\u0026ssl=1",
@@ -522,7 +522,7 @@
   {
     "id": "crimson-capes",
     "title": "Crimson Capes",
-    "releaseDate": "2026-02-03T00:00:00",
+    "releaseDate": "2026-02-12T00:00:00",
     "genres": ["Indie"],
     "platforms": ["PC"],
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3724260/c473f10f403a18deff7abe244528c451f5db0a4b/capsule_616x353.jpg?t=1748617059",
@@ -732,7 +732,7 @@
   {
     "id": "tides-of-tomorrow",
     "title": "Tides of Tomorrow",
-    "releaseDate": "2026-02-24T00:00:00",
+    "releaseDate": "2026-04-22T00:00:00",
     "genres": ["Adventure"],
     "platforms": ["PS5", "Xbox Series X|S", "PC"],
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678080/2b2fbfef72534883fbd9b77cfca0dcafd0ccecb1/capsule_616x353.jpg?t=1768831344",
@@ -767,7 +767,7 @@
     "platforms": ["PC"],
     "image": "https://i.ytimg.com/vi/NTCxDbHsPuE/maxresdefault.jpg",
     "description": "A chaotic multiplayer party game where you play as mischievous gnomes sabotaging a suburban garden. Set traps, hide from humans, and steal socks in this hilarious physics-based sandbox game.",
-    "trailer": "https://www.youtube.com/watch?v=LrgChQAkLCA&pp=ygUkVGFsZXMgb2YgQmVyc2VyaWEgUmVtYXN0ZXJlZCB0cmFpbGVy"
+    "trailer": "https://www.youtube.com/watch?v=Qxi0fr52WGg&pp=ygUPR25hdWdodHkgR25vbWVz0gcJCZEKAYcqIYzv"
   },
   {
     "id": "homura-hime",

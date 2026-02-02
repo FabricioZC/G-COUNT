@@ -288,6 +288,80 @@ h2 {
     padding: 0.5rem 0.5rem 2rem 0.5rem;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    /* Scrollbar visible */
+}
+
+/* Carousel Navigation Buttons */
+.carousel-wrapper {
+    position: relative;
+}
+
+.carousel-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #333;
+    color: var(--primary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: var(--transition);
+    opacity: 0; 
+}
+
+.carousel-wrapper:hover .carousel-nav-btn {
+    opacity: 1;
+}
+
+.carousel-nav-btn:hover {
+    background: var(--primary);
+    color: #000;
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.carousel-nav-btn.left {
+    left: -20px;
+}
+
+.carousel-nav-btn.right {
+    right: -20px;
+}
+
+/* Modal Navigation */
+.modal-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.3);
+    width: 60px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.modal-nav-btn:hover {
+    color: var(--primary);
+    background: rgba(0,0,0,0.3);
+}
+
+.modal-nav-btn.prev {
+    left: 0;
+}
+
+.modal-nav-btn.next {
+    right: 0;
 }
 
 .game-card {
@@ -1029,6 +1103,7 @@ h2 {
         border-left: 5px solid var(--primary);
         padding-left: 1rem;
         padding-bottom: 0;
+        font-size: 1.25rem;
     }
     
     .modal-body {
