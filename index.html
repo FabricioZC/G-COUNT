@@ -326,17 +326,23 @@
         const ReleasedView = ({ games, onGameClick, allGenres, allPlatforms }) => {
             const [searchTerm, setSearchTerm] = useState("");
             const [selectedGenre, setSelectedGenre] = useState("All");
-            const [selectedPlatform, setSelectedPlatform] = useState("All");
+            const [selectedMonth, setSelectedMonth] = useState("All");
 
             const filteredGames = useMemo(() => {
                 if (!games) return [];
                 return games.filter(game => {
                     const matchesSearch = game.title.toLowerCase().includes(searchTerm.toLowerCase());
                     const matchesGenre = selectedGenre === "All" || (game.genres && game.genres.includes(selectedGenre));
-                    const matchesPlatform = selectedPlatform === "All" || (game.platforms && game.platforms.includes(selectedPlatform));
-                    return matchesSearch && matchesGenre && matchesPlatform;
+                    
+                    let matchesMonth = true;
+                    if (selectedMonth !== "All") {
+                         const m = new Date(game.releaseDate).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+                         matchesMonth = m === selectedMonth;
+                    }
+
+                    return matchesSearch && matchesGenre && matchesMonth;
                 });
-            }, [games, searchTerm, selectedGenre, selectedPlatform]);
+            }, [games, searchTerm, selectedGenre, selectedMonth]);
 
             if (!games || games.length === 0) {
                 return (
@@ -348,9 +354,10 @@
             }
 
             // Group by Month Year
-            const grouped = useMemo(() => {
+            const { grouped, releasedMonths } = useMemo(() => {
                 const groups = [];
                 let currentMonth = null;
+                const monthsSet = new Set();
                 
                 filteredGames.forEach(game => {
                     const d = new Date(game.releaseDate);
@@ -362,8 +369,19 @@
                     }
                     groups[groups.length - 1].games.push(game);
                 });
-                return groups;
-            }, [filteredGames]);
+
+                // Extract all possible released months for dropdown
+                if(games) {
+                    games.forEach(g => {
+                        const m = new Date(g.releaseDate).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+                        monthsSet.add(m);
+                    });
+                }
+                // Sort months descending for released view
+                 const sortedMonths = [...monthsSet].sort((a,b) => new Date(b) - new Date(a));
+
+                return { grouped: groups, releasedMonths: sortedMonths };
+            }, [filteredGames, games]);
 
             return (
                 <div style={{minHeight: '80vh', paddingTop: '2rem'}}>
@@ -391,11 +409,11 @@
                                 </select>
                                 <select 
                                     className="filter-select" 
-                                    value={selectedPlatform} 
-                                    onChange={(e) => setSelectedPlatform(e.target.value)}
+                                    value={selectedMonth} 
+                                    onChange={(e) => setSelectedMonth(e.target.value)}
                                 >
-                                    <option value="All">All Platforms</option>
-                                    {allPlatforms.map(p => <option key={p} value={p}>{p}</option>)}
+                                    <option value="All">All Months</option>
+                                    {releasedMonths.map(m => <option key={m} value={m}>{m}</option>)}
                                 </select>
                             </div>
                         </div>
@@ -403,8 +421,8 @@
                         {grouped.length > 0 ? (
                             grouped.map(group => (
                                 <div key={group.month} style={{marginBottom: '4rem'}}>
-                                    <h2 style={{borderLeft: '5px solid var(--primary)', paddingLeft: '1rem', marginBottom: '1.5rem'}}>{group.month.toUpperCase()}</h2>
-                                    <div className="games-grid">
+                                    <h2>{group.month.toUpperCase()}</h2>
+                                    <div className="games-grid released-games-grid">
                                         {group.games.map(game => (
                                             <GameCard key={game.id} game={game} onClick={onGameClick} />
                                         ))}
@@ -452,9 +470,45 @@
             </div>
         );
 
+        const ScrollToTop = () => {
+            const [isVisible, setIsVisible] = useState(false);
+
+            useEffect(() => {
+                const toggleVisibility = () => {
+                    if (window.scrollY > 300) {
+                        setIsVisible(true);
+                    } else {
+                        setIsVisible(false);
+                    }
+                };
+
+                window.addEventListener("scroll", toggleVisibility);
+                return () => window.removeEventListener("scroll", toggleVisibility);
+            }, []);
+
+            const scrollToTop = () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            };
+
+            return (
+                <button 
+                    className={`scroll-to-top ${isVisible ? 'visible' : ''}`} 
+                    onClick={scrollToTop}
+                >
+                    <i data-lucide="arrow-up" style={{width: '24px', height: '24px'}}></i>
+                </button>
+            );
+        };
+
         // --- MAIN APP ---
         const App = () => {
+            // ... (existing state) ...
             const [gamesData, setGamesData] = useState([]);
+            // ... (rest of App component)
+
             const [loading, setLoading] = useState(true);
             const [selectedGame, setSelectedGame] = useState(null);
             const [showCookies, setShowCookies] = useState(false);
@@ -626,6 +680,7 @@
                                             <option value="All">All Platforms</option>
                                             {allPlatforms.map(p => <option key={p} value={p}>{p}</option>)}
                                         </select>
+
                                     </div>
                                 </div>
                             </div>
@@ -635,7 +690,7 @@
                                 <div className="section">
                                     <h2>Found {filteredResults.length} Upcoming Games</h2>
                                     {filteredResults.length > 0 ? (
-                                        <div className="games-grid">
+                                        <div className="games-grid released-games-grid">
                                             {filteredResults.map(game => (
                                                 <GameCard key={game.id} game={game} onClick={onGameClick} />
                                             ))}
@@ -686,6 +741,7 @@
 
                     {selectedGame && <GameModal game={selectedGame} onClose={onCloseModal} />}
                     {showCookies && <CookieConsent onAccept={acceptCookies} />}
+                    <ScrollToTop />
                 </>
             );
         };

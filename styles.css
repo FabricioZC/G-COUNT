@@ -838,17 +838,34 @@ h2 {
 
 /* Responsive Search */
 @media (max-width: 768px) {
+    .search-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .search-container {
         flex-direction: column;
         align-items: stretch;
+        padding: 1.2rem;
+        gap: 1rem;
+    }
+
+    .search-input-wrapper {
+        flex: none; /* Fixes huge height caused by flex-basis: 300px in column mode */
+        width: 100%;
     }
     
     .filters-wrapper {
-        flex-direction: column;
+        display: flex; /* explicit */
+        flex-direction: row;
+        width: 100%;
+        gap: 1rem;
     }
     
     .filter-select {
-        width: 100%;
+        flex: 1; /* Grow to fill */
+        /* width: auto;  Removed specific width to rely on flex */
+        min-width: 0; 
     }
 }
 
@@ -970,6 +987,50 @@ h2 {
         border-bottom: 1px solid #333;
     }
     
+    /* Only apply 2-column layout to RELEASED view */
+    .released-games-grid {
+        justify-items: stretch; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 0.8rem;
+    }
+
+    /* Only apply compact card styles to cards INSIDE released grid */
+    .released-games-grid .game-card {
+        width: 100%; 
+        max-width: none;
+        min-width: 0;
+    }
+    
+    .released-games-grid .card-image-wrapper {
+        height: 120px; 
+    }
+    
+    .released-games-grid .card-content {
+        padding: 0.8rem;
+    }
+    
+    .released-games-grid .card-title {
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .released-games-grid .card-meta {
+        font-size: 0.7rem;
+    }
+    
+    .released-games-grid .mini-val {
+        font-size: 1rem;
+    }
+
+    .section h2 {
+         /* Left align again for 2-column view */
+        text-align: left;
+        border-bottom: none;
+        border-left: 5px solid var(--primary);
+        padding-left: 1rem;
+        padding-bottom: 0;
+    }
+    
     .modal-body {
         width: 100%;
         padding: 1.5rem;
@@ -983,4 +1044,40 @@ h2 {
     .modal-title {
         font-size: 1.5rem;
     }
+}
+
+/* Scroll To Top Button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--primary);
+    color: white;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    z-index: 9999;
+    border: none;
+    outline: none;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.scroll-to-top:hover {
+    background-color: #ff5722; /* Slightly lighter orange/red */
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(255, 69, 0, 0.4);
 }
