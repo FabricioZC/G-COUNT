@@ -76,11 +76,15 @@
 
         // --- COMPONENTS ---
 
-        const Navbar = () => (
+        const Navbar = ({ onViewChange }) => (
             <nav className="navbar">
-                <a href="#" className="logo">
+                <a href="#" className="logo" onClick={(e) => { e.preventDefault(); onViewChange('home'); }}>
                     G-COUNT
                 </a>
+                <div className="nav-links">
+                    <a href="#" onClick={(e) => { e.preventDefault(); onViewChange('home'); }}>HOME</a>
+                    <a href="#" onClick={(e) => { e.preventDefault(); onViewChange('released'); }}>RELEASED</a>
+                </div>
             </nav>
         );
 
@@ -319,6 +323,105 @@
             );
         };
 
+        const ReleasedView = ({ games, onGameClick, allGenres, allPlatforms }) => {
+            const [searchTerm, setSearchTerm] = useState("");
+            const [selectedGenre, setSelectedGenre] = useState("All");
+            const [selectedPlatform, setSelectedPlatform] = useState("All");
+
+            const filteredGames = useMemo(() => {
+                if (!games) return [];
+                return games.filter(game => {
+                    const matchesSearch = game.title.toLowerCase().includes(searchTerm.toLowerCase());
+                    const matchesGenre = selectedGenre === "All" || (game.genres && game.genres.includes(selectedGenre));
+                    const matchesPlatform = selectedPlatform === "All" || (game.platforms && game.platforms.includes(selectedPlatform));
+                    return matchesSearch && matchesGenre && matchesPlatform;
+                });
+            }, [games, searchTerm, selectedGenre, selectedPlatform]);
+
+            if (!games || games.length === 0) {
+                return (
+                    <div className="section" style={{minHeight: '60vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                        <h1>NO RELEASED GAMES YET</h1>
+                        <p style={{color: '#888'}}>Check back later!</p>
+                    </div>
+                );
+            }
+
+            // Group by Month Year
+            const grouped = useMemo(() => {
+                const groups = [];
+                let currentMonth = null;
+                
+                filteredGames.forEach(game => {
+                    const d = new Date(game.releaseDate);
+                    const monthName = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+                    
+                    if (currentMonth !== monthName) {
+                        currentMonth = monthName;
+                        groups.push({ month: monthName, games: [] });
+                    }
+                    groups[groups.length - 1].games.push(game);
+                });
+                return groups;
+            }, [filteredGames]);
+
+            return (
+                <div style={{minHeight: '80vh', paddingTop: '2rem'}}>
+                    <div className="section">
+                        <h1 style={{fontSize: '3rem', marginBottom: '1rem', textShadow: '0 0 20px rgba(255, 69, 0, 0.4)'}}>RELEASED GAMES</h1>
+                        <div className="search-container" style={{marginBottom: '3rem'}}>
+                            <div className="search-input-wrapper">
+                                <i data-lucide="search" className="search-icon"></i>
+                                <input 
+                                    type="text" 
+                                    placeholder="Search released games..." 
+                                    className="search-input"
+                                    value={searchTerm}
+                                    onChange={(e) => setSearchTerm(e.target.value)}
+                                />
+                            </div>
+                            <div className="filters-wrapper">
+                                <select 
+                                    className="filter-select" 
+                                    value={selectedGenre} 
+                                    onChange={(e) => setSelectedGenre(e.target.value)}
+                                >
+                                    <option value="All">All Genres</option>
+                                    {allGenres.map(g => <option key={g} value={g}>{g}</option>)}
+                                </select>
+                                <select 
+                                    className="filter-select" 
+                                    value={selectedPlatform} 
+                                    onChange={(e) => setSelectedPlatform(e.target.value)}
+                                >
+                                    <option value="All">All Platforms</option>
+                                    {allPlatforms.map(p => <option key={p} value={p}>{p}</option>)}
+                                </select>
+                            </div>
+                        </div>
+
+                        {grouped.length > 0 ? (
+                            grouped.map(group => (
+                                <div key={group.month} style={{marginBottom: '4rem'}}>
+                                    <h2 style={{borderLeft: '5px solid var(--primary)', paddingLeft: '1rem', marginBottom: '1.5rem'}}>{group.month.toUpperCase()}</h2>
+                                    <div className="games-grid">
+                                        {group.games.map(game => (
+                                            <GameCard key={game.id} game={game} onClick={onGameClick} />
+                                        ))}
+                                    </div>
+                                </div>
+                            ))
+                        ) : (
+                             <div style={{textAlign: 'center', padding: '4rem', color: '#888'}}>
+                                <h2 style={{border: 'none', marginBottom: '1rem'}}>No games found</h2>
+                                <p>Try adjusting your filters.</p>
+                             </div>
+                        )}
+                    </div>
+                </div>
+            );
+        };
+
         const Footer = () => (
             <footer className="footer">
                 <div className="footer-links">
@@ -355,6 +458,7 @@
             const [loading, setLoading] = useState(true);
             const [selectedGame, setSelectedGame] = useState(null);
             const [showCookies, setShowCookies] = useState(false);
+            const [view, setView] = useState('home');
 
             useEffect(() => {
                 const consent = localStorage.getItem('gcount_cookies_accepted');
@@ -384,12 +488,12 @@
                     .catch(err => console.error("Error loading games:", err));
             }, []);
 
-            // Refresh icons when data loads
+            // Refresh icons when data loads or view changes
             useEffect(() => {
                 if(gamesData.length) {
                     setTimeout(() => lucide.createIcons(), 100);
                 }
-            }, [gamesData]);
+            }, [gamesData, view]);
 
             // --- FILTERING LOGIC ---
             const { releasedGames, upcomingWindow, futureGamesPool, heroGames, allGenres, allPlatforms } = useMemo(() => {
@@ -449,17 +553,19 @@
                 };
             }, [gamesData]);
 
-            // --- SEARCH LOGIC ---
+            // --- SEARCH LOGIC (HOME) ---
             const filteredResults = useMemo(() => {
+                // If the user hasn't typed anything and filters are default, return null to show normal layout
                 if (searchTerm === "" && selectedGenre === "All" && selectedPlatform === "All") return null;
 
-                return gamesData.filter(game => {
+                // Restrict Home Search to Future/TBA games only (per user request)
+                return futureGamesPool.filter(game => {
                     const matchesSearch = game.title.toLowerCase().includes(searchTerm.toLowerCase());
                     const matchesGenre = selectedGenre === "All" || (game.genres && game.genres.includes(selectedGenre));
                     const matchesPlatform = selectedPlatform === "All" || (game.platforms && game.platforms.includes(selectedPlatform));
                     return matchesSearch && matchesGenre && matchesPlatform;
                 });
-            }, [gamesData, searchTerm, selectedGenre, selectedPlatform]);
+            }, [futureGamesPool, searchTerm, selectedGenre, selectedPlatform]);
 
             // Filter Categories (Only needed for default view)
             const categories = useMemo(() => {
@@ -484,89 +590,96 @@
 
             return (
                 <>
-                    <Navbar />
-                    <HeroGrid topGames={heroGames} onGameClick={onGameClick} />
+                    <Navbar onViewChange={setView} />
                     
-                    {/* SEARCH & FILTERS SECTION */}
-                    <div className="section search-section" id="browse">
-                        <div className="search-container">
-                            <div className="search-input-wrapper">
-                                <i data-lucide="search" className="search-icon"></i>
-                                <input 
-                                    type="text" 
-                                    placeholder="Search games..." 
-                                    className="search-input"
-                                    value={searchTerm}
-                                    onChange={(e) => setSearchTerm(e.target.value)}
-                                />
+                    {view === 'home' ? (
+                        <>
+                            <HeroGrid topGames={heroGames} onGameClick={onGameClick} />
+                            
+                            {/* SEARCH & FILTERS SECTION */}
+                            <div className="section search-section" id="browse">
+                                <div className="search-container">
+                                    <div className="search-input-wrapper">
+                                        <i data-lucide="search" className="search-icon"></i>
+                                        <input 
+                                            type="text" 
+                                            placeholder="Search upcoming games..." 
+                                            className="search-input"
+                                            value={searchTerm}
+                                            onChange={(e) => setSearchTerm(e.target.value)}
+                                        />
+                                    </div>
+                                    <div className="filters-wrapper">
+                                        <select 
+                                            className="filter-select" 
+                                            value={selectedGenre} 
+                                            onChange={(e) => setSelectedGenre(e.target.value)}
+                                        >
+                                            <option value="All">All Genres</option>
+                                            {allGenres.map(g => <option key={g} value={g}>{g}</option>)}
+                                        </select>
+                                        <select 
+                                            className="filter-select" 
+                                            value={selectedPlatform} 
+                                            onChange={(e) => setSelectedPlatform(e.target.value)}
+                                        >
+                                            <option value="All">All Platforms</option>
+                                            {allPlatforms.map(p => <option key={p} value={p}>{p}</option>)}
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="filters-wrapper">
-                                <select 
-                                    className="filter-select" 
-                                    value={selectedGenre} 
-                                    onChange={(e) => setSelectedGenre(e.target.value)}
-                                >
-                                    <option value="All">All Genres</option>
-                                    {allGenres.map(g => <option key={g} value={g}>{g}</option>)}
-                                </select>
-                                <select 
-                                    className="filter-select" 
-                                    value={selectedPlatform} 
-                                    onChange={(e) => setSelectedPlatform(e.target.value)}
-                                >
-                                    <option value="All">All Platforms</option>
-                                    {allPlatforms.map(p => <option key={p} value={p}>{p}</option>)}
-                                </select>
-                            </div>
-                        </div>
-                    </div>
 
-                    {/* CONDITIONAL RENDERING: Search Results OR Default View */}
-                    {isSearching ? (
-                        <div className="section">
-                            <h2>Found {filteredResults.length} Games</h2>
-                            {filteredResults.length > 0 ? (
-                                <div className="games-grid">
-                                    {filteredResults.map(game => (
-                                        <GameCard key={game.id} game={game} onClick={onGameClick} />
-                                    ))}
+                            {/* CONDITIONAL RENDERING: Search Results OR Default View */}
+                            {isSearching ? (
+                                <div className="section">
+                                    <h2>Found {filteredResults.length} Upcoming Games</h2>
+                                    {filteredResults.length > 0 ? (
+                                        <div className="games-grid">
+                                            {filteredResults.map(game => (
+                                                <GameCard key={game.id} game={game} onClick={onGameClick} />
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <p style={{color: '#888', fontStyle: 'italic'}}>No upcoming games match your criteria.</p>
+                                    )}
                                 </div>
                             ) : (
-                                <p style={{color: '#888', fontStyle: 'italic'}}>No games match your criteria.</p>
-                            )}
-                        </div>
-                    ) : (
-                        <>
-                            {/* UPCOMING RELEASES (Rolling 30 Days) */}
-                            <Carousel 
-                                id="upcoming"
-                                title="UPCOMING RELEASES" 
-                                games={upcomingWindow} 
-                                onGameClick={onGameClick}
-                            />
-                            
-                            <Carousel 
-                                id="released"
-                                title="JUST RELEASED" 
-                                games={releasedGames} 
-                                onGameClick={onGameClick}
-                            />
+                                <>
+                                    {/* UPCOMING RELEASES (Rolling 30 Days) */}
+                                    <Carousel 
+                                        id="upcoming"
+                                        title="UPCOMING RELEASES" 
+                                        games={upcomingWindow} 
+                                        onGameClick={onGameClick}
+                                    />
+                                    
+                                    <Carousel 
+                                        id="released"
+                                        title="JUST RELEASED" 
+                                        games={releasedGames.slice(0, 10)} 
+                                        onGameClick={onGameClick}
+                                    />
 
-                            <div id="categories">
-                                {categories.map(cat => {
-                                    const catGames = getGamesByCategory(cat);
-                                    if (catGames.length < 1) return null;
-                                    return (
-                                        <Carousel 
-                                            key={cat} 
-                                            title={`${cat.toUpperCase()} GAMES`} 
-                                            games={catGames} 
-                                            onGameClick={onGameClick}
-                                        />
-                                    );
-                                })}
-                            </div>
+                                    <div id="categories">
+                                        {categories.map(cat => {
+                                            const catGames = getGamesByCategory(cat);
+                                            if (catGames.length < 1) return null;
+                                            return (
+                                                <Carousel 
+                                                    key={cat} 
+                                                    title={`${cat.toUpperCase()} GAMES`} 
+                                                    games={catGames} 
+                                                    onGameClick={onGameClick}
+                                                />
+                                            );
+                                        })}
+                                    </div>
+                                </>
+                            )}
                         </>
+                    ) : (
+                        <ReleasedView games={releasedGames} onGameClick={onGameClick} allGenres={allGenres} allPlatforms={allPlatforms} />
                     )}
                     
                     <Footer />
