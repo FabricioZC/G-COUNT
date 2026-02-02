@@ -503,6 +503,12 @@
             );
         };
 
+        const LoadingSpinner = () => (
+            <div className="loading-container">
+                <div className="spinner"></div>
+            </div>
+        );
+
         // --- MAIN APP ---
         const App = () => {
             // ... (existing state) ...
@@ -640,7 +646,7 @@
 
             const isSearching = filteredResults !== null;
 
-            if (loading) return <div style={{color: 'white', padding: '2rem', textAlign: 'center'}}>Loading Games DB...</div>;
+            if (loading) return <LoadingSpinner />;
 
             return (
                 <>
