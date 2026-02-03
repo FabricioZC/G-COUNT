@@ -661,6 +661,8 @@
         // Group by Month Year
         const { grouped, releasedMonths } = useMemo(() => {
           const groups = [];
+          const monthsSet = new Set();
+          let currentMonth = null;
 
           // ... (rest of logic same)
 
@@ -806,7 +808,7 @@
           <p className="legal-text">
             All countdown background images remain copyright of their respective
             owners and are used on a 'fair use' basis. To enquire further
-            regarding images please email us at fabriciozc25@gmail.com.
+            regarding images please email us at fabriaginuz@outlook.com.
           </p>
           <p>&copy; 2026 G-COUNT. All rights reserved.</p>
         </footer>
@@ -926,6 +928,7 @@
         const [searchTerm, setSearchTerm] = useState("");
         const [selectedGenre, setSelectedGenre] = useState("All");
         const [selectedPlatform, setSelectedPlatform] = useState("All");
+        const [selectedMonth, setSelectedMonth] = useState("All");
 
         // Fetch data from games.json
         useEffect(() => {
@@ -953,6 +956,7 @@
           heroGames,
           allGenres,
           allPlatforms,
+          allMonths,
         } = useMemo(() => {
           if (!gamesData.length)
             return {
@@ -962,6 +966,7 @@
               heroGames: [],
               allGenres: [],
               allPlatforms: [],
+              allMonths: [],
             };
 
           const now = new Date(); // Use real system time
@@ -1028,6 +1033,22 @@
             ...new Set(gamesData.flatMap((g) => g.platforms || [])),
           ].sort();
 
+          // 6. Extract Months for Future Games
+          const _months = new Set();
+          future.forEach((g) => {
+            if (!isTBA(g.releaseDate)) {
+              const m = new Date(g.releaseDate).toLocaleDateString("en-US", {
+                month: "long",
+                year: "numeric",
+              });
+              _months.add(m);
+            }
+          });
+          // Sort months chronologically
+          const sortedMonths = [..._months].sort(
+            (a, b) => new Date(a) - new Date(b),
+          );
+
           return {
             releasedGames: released,
             upcomingWindow: upcoming30,
@@ -1035,6 +1056,7 @@
             heroGames: heroes,
             allGenres: _genres,
             allPlatforms: _platforms,
+            allMonths: sortedMonths,
           };
         }, [gamesData]);
 
@@ -1044,7 +1066,8 @@
           if (
             searchTerm === "" &&
             selectedGenre === "All" &&
-            selectedPlatform === "All"
+            selectedPlatform === "All" &&
+            selectedMonth === "All"
           )
             return null;
 
@@ -1059,9 +1082,35 @@
             const matchesPlatform =
               selectedPlatform === "All" ||
               (game.platforms && game.platforms.includes(selectedPlatform));
-            return matchesSearch && matchesGenre && matchesPlatform;
+
+            let matchesMonth = true;
+            if (selectedMonth !== "All") {
+              if (isTBA(game.releaseDate)) {
+                matchesMonth = false; // TBA games only show up if month is All, or perhaps strictly excluded if filtering by month?
+                // If user selects a specific month, TBA should definitely be excluded.
+              } else {
+                const m = new Date(game.releaseDate).toLocaleDateString(
+                  "en-US",
+                  {
+                    month: "long",
+                    year: "numeric",
+                  },
+                );
+                matchesMonth = m === selectedMonth;
+              }
+            }
+
+            return (
+              matchesSearch && matchesGenre && matchesPlatform && matchesMonth
+            );
           });
-        }, [futureGamesPool, searchTerm, selectedGenre, selectedPlatform]);
+        }, [
+          futureGamesPool,
+          searchTerm,
+          selectedGenre,
+          selectedPlatform,
+          selectedMonth,
+        ]);
 
         // Filter Categories (Only needed for default view)
         const categories = useMemo(() => {
@@ -1127,6 +1176,18 @@
                         {allPlatforms.map((p) => (
                           <option key={p} value={p}>
                             {p}
+                          </option>
+                        ))}
+                      </select>
+                      <select
+                        className="filter-select"
+                        value={selectedMonth}
+                        onChange={(e) => setSelectedMonth(e.target.value)}
+                      >
+                        <option value="All">All Months</option>
+                        {allMonths.map((m) => (
+                          <option key={m} value={m}>
+                            {m}
                           </option>
                         ))}
                       </select>

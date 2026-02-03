@@ -1,5 +1,15 @@
 ﻿[
   {
+    "id": "halloween-the-game",
+    "title": "Halloween",
+    "releaseDate": "2026-09-08T00:00:00",
+    "genres": ["Asymmetrical Multiplayer", "Horror", "Stealth"],
+    "platforms": ["PC", "PS5", "Xbox Series X/S"],
+    "image": "https://www.gematsu.com/wp-content/uploads/2025/08/Halloween-Game-Ann_08-20-25.jpg",
+    "description": "Developed by IllFonic and Gun Interactive in association with Compass International Pictures, Halloween is an asymmetrical horror experience where players return to Haddonfield. You can take on the role of the legendary boogeyman Michael Myers or join forces as survivors to escape his relentless pursuit in this stealth-based nightmare.",
+    "trailer": "https://www.youtube.com/watch?v=s2XjR_nyJyM&pp=ygUfaGFsbG93ZWVuIHRoZSBnYW1lIHJlbGVhc2UgZGF0ZQ%3D%3D"
+  },
+  {
     "id": "crisol-theater-of-idols",
     "title": "Crisol: Theater of Idols",
     "releaseDate": "2026-02-10T00:00:00",
