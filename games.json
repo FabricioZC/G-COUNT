@@ -1,5 +1,15 @@
 ﻿[
   {
+    "id": "crisol-theater-of-idols",
+    "title": "Crisol: Theater of Idols",
+    "releaseDate": "2026-02-10T00:00:00",
+    "genres": ["Survival", "Horror", "Adventure"],
+    "platforms": ["PC", "PS5", "Xbox Series X/S"],
+    "image": "https://colemono.com/wp-content/uploads/2026/01/Photoshop_GMspM6lsBo.webp",
+    "description": "Crisol: Theater of Idols is a gripping survival horror adventure set in the haunting world of Hispania, a nightmarish reimagining of Spain. Playing as Gabriel, a soldier who can use his own blood as a deadly weapon, you endeavor on a journey to fulfill a divine mission from the Sun God.",
+    "trailer": "https://www.youtube.com/watch?v=HMbXqoeN7gQ&pp=ygUoY3Jpc29sIHRoZWF0ZXIgb2YgaWRvbHMgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+  },
+  {
     "id": "heartopia",
     "title": "Heartopia",
     "releaseDate": "2026-01-07T00:00:00",

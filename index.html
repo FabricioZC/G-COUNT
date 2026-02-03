@@ -150,6 +150,7 @@
             >
               RELEASED
             </a>
+            <a href="news.html">NEWS</a>
           </div>
         </nav>
       );
@@ -181,7 +182,7 @@
                 display: "block",
               }}
             >
-              DATE TBA
+              TBA
             </span>
           );
 
@@ -189,7 +190,8 @@
         if (timeLeft.hasPassed) {
           const diff = +new Date() - +new Date(targetDate);
           const daysAgo = Math.floor(diff / (1000 * 60 * 60 * 24));
-          const text = daysAgo === 0 ? "RELEASED TODAY" : `${daysAgo} DAYS AGO`;
+          const text =
+            daysAgo === 0 ? "Released Today!" : `${daysAgo} Days Ago`;
           return (
             <span
               style={{
@@ -228,7 +230,6 @@
           );
         }
 
-        // Mini card version
         return (
           <div className="card-countdown">
             <div className="mini-unit">
@@ -660,8 +661,8 @@
         // Group by Month Year
         const { grouped, releasedMonths } = useMemo(() => {
           const groups = [];
-          let currentMonth = null;
-          const monthsSet = new Set();
+
+          // ... (rest of logic same)
 
           filteredGames.forEach((game) => {
             const d = new Date(game.releaseDate);
@@ -808,7 +809,6 @@
             regarding images please email us at fabriciozc25@gmail.com.
           </p>
           <p>&copy; 2026 G-COUNT. All rights reserved.</p>
-          <p>Designed by Deepmind Advanced Coding Agent</p>
         </footer>
       );
 

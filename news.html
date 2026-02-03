@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VG9230XQX3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VG9230XQX3");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News Feed - G-COUNT | Gaming Countdown</title>
+    <meta
+      name="description"
+      content="Stay updated with the latest gaming news, confirmed release dates, and industry updates on G-COUNT."
+    />
+    <meta
+      name="keywords"
+      content="gaming news, release dates, video games, g-count, game updates"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <meta name="google-adsense-account" content="ca-pub-3016324631206105" />
+  </head>
+  <body>
+    <nav
+      class="navbar"
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8rem 4rem;
+        background: rgba(5, 5, 5, 0.95);
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+        height: 70px;
+      "
+    >
+      <a href="index.html" class="logo">G-COUNT</a>
+      <div class="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="index.html">RELEASED</a>
+        <a
+          href="news.html"
+          style="
+            color: var(--primary);
+            text-shadow: 0 0 8px var(--primary-glow);
+          "
+          >NEWS</a
+        >
+      </div>
+    </nav>
+
+    <div class="news-container">
+      <!-- Main Content (Feed) -->
+      <main class="news-main">
+        <h1>LATEST GAMING NEWS</h1>
+
+        <!-- Featured/Latest Article Card -->
+        <div
+          class="news-card clickable"
+          onclick="window.location.href = 'article_example.html'"
+        >
+          <div class="news-card-image-wrapper">
+            <img
+              src="https://image.api.playstation.com/vulcan/ap/rnd/202512/0212/6181ac129cd4c9f613436c8966a5083280990495cecd15b0.jpg"
+              alt="Pathologic 3"
+              class="news-card-img"
+            />
+          </div>
+          <div class="news-card-content">
+            <div class="article-meta">
+              <span class="article-tag">Release Date</span>
+              <span>Feb 2, 2026</span>
+            </div>
+            <h2 class="news-card-title">
+              Major Release Dates Confirmed for Q1 2026
+            </h2>
+            <p class="news-card-excerpt">
+              Ice-Pick Lodge confirms Pathologic 3 for January 9th. See the full
+              list of confirmed dates for this quarter.
+            </p>
+          </div>
+        </div>
+
+        <!-- Secondary Articles Grid -->
+        <div class="news-grid">
+          <!-- Article 2 -->
+          <div
+            class="news-card small clickable"
+            onclick="window.location.href = 'article_example.html'"
+          >
+            <div class="news-card-image-wrapper small">
+              <img
+                src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4025700/0d35710e88b5bb08ac54c92d6f242ed8040f6cc8/capsule_616x353.jpg?t=1768814884"
+                alt="Heartopia"
+                class="news-card-img"
+              />
+            </div>
+            <div class="news-card-content">
+              <div class="article-meta">
+                <span class="article-tag">Update</span>
+                <span>Yesterday</span>
+              </div>
+              <h3 class="news-card-title small">
+                Heartopia Gameplay Reveal: A New Cozy Sim
+              </h3>
+            </div>
+          </div>
+
+          <!-- Article 3 -->
+          <div
+            class="news-card small clickable"
+            onclick="window.location.href = 'article_example.html'"
+          >
+            <div class="news-card-image-wrapper small">
+              <img
+                src="https://cdn1.epicgames.com/spt-assets/3ee3dfff2735421a88b4e2062d6784cf/duet-night-abyss-nmvvr.jpeg"
+                alt="Duet Night Abyss"
+                class="news-card-img"
+              />
+            </div>
+            <div class="news-card-content">
+              <div class="article-meta">
+                <span class="article-tag">Trailer</span>
+                <span>2 Days Ago</span>
+              </div>
+              <h3 class="news-card-title small">
+                Duet Night Abyss Introduces New Dual-Wield Mechanics
+              </h3>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="news-sidebar">
+        <!-- Sidebar Ad -->
+        <div class="ad-space ad-sidebar">Sidebar Advertisement</div>
+
+        <!-- Latest News Widget -->
+        <div class="latest-news-widget">
+          <h3 class="widget-title">TOP COUNTDOWNS</h3>
+          <ul>
+            <li
+              class="trend-item"
+              onclick="window.location.href = 'index.html'"
+            >
+              Grand Theft Auto VI
+            </li>
+            <li
+              class="trend-item"
+              onclick="window.location.href = 'index.html'"
+            >
+              Monster Hunter Stories 3
+            </li>
+            <li
+              class="trend-item"
+              onclick="window.location.href = 'index.html'"
+            >
+              Phantom Blade Zero
+            </li>
+            <li
+              class="trend-item"
+              onclick="window.location.href = 'index.html'"
+            >
+              Pragmata
+            </li>
+          </ul>
+        </div>
+
+        <!-- Another Sidebar Ad -->
+        <div class="ad-space ad-sidebar" style="height: 300px">
+          Advertisement Space
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="faq.html" class="footer-link">FAQ's</a>
+        <a href="terms.html" class="footer-link">Terms Of Use</a>
+        <a href="privacy.html" class="footer-link">Privacy Policy</a>
+        <a href="cookies.html" class="footer-link">Cookies</a>
+        <a href="advertise.html" class="footer-link">Advertise With Us</a>
+      </div>
+      <div class="legal-text">
+        © 2026 G-COUNT. All rights reserved. All game titles, images, and logos
+        are trademarks of their respective owners.
+        <br />
+        Contact: fabriciozc25@gmail.com
+      </div>
+    </footer>
+
+    <!-- Static Scripts -->
+    <script>
+      // Simple interactions if needed
+    </script>
+  </body>
+</html>
