@@ -312,7 +312,13 @@ h2 {
     cursor: pointer;
     z-index: 10;
     transition: var(--transition);
-    opacity: 0; 
+    opacity: 0;
+}
+
+@media (max-width: 1024px) {
+    .carousel-nav-btn {
+        display: none !important;
+    }
 }
 
 .carousel-wrapper:hover .carousel-nav-btn {
@@ -341,8 +347,8 @@ h2 {
     background: transparent;
     border: none;
     color: rgba(255, 255, 255, 0.3);
-    width: 60px;
-    height: 100px;
+    width: 50px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1051,6 +1057,12 @@ h2 {
         height: auto;
         max-height: 85vh;
         overflow-y: auto;
+        /* Hide scrollbar for mobile modal */
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE/Edge */
+    }
+    .modal-content::-webkit-scrollbar { 
+        display: none; /* Chrome/Safari/Webkit */
     }
     
     .modal-media {
@@ -1143,6 +1155,30 @@ h2 {
 
     .countdown-label {
         font-size: 0.55rem; /* Smaller label */
+    }
+
+    /* Fix specificity for modal countdown on mobile */
+    .modal-countdown {
+        display: flex;
+        justify-content: center;
+        gap: 0.8rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .modal-countdown .countdown-val {
+        font-size: 1.6rem;
+    }
+    
+    .modal-countdown .countdown-unit {
+        min-width: 60px;
+        padding: 0.5rem 0.2rem;
+        flex: 0 1 auto; /* Don't force equal width if content differs, but min-width helps */
+    }
+
+    /* Modal Navigation Buttons on Mobile - HIDDEN as requested */
+    .modal-nav-btn {
+        display: none !important;
     }
 }
 

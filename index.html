@@ -251,10 +251,39 @@
         );
       };
 
-      const GameModal = ({ game, onClose, onNext, onPrev }) => {
+      const GameModal = ({ game, onClose, onNext, onPrev, showNav = true }) => {
         if (!game) return null;
 
         const [isPlaying, setIsPlaying] = useState(false);
+        // Touch state for swipe detection
+        const [touchStart, setTouchStart] = useState(null);
+        const [touchEnd, setTouchEnd] = useState(null);
+
+        // Minimum distance to be considered a swipe
+        const minSwipeDistance = 50;
+
+        const onTouchStart = (e) => {
+          setTouchEnd(null);
+          setTouchStart(e.targetTouches[0].clientX);
+        };
+
+        const onTouchMove = (e) => {
+          setTouchEnd(e.targetTouches[0].clientX);
+        };
+
+        const onTouchEnd = () => {
+          if (!touchStart || !touchEnd) return;
+          const distance = touchStart - touchEnd;
+          const isLeftSwipe = distance > minSwipeDistance;
+          const isRightSwipe = distance < -minSwipeDistance;
+
+          if (isLeftSwipe) {
+            onNext();
+          }
+          if (isRightSwipe) {
+            onPrev();
+          }
+        };
 
         useEffect(() => {
           setIsPlaying(false);
@@ -289,35 +318,45 @@
 
         return (
           <div className="modal-overlay" onClick={onClose}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div
+              className="modal-content"
+              onClick={(e) => e.stopPropagation()}
+              onTouchStart={onTouchStart}
+              onTouchMove={onTouchMove}
+              onTouchEnd={onTouchEnd}
+            >
               <button className="modal-close" onClick={onClose}>
                 <i data-lucide="x"></i>
               </button>
 
-              <button
-                className="modal-nav-btn prev"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onPrev();
-                }}
-              >
-                <i
-                  data-lucide="chevron-left"
-                  style={{ width: 40, height: 40 }}
-                ></i>
-              </button>
-              <button
-                className="modal-nav-btn next"
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onNext();
-                }}
-              >
-                <i
-                  data-lucide="chevron-right"
-                  style={{ width: 40, height: 40 }}
-                ></i>
-              </button>
+              {showNav && (
+                <>
+                  <button
+                    className="modal-nav-btn prev"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onPrev();
+                    }}
+                  >
+                    <i
+                      data-lucide="chevron-left"
+                      style={{ width: 32, height: 32 }}
+                    ></i>
+                  </button>
+                  <button
+                    className="modal-nav-btn next"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onNext();
+                    }}
+                  >
+                    <i
+                      data-lucide="chevron-right"
+                      style={{ width: 32, height: 32 }}
+                    ></i>
+                  </button>
+                </>
+              )}
 
               <div className="modal-media">
                 {videoId && isPlaying ? (
@@ -379,20 +418,7 @@
                         textTransform: "uppercase",
                       }}
                     >
-                      {game.releaseDate &&
-                      new Date(game.releaseDate).getFullYear() === 2026 &&
-                      (!game.releaseDate.includes("T") ||
-                        game.releaseDate.includes("00-00"))
-                        ? "TBA 2026"
-                        : new Date(game.releaseDate).toLocaleDateString(
-                            "en-US",
-                            {
-                              weekday: "long",
-                              year: "numeric",
-                              month: "long",
-                              day: "numeric",
-                            },
-                          )}
+                      {formatDate(game.releaseDate)}
                     </div>
                   </div>
                   <div className="modal-countdown-wrapper">
@@ -515,6 +541,26 @@
         if (!games || games.length === 0) return null;
 
         const slider = React.useRef(null);
+        const [showArrows, setShowArrows] = useState(false);
+
+        const checkOverflow = () => {
+          if (slider.current) {
+            // Only show arrows if more than 1 game AND content overflows
+            if (games.length <= 1) {
+              setShowArrows(false);
+              return;
+            }
+            const { scrollWidth, clientWidth } = slider.current;
+            // Add a small buffer (e.g. 5px) to avoid false positives due to rounding
+            setShowArrows(scrollWidth > clientWidth + 5);
+          }
+        };
+
+        useEffect(() => {
+          checkOverflow();
+          window.addEventListener("resize", checkOverflow);
+          return () => window.removeEventListener("resize", checkOverflow);
+        }, [games]);
 
         const scroll = (direction) => {
           if (slider.current) {
@@ -530,12 +576,14 @@
           <div className="section" id={id}>
             <h2>{title}</h2>
             <div className="carousel-wrapper">
-              <button
-                className="carousel-nav-btn left"
-                onClick={() => scroll("left")}
-              >
-                <i data-lucide="chevron-left"></i>
-              </button>
+              {showArrows && games.length > 1 && (
+                <button
+                  className="carousel-nav-btn left"
+                  onClick={() => scroll("left")}
+                >
+                  <i data-lucide="chevron-left"></i>
+                </button>
+              )}
               <div className="carousel-container" ref={slider}>
                 {games.map((game) => (
                   <GameCard
@@ -545,12 +593,14 @@
                   />
                 ))}
               </div>
-              <button
-                className="carousel-nav-btn right"
-                onClick={() => scroll("right")}
-              >
-                <i data-lucide="chevron-right"></i>
-              </button>
+              {showArrows && games.length > 1 && (
+                <button
+                  className="carousel-nav-btn right"
+                  onClick={() => scroll("right")}
+                >
+                  <i data-lucide="chevron-right"></i>
+                </button>
+              )}
             </div>
           </div>
         );
@@ -1157,6 +1207,7 @@
                 onClose={() => setSelectedGame(null)}
                 onNext={handleNextGame}
                 onPrev={handlePrevGame}
+                showNav={modalContextGames.length > 1}
               />
             )}
             {showCookies && <CookieConsent onAccept={acceptCookies} />}
