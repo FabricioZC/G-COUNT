@@ -927,7 +927,6 @@
         // Search & Filter State
         const [searchTerm, setSearchTerm] = useState("");
         const [selectedGenre, setSelectedGenre] = useState("All");
-        const [selectedPlatform, setSelectedPlatform] = useState("All");
         const [selectedMonth, setSelectedMonth] = useState("All");
 
         // Fetch data from games.json
@@ -1066,7 +1065,6 @@
           if (
             searchTerm === "" &&
             selectedGenre === "All" &&
-            selectedPlatform === "All" &&
             selectedMonth === "All"
           )
             return null;
@@ -1079,9 +1077,6 @@
             const matchesGenre =
               selectedGenre === "All" ||
               (game.genres && game.genres.includes(selectedGenre));
-            const matchesPlatform =
-              selectedPlatform === "All" ||
-              (game.platforms && game.platforms.includes(selectedPlatform));
 
             let matchesMonth = true;
             if (selectedMonth !== "All") {
@@ -1100,17 +1095,9 @@
               }
             }
 
-            return (
-              matchesSearch && matchesGenre && matchesPlatform && matchesMonth
-            );
+            return matchesSearch && matchesGenre && matchesMonth;
           });
-        }, [
-          futureGamesPool,
-          searchTerm,
-          selectedGenre,
-          selectedPlatform,
-          selectedMonth,
-        ]);
+        }, [futureGamesPool, searchTerm, selectedGenre, selectedMonth]);
 
         // Filter Categories (Only needed for default view)
         const categories = useMemo(() => {
@@ -1164,18 +1151,6 @@
                         {allGenres.map((g) => (
                           <option key={g} value={g}>
                             {g}
-                          </option>
-                        ))}
-                      </select>
-                      <select
-                        className="filter-select"
-                        value={selectedPlatform}
-                        onChange={(e) => setSelectedPlatform(e.target.value)}
-                      >
-                        <option value="All">All Platforms</option>
-                        {allPlatforms.map((p) => (
-                          <option key={p} value={p}>
-                            {p}
                           </option>
                         ))}
                       </select>
