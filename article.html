@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-VG9230XQX3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-VG9230XQX3");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo-g.png" />
+    <title>News - G-COUNT</title>
+    <meta
+      id="meta-desc"
+      name="description"
+      content="Latest gaming news from G-COUNT"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar"
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.8rem 4rem;
+        background: rgba(5, 5, 5, 0.95);
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+        height: 70px;
+      "
+    >
+      <a href="index.html" class="logo">G-COUNT</a>
+      <div class="nav-links">
+        <a href="index.html">HOME</a>
+        <a href="index.html">RELEASED</a>
+        <a
+          href="news.html"
+          style="
+            color: var(--primary);
+            text-shadow: 0 0 8px var(--primary-glow);
+          "
+          >NEWS</a
+        >
+      </div>
+    </nav>
+
+    <div class="news-container">
+      <!-- Main Content -->
+      <main class="news-main">
+        <article class="news-article" id="article-container">
+          <!-- Content will be injected here -->
+          <div style="text-align: center; padding: 2rem">
+            Loading article...
+          </div>
+        </article>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="news-sidebar">
+        <!-- Sidebar Ad -->
+        <div class="ad-space ad-sidebar">Advertisement</div>
+
+        <!-- Latest News Widget -->
+        <div class="latest-news-widget">
+          <h3 class="widget-title">LATEST NEWS</h3>
+          <div id="sidebar-news-list">
+            <!-- Sidebar items injected here -->
+          </div>
+        </div>
+
+        <!-- Another Sidebar Ad -->
+        <div class="ad-space ad-sidebar" style="height: 300px">
+          Advertisement
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-links">
+        <a href="faq.html" class="footer-link">FAQ's</a>
+        <a href="terms.html" class="footer-link">Terms Of Use</a>
+        <a href="privacy.html" class="footer-link">Privacy Policy</a>
+        <a href="cookies.html" class="footer-link">Cookies</a>
+        <a href="advertise.html" class="footer-link">Advertise With Us</a>
+      </div>
+      <div class="legal-text">
+        © 2026 G-COUNT. All rights reserved.
+        <br />
+        Contact: fabriaginuz@outlook.com
+      </div>
+    </footer>
+
+    <!-- Data and Script -->
+    <script src="news_data.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = urlParams.get("id");
+
+        const article = newsData.find((n) => n.id === articleId);
+        const container = document.getElementById("article-container");
+
+        if (article) {
+          // Update Page Title
+          document.title = `${article.title} - G-COUNT`;
+          document.getElementById("meta-desc").content = article.summary;
+
+          // Build HTML
+          container.innerHTML = `
+            <img
+              src="${article.image}"
+              alt="${article.title}"
+              class="article-hero"
+            />
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-tag">News</span>
+                <span>${article.date}</span>
+                <span>•</span>
+                <span>By ${article.author}</span>
+              </div>
+              <h1 class="article-title">${article.title}</h1>
+              <div class="article-body">
+                ${article.content}
+              </div>
+            </div>
+          `;
+        } else {
+          container.innerHTML = `
+            <div style="padding: 4rem; text-align: center;">
+              <h2>Article not found</h2>
+              <p>The news article you are looking for does not exist.</p>
+              <a href="news.html" style="color: var(--primary);">Return to News Feed</a>
+            </div>
+          `;
+        }
+
+        // Populate Sidebar
+        const sidebarList = document.getElementById("sidebar-news-list");
+        // Filter out current article if possible, or just show top 3
+        const sidebarItems = newsData
+          .filter((n) => n.id !== articleId)
+          .slice(0, 3);
+
+        if (sidebarItems.length === 0) {
+          sidebarList.innerHTML =
+            '<p style="color: #888; font-size: 0.9rem;">No other news currently.</p>';
+        } else {
+          sidebarItems.forEach((item) => {
+            sidebarList.innerHTML += `
+                  <a href="article.html?id=${item.id}" class="small-news-item">
+                    <img
+                      src="${item.image}"
+                      alt="${item.title}"
+                      class="small-news-img"
+                    />
+                    <div class="small-news-info">
+                      <div class="small-news-title">${item.title}</div>
+                      <div class="small-news-date">${item.date}</div>
+                    </div>
+                  </a>
+                `;
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -17,6 +17,7 @@
     </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="logo-g.png" />
     <title>News Feed - G-COUNT | Gaming Countdown</title>
     <meta
       name="description"
@@ -79,79 +80,10 @@
       <main class="news-main">
         <h1>LATEST GAMING NEWS</h1>
 
-        <!-- Featured/Latest Article Card -->
-        <div
-          class="news-card clickable"
-          onclick="window.location.href = 'article_example.html'"
-        >
-          <div class="news-card-image-wrapper">
-            <img
-              src="https://image.api.playstation.com/vulcan/ap/rnd/202512/0212/6181ac129cd4c9f613436c8966a5083280990495cecd15b0.jpg"
-              alt="Pathologic 3"
-              class="news-card-img"
-            />
-          </div>
-          <div class="news-card-content">
-            <div class="article-meta">
-              <span class="article-tag">Release Date</span>
-              <span>Feb 2, 2026</span>
-            </div>
-            <h2 class="news-card-title">
-              Major Release Dates Confirmed for Q1 2026
-            </h2>
-            <p class="news-card-excerpt">
-              Ice-Pick Lodge confirms Pathologic 3 for January 9th. See the full
-              list of confirmed dates for this quarter.
-            </p>
-          </div>
-        </div>
-
-        <!-- Secondary Articles Grid -->
-        <div class="news-grid">
-          <!-- Article 2 -->
-          <div
-            class="news-card small clickable"
-            onclick="window.location.href = 'article_example.html'"
-          >
-            <div class="news-card-image-wrapper small">
-              <img
-                src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4025700/0d35710e88b5bb08ac54c92d6f242ed8040f6cc8/capsule_616x353.jpg?t=1768814884"
-                alt="Heartopia"
-                class="news-card-img"
-              />
-            </div>
-            <div class="news-card-content">
-              <div class="article-meta">
-                <span class="article-tag">Update</span>
-                <span>Yesterday</span>
-              </div>
-              <h3 class="news-card-title small">
-                Heartopia Gameplay Reveal: A New Cozy Sim
-              </h3>
-            </div>
-          </div>
-
-          <!-- Article 3 -->
-          <div
-            class="news-card small clickable"
-            onclick="window.location.href = 'article_example.html'"
-          >
-            <div class="news-card-image-wrapper small">
-              <img
-                src="https://cdn1.epicgames.com/spt-assets/3ee3dfff2735421a88b4e2062d6784cf/duet-night-abyss-nmvvr.jpeg"
-                alt="Duet Night Abyss"
-                class="news-card-img"
-              />
-            </div>
-            <div class="news-card-content">
-              <div class="article-meta">
-                <span class="article-tag">Trailer</span>
-                <span>2 Days Ago</span>
-              </div>
-              <h3 class="news-card-title small">
-                Duet Night Abyss Introduces New Dual-Wield Mechanics
-              </h3>
-            </div>
+        <div id="news-feed-content">
+          <!-- Dynamic content will be injected here -->
+          <div style="padding: 2rem; text-align: center; color: #888">
+            Loading news...
           </div>
         </div>
       </main>
@@ -216,8 +148,87 @@
     </footer>
 
     <!-- Static Scripts -->
+    <script src="news_data.js"></script>
     <script>
-      // Simple interactions if needed
+      document.addEventListener("DOMContentLoaded", () => {
+        const feedContainer = document.getElementById("news-feed-content");
+
+        if (!newsData || newsData.length === 0) {
+          feedContainer.innerHTML = "<p>No news currently available.</p>";
+          return;
+        }
+
+        // Clear loading message
+        feedContainer.innerHTML = "";
+
+        // Featured Launch (First item)
+        const featured = newsData[0];
+
+        const featuredHTML = `
+            <!-- Featured/Latest Article Card -->
+            <div
+              class="news-card clickable"
+              onclick="window.location.href = 'article.html?id=${featured.id}'"
+            >
+              <div class="news-card-image-wrapper">
+                <img
+                  src="${featured.image}"
+                  alt="${featured.title}"
+                  class="news-card-img"
+                />
+              </div>
+              <div class="news-card-content">
+                <div class="article-meta">
+                  <span class="article-tag">Latest</span>
+                  <span>${featured.date}</span>
+                </div>
+                <h2 class="news-card-title">
+                  ${featured.title}
+                </h2>
+                <p class="news-card-excerpt">
+                  ${featured.summary}
+                </p>
+              </div>
+            </div>
+          `;
+
+        feedContainer.innerHTML += featuredHTML;
+
+        // Secondary Articles Grid (Remaining items)
+        if (newsData.length > 1) {
+          const secondaryItems = newsData.slice(1);
+          let gridHTML = '<div class="news-grid">';
+
+          secondaryItems.forEach((item) => {
+            gridHTML += `
+                      <div
+                        class="news-card small clickable"
+                        onclick="window.location.href = 'article.html?id=${item.id}'"
+                      >
+                        <div class="news-card-image-wrapper small">
+                          <img
+                            src="${item.image}"
+                            alt="${item.title}"
+                            class="news-card-img"
+                          />
+                        </div>
+                        <div class="news-card-content">
+                          <div class="article-meta">
+                            <span class="article-tag">News</span>
+                            <span>${item.date}</span>
+                          </div>
+                          <h3 class="news-card-title small">
+                            ${item.title}
+                          </h3>
+                        </div>
+                      </div>
+                  `;
+          });
+
+          gridHTML += "</div>";
+          feedContainer.innerHTML += gridHTML;
+        }
+      });
     </script>
   </body>
 </html>

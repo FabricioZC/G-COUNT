@@ -1,4 +1,184 @@
 ﻿[
+{
+    "id": "kena-scars-of-kosmora",
+    "title": "Kena: Scars of Kosmora",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://i.ytimg.com/vi/12EQpTwn4lY/maxresdefault.jpg",
+    "description": "A direct sequel to Kena: Bridge of Spirits, Ember Lab continues Kena's journey as a Spirit Guide, exploring a brand new region filled with corrupted landscapes and ancient mysteries.",
+    "trailer": "https://www.youtube.com/watch?v=1jLPf6SFSEs&pp=ygUEa2VuYQ%3D%3D"
+  },
+  {
+    "id": "4-loop",
+    "title": "4:Loop",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3355360/15510042ce07f67c9605fac9d69fa7e431399616/capsule_616x353.jpg?t=1765503355",
+    "description": "Developed by Bad Robots, 4:Loop is a high-octane action title focused on deep, rewarding gameplay systems and a unique mechanical loop that challenges player reflexes.",
+    "trailer": "https://www.youtube.com/watch?v=hoXXNPgqYkw&pp=ygUGNC1sb29w"
+  },
+  {
+    "id": "god-of-war-trilogy-remake",
+    "title": "God of War Trilogy Remake",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5"],
+    "image": "https://assetsio.gnwcdn.com/image-3_jlTyaG4.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+    "description": "Experience the legendary rise of Kratos through Greek mythology. This full remake brings the original trilogy to modern standards with overhauled graphics, combat, and cinematic scale.",
+    "trailer": "https://www.youtube.com/watch?v=G_tq12WisX8&pp=ygUZZ29kLW9mLXdhci10cmlsb2d5LXJlbWFrZQ%3D%3D"
+  },
+  {
+    "id": "god-of-war-sons-of-sparta",
+    "title": "God of War Sons of Sparta",
+    "releaseDate": "2026-02-12T00:00:00",
+    "genres": ["2D", "Pixel Art", "Action"],
+    "platforms": ["PS5"],
+    "image": "https://areajugones.sport.es/wp-content/uploads/2026/02/god-of-war.jpg",
+    "description": "A prequel to the original trilogy featuring a striking 2D pixel art style. It follows the early days of the Spartan army and the brutal origins of the Ghost of Sparta.",
+    "trailer": "https://www.youtube.com/watch?v=eFhOo6NTt70&pp=ygUZZ29kLW9mLXdhci1zb25zLW9mLXNwYXJ0YQ%3D%3D"
+  },
+  {
+    "id": "ghost-of-yotei-legends",
+    "title": "Ghost of Yōtei Legends",
+    "releaseDate": "2026-03-10T00:00:00",
+    "genres": ["Multiplayer", "Action"],
+    "platforms": ["PS5"],
+    "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/ghost-of-yotei-legends.jpg?w=1600&h=900&fit=crop",
+    "description": "The acclaimed multiplayer component returns for the Ghost of Yōtei saga, offering cooperative missions and supernatural combat inspired by Japanese folklore.",
+    "trailer": "https://www.youtube.com/watch?v=5VYyhow-EU8&pp=ygUXImdob3N0LW9mLXlvdGVpLWxlZ2VuZHM%3D"
+  },
+  {
+    "id": "death-stranding-2-on-the-beach",
+    "title": "Death Stranding 2: On the Beach",
+    "releaseDate": "2026-03-19T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PC"],
+    "image": "https://www.kojimaproductions.jp/sites/default/files/2025-12/wellcome_ds2_pc_0.jpg",
+    "description": "Hideo Kojima’s highly anticipated sequel makes its debut on PC, continuing the journey of Sam Porter Bridges in a world connected by mystery and the struggle for human survival.",
+    "trailer": "https://www.youtube.com/watch?v=4b6hcN5vZsw&pp=ygUeZGVhdGgtc3RyYW5kaW5nLTItb24tdGhlLWJlYWNo"
+  },
+  {
+    "id": "metal-gear-solid-master-collection-vol-2",
+    "title": "Metal Gear Solid: Master Collection Vol. 2",
+    "releaseDate": "2026-08-27T00:00:00",
+    "genres": ["Action", "Stealth"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://stevivor.com/wp-content/uploads/2026/02/metal-gear-solid-master-collection-vol-2.webp",
+    "description": "The second volume of the ultimate stealth collection, finally bringing Metal Gear Solid 4: Guns of the Patriots to modern platforms alongside Peace Walker and other fan favorites.",
+    "trailer": "https://www.youtube.com/watch?v=a3AujdsJvjI&pp=ygUsIk1ldGFsIEdlYXIgU29saWQ6IE1hc3RlciBDb2xsZWN0aW9uIFZvbC4gMiI%3D"
+  },
+  {
+    "id": "dead-or-alive-6-last-round",
+    "title": "Dead or Alive 6 Last Round",
+    "releaseDate": "2026-06-25T00:00:00",
+    "genres": ["Fighting"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4144680/d5e33e9b47f3817d3c7890491372a7bc7e61fe7f/capsule_616x353.jpg?t=1770971669",
+    "description": "The definitive version of the fighting classic, featuring a massive roster of fighters, interactive arenas, and refined mechanics for the next generation of competitive play.",
+    "trailer": "https://www.youtube.com/watch?v=VRvKpCznyJI&pp=ygUaZGVhZC1vci1hbGl2ZS02LWxhc3Qtcm91bmQ%3D"
+  },
+  {
+    "id": "crimson-moon",
+    "title": "Crimson Moon",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["RPG", "Action"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwL1nDl2K-kko3kCxlOO6KZOXho3oi-7DrBw&s",
+    "description": "A dark, atmospheric Action-RPG set in a gothic world. Players must master complex combat systems while exploring haunting landscapes under the gaze of the eternal Crimson Moon.",
+    "trailer": "https://www.youtube.com/watch?v=YmqR8Ad14N8&pp=ygUMY3JpbXNvbi1tb29u"
+  },
+  {
+    "id": "rayman-30th-anniversary-edition",
+    "title": "Rayman: 30th Anniversary Edition",
+    "releaseDate": "2026-02-13T00:00:00",
+    "genres": ["Platformer"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5xSSNqY227BSNw1Xtn31br/b9760e9d196e90a9f10920240a598c32/RYMN30_Keyart.jpeg",
+    "description": "Celebrate three decades of gaming history with this special edition, featuring five unique versions of the original Rayman game, fully optimized for modern screens and controls.",
+    "trailer": "https://www.youtube.com/watch?v=A_9UE2IpjZA&pp=ygUgUmF5bWFuOiAzMHRoIEFubml2ZXJzYXJ5IEVkaXRpb24%3D"
+  },
+  {
+    "id": "mina-the-hollower",
+    "title": "Mina the Hollower",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://img2.storyblok.com/fit-in/0x1000/filters:format(png)/f/93161/1920x1080/e9e97ba048/gothicfeaturedimage.png",
+    "description": "From the creators of Shovel Knight comes a bone-chilling action-adventure with a retro aesthetic. Play as Mina, a Hollower on a mission to save a cursed island using specialized tools.",
+    "trailer": "https://www.youtube.com/watch?v=K2uVoWOFBR8&pp=ygURTWluYSB0aGUgSG9sbG93ZXI%3D"
+  },
+  {
+    "id": "yakoh-shinobi-ops",
+    "title": "Yakoh Shinobi Ops",
+    "releaseDate": "2027-00-00T00:00:00",
+    "genres": ["Stealth", "Tactical"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://gaming-cdn.com/images/news/articles/17911/cover/yakoh-shinobi-ops-a-cooperative-action-stealth-game-is-scheduled-for-2027-cover698e86145ecef.jpg",
+    "description": "An oriental tactical stealth game set in a futuristic feudal setting. Players must execute precise operations using a variety of shinobi gadgets and coordinated maneuvers.",
+    "trailer": "https://www.youtube.com/watch?v=lHMwFxOa-_A&pp=ygUReWFrb2gtc2hpbm9iaS1vcHM%3D"
+  },
+  {
+    "id": "darwin-paradox",
+    "title": "Darwin’s Paradox",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Tactical"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://www.gematsu.com/wp-content/uploads/2022/06/Game-Page-Featured_Darwins-Paradox.jpg",
+    "description": "A quirky and innovative tactical game from Konami. Command a highly intelligent octopus and its mechanical allies through a series of challenging, physics-based strategic encounters.",
+    "trailer": "https://www.youtube.com/watch?v=Xq76ry8V3iA&pp=ygUSRGFyd2lu4oCZcyBQYXJhZG940gcJCYcKAYcqIYzv"
+  },
+  {
+    "id": "castlevania-belmonts-curse",
+    "title": "Castlevania Belmont’s Curse",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action", "Metroidvania"],
+    "platforms": ["PS5"],
+    "image": "https://assetsio.gnwcdn.com/Castlevania-belmonts-curse-art.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+    "description": "Developed by the masters of the genre, Motion Twin, this title returns to the roots of Castlevania with intense platforming and combat, capturing the classic Belmont legacy.",
+    "trailer": "https://www.youtube.com/watch?v=X3-SJLWzjmE&pp=ygUaY2FzdGxldmFuaWEtYmVsbW9udHMtY3Vyc2U%3D"
+  },
+  {
+    "id": "silent-hill-townfall",
+    "title": "Silent Hill: Townfall",
+    "releaseDate": "2026-03-00T00:00:00",
+    "genres": ["Horror"],
+    "platforms": ["PC", "PS5"],
+    "image": "https://www.konami.com/games/silenthill/townfall/s/img/share_img_en.jpg?=v2",
+    "description": "A psychological horror experience that expands the Silent Hill universe. Townfall offers a fresh, experimental approach to fear, emphasizing isolation and a cryptic, unsettling narrative.",
+    "trailer": "https://www.youtube.com/watch?v=CvN3dP92wxU&pp=ygUUc2lsZW50LWhpbGwtdG93bmZhbGw%3D"
+  },
+  {
+    "id": "john-wick",
+    "title": "John Wick",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["Action"],
+    "platforms": ["PS5"],
+    "image": "https://static.beebom.com/wp-content/uploads/2026/02/John-Wick-game-cover-1.jpg?w=1168&quality=75",
+    "description": "Saber Interactive brings the Baba Yaga to life in this brutal action game. Step into the shoes of John Wick and experience visceral combat and gunplay modeled after the hit film series.",
+    "trailer": "https://www.youtube.com/watch?v=eVJCvgMdhBU&pp=ugMGCgJlbhABugUEEgJlbsoFCWpvaG4td2lja9gHAQ%3D%3D"
+  },
+  {
+    "id": "legacy-of-kain-defiance-remastered",
+    "title": "Legacy of Kain: Defiance Remastered",
+    "releaseDate": "2026-03-03T00:00:00",
+    "genres": ["Action", "Adventure"],
+    "platforms": ["PS5"],
+    "image": "https://i.ytimg.com/vi/Jocj5kRYcFE/maxresdefault.jpg",
+    "description": "The epic conclusion to the soul-devouring saga is reborn. This remaster features enhanced visuals and modernized controls for the fateful clash between Raziel and Kain.",
+    "trailer": "https://www.youtube.com/watch?v=Jocj5kRYcFE&pp=ygUlIkxlZ2FjeSBvZiBLYWluOiBEZWZpYW5jZSBSZW1hc3RlcmVkItIHCQmHCgGHKiGM7w%3D%3D"
+  },
+  {
+    "id": "brigandine-abyss",
+    "title": "Brigandine Abyss",
+    "releaseDate": "2026-00-00T00:00:00",
+    "genres": ["JRPG", "Strategy"],
+    "platforms": ["PS5"],
+    "image": "https://image.api.playstation.com/vulcan/ap/rnd/202602/0500/282245b78d7701d9c44fce3ce05d053c033a22ae389a2a54.png",
+    "description": "A deep strategic JRPG set in a world of endless war. Players lead powerful armies and fantasy creatures in a grand conquest to unite the land of Abyss under one banner.",
+    "trailer": "https://www.youtube.com/watch?v=5z0L0ba4r8k&pp=ygUQYnJpZ2FuZGluZS1hYnlzcw%3D%3D"
+  },
   {
     "id": "enter-the-gungeon-2",
     "title": "Enter the Gungeon 2",
@@ -1212,7 +1392,7 @@
   {
     "id": "beast-of-reincarnation",
     "title": "Beast of Reincarnation",
-    "releaseDate": "2026-00-00T00:00:00",
+    "releaseDate": "2026-08-04T00:00:00",
     "genres": ["Action", "RPG"],
     "platforms": ["PS5", "Xbox Series X|S", "PC"],
     "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001760/a88ea9f786ee3a76795c0b275b5377dbc4d10e1a/capsule_616x353.jpg?t=1769187822",
@@ -1522,7 +1702,7 @@
   {
     "id": "toxic-commando",
     "title": "John Carpenter's Toxic Commando",
-    "releaseDate": "2026-00-00T00:00:00",
+    "releaseDate": "2026-03-12T00:00:00",
     "genres": ["Action", "FPS"],
     "platforms": ["PS5", "Xbox Series X|S", "PC"],
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2157830/faacb57bff8ef8589623324843a85919b87f7a8d/capsule_616x353.jpg?t=1769449453",
@@ -1612,7 +1792,7 @@
   {
     "id": "marvel-tokon-fighting-souls",
     "title": "Marvel Tokon: Fighting Souls",
-    "releaseDate": "2026-00-00T00:00:00",
+    "releaseDate": "2026-08-06T00:00:00",
     "genres": ["Fighting"],
     "platforms": ["PS5", "PC"],
     "image": "https://image.api.playstation.com/vulcan/ap/rnd/202506/0507/18b5830b8d028aef8b351a8c266535883e7d6445747ec655.jpg",
